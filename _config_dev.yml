@@ -1,0 +1,69 @@
+# Nombre del sitio
+name: Include Poetry
+
+# Título
+title: Include Poetry
+
+# Descripcón del sitio
+description: Curso de preparación para las Olimpiadas de Informática
+
+# Email
+email: includepoetry@gmail.com
+
+# Facebook
+facebook:
+  app_id: 201218926955149
+
+# Autor
+author: rivel_co
+
+# Versión de Markdown
+markdown: kramdown
+
+# Google services
+google_analytics: UA-74086952-1
+
+# Base del sitio url: "http://localhost:4000" "http://192.168.1.65:4000" url: "http://169.254.223.56:4000"
+url: "http://192.168.1.67:4000"
+baseurl: /Code
+host: 0.0.0.0
+
+# Excuidos de la conversión
+# exclude: [No en git, Montar.bat, Sublime  iP.sublime-project, Sublime  iP.sublime-workspace]
+
+#incremental: true;
+
+# paginate: 8
+# paginate_path: "/Blog/Pagina-:num/"
+
+# Gemas
+#gems: [jekyll-seo-tag, jekyll-sitemap]
+# gems: [jekyll-paginate]
+
+# Variables del sitio
+logo-grande-n: "/Multimedia/Logo/IPoetryN.png"
+logo-chico-n: "/Multimedia/Logo/IPN.png"
+logo-grande-b: "/Multimedia/Logo/IPoetryB.png"
+logo-chico-b: "/Multimedia/Logo/IPB.png"
+logo-pluma: "/Multimedia/Logo/RPlumaN.png"
+iP-Sources: "/Code/RecursosDev"
+
+# Colecciones
+collections:
+  C: 
+    output: true
+    permalink: /C++/:path/
+  Karel:
+    output: true
+    permalink: /Karel/:path/
+  Topicos-C:
+    output: true
+    permalink: /Topicos-adicionales/C++/:categories/:title/
+  Topicos-Karel:
+    output: true
+    permalink: /Topicos-adicionales/Karel/:categories/:title/
+  Resueltos-C:
+    output: true
+    permalink: /Problemas-resueltos/C++/:year/:month/:day/:title/
+  Descargables:
+    output: false
