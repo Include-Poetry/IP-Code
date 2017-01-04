@@ -37,7 +37,7 @@ host: 0.0.0.0
 # paginate_path: "/Blog/Pagina-:num/"
 
 # Gemas
-#gems: [jekyll-seo-tag, jekyll-sitemap]
+gems: [jekyll-seo-tag, jekyll-sitemap]
 # gems: [jekyll-paginate]
 
 # Variables del sitio
