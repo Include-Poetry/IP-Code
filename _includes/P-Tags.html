@@ -36,7 +36,7 @@ que deberá ser la colección de la que se extraen los tags
   	{% for post in include.coleccion %}
 	  	{% if post.tags contains tag %}
 		<li>
-			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 			<small>
 				{% assign words = post.content | number_of_words %}
 				{% include U-FechaEsp.html fecha=post.date %}    
