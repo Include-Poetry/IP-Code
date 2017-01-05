@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Tickets
+date: 2016-10-21 22:22:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
 ---
