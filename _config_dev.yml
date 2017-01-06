@@ -31,14 +31,11 @@ host: 0.0.0.0
 # Excuidos de la conversión
 # exclude: [No en git, Montar.bat, Sublime  iP.sublime-project, Sublime  iP.sublime-workspace]
 
-#incremental: true;
-
 # paginate: 8
 # paginate_path: "/Blog/Pagina-:num/"
 
 # Gemas
-#gems: [jekyll-seo-tag, jekyll-sitemap]
-# gems: [jekyll-paginate]
+# gems: []
 
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"
