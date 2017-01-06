@@ -30,7 +30,7 @@ baseurl: /Code
 host: 0.0.0.0
 
 # Excuidos de la conversión
-# exclude: [No en git, Montar.bat, Sublime  iP.sublime-project, Sublime  iP.sublime-workspace]
+exclude: [vendor]
 
 # incremental: true;
 
@@ -38,8 +38,11 @@ host: 0.0.0.0
 # paginate_path: "/Blog/Pagina-:num/"
 
 # Gemas
-gems: [jekyll-seo-tag, jekyll-sitemap]
-# gems: [jekyll-paginate]
+gems:
+  - algoliasearch-jekyll
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"
