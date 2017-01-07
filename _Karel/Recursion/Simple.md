@@ -15,7 +15,7 @@ Ya que sabemos lo que es la [recursión]({{ site.baseurl }}/Karel/Recursion/){: 
 
 Seguramente al escuchar (<s>o leer</s>) la palabra "pila", lo primero que pienses sea en una pila eléctrica, como las que usa el control de la televisión para funcionar. Sin embargo, nosotros como buenos programadores, conocemos otro significado para esa palabra, que no es muy diferente en realidad a lo que ya sabemos.
 
-En la antigüedad, existió un muy ingenioso físico llamado **Alessandro Volta**, este hombre un día, y gracias años de experimentación e investigación, logró construir la primer batería. Esta invención suya se dio a conocer como la **pila voltaica**, y consistía de pares de pequeños discos de cobre y zinc apilados uno encima de otro. Su invento lucía algo así:
+En la antigüedad, existió un muy ingenioso físico llamado **Alessandro Volta**, este hombre un día, y gracias a muchos años de experimentación e investigación, logró construir la primer batería. Esta invención suya se dio a conocer como la **pila voltaica**, y consistía de pares de pequeños discos de cobre y zinc apilados uno encima de otro. Su invento lucía algo así:
 
 [<picture>
 	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Karel/PilaVolta.jpg">
@@ -115,7 +115,7 @@ Si analizamos lo ocurrido, podemos ver que Karel ha puesto 3 zumbadores en la po
 
 Sin embargo, aunque Karel avanzó 4 veces en total, no dejó 4 zumbadores. Esto es porque solamente dejó pendientes 3 veces dejar un zumbador, según la línea 8. Seguro que ya sabes dónde hay que modificar para hacer que Karel deje la cantidad exacta de zumbadores. Ten en cuenta que esta tarea se puede resolver de muchas maneras distintas, prueba a modificar en tu simulador.
 
-Hagamos ahora otro ejemplo, imagina que Karel inicia siempre sobre un montón de zumbadores, tiene infinitos zumbadores en la mochila además y se te pide que gire a la izquierda la misma cantidad de veces que zumbadores sobre los que está. Es decir, si está sobre 3 zumbadores gire 3 veces y luego se apague. Prueba a resolverlo primero en el tu simulador y luego continúa con la explicación aquí.
+Hagamos ahora otro ejemplo, imagina que Karel inicia siempre sobre un montón de zumbadores, tiene infinitos zumbadores en la mochila además y se te pide que gire a la izquierda la misma cantidad de veces que zumbadores sobre los que está. Es decir, si está sobre 3 zumbadores gire 3 veces y luego se apague. Prueba a resolverlo primero en tu simulador y luego continúa con la explicación aquí.
 
 <video controls>
 	<source src="{{ site.iP-Sources }}/Multimedia/Videos/E4/E4.mp4" type="video/mp4">

@@ -3,8 +3,8 @@ layout: G-Article
 title: Recursión con parámetros en Karel
 ---
 
-¿Has notado que con Karel no usamos números? Es decir, sí, los usamos pero sólo para la estructura "*repetir*", con otra cosa no. Pero siendo más claros, no podemos contar contar alguna cosa y tener presente ese número (de lo que ya contamos) para usarlo de diversas formas ¿no? <br>
-Ya aprendimos que con recursión podemos contar, más bien dicho podemos repetir un conjunto de acciones la misma cantidad de veces que hicimos la recursión, pero nunca vemos de manera más práctica y concisa las repeticiones de la recursión. Para poder lograr esto la recursión simple ya no nos alcanza. Sin embargo, Karel tiene otra habilidad que nos salva en estos casos: la recursión con parámetros.
+¿Has notado que con Karel no usamos números? Es decir, sí, los usamos pero sólo para la estructura `repetir`, con otra cosa no. Pero siendo más claros, no podemos contar contar alguna cosa y tener presente ese número (de lo que ya contamos) para usarlo de diversas formas ¿o sí? <br>
+Ya aprendimos que con recursión podemos contar, más bien dicho podemos repetir un conjunto de acciones la misma cantidad de veces que hicimos la llamada recursiva, pero nunca vemos de manera más práctica y concisa las repeticiones de la recursión. Para poder lograr esto la recursión simple ya no nos alcanza. Sin embargo, Karel tiene otra habilidad que nos salva en estos casos: la recursión con parámetros.
 
 {: #ListaContenido}
 - Parámetros; la idea de variable
@@ -17,21 +17,23 @@ Ya aprendimos que con recursión podemos contar, más bien dicho podemos repetir
 
 ## Parámetros; la idea de variable
 
-Cuando en la escuela, te pones a resolver un problema de matemáticas, como por ejemplo, *Zita ayer tenía 5 libros, pero esta mañana ha comprado 3 más, ¿cuántos libros tiene ahora en total?*, (<s>vaya problema difícil</s>) encontramos y manejamos los números que nos dan en el problema con toda naturalidad, esos **datos** que nos da el problema son los que nos hacen mucho más sencillo resolverlo, a esos datos les llamaremos **parámetros**. Lo que el DRAE tiene para decirnos sobre los parámetros es:
+Cuando en la escuela, te pones a resolver un problema de matemáticas, como por ejemplo, *Zita ayer tenía 15 libros, pero esta mañana ha comprado 3 más, ¿cuántos libros tiene ahora?*, (<s>vaya problema difícil</s>) encontramos y manejamos los números que nos dan en el problema con toda naturalidad, esos **datos** que nos da el problema son los que nos hacen mucho más sencillo resolverlo, a esos datos les llamaremos **parámetros**. Lo que el DRAE tiene para decirnos sobre los parámetros es:
 
 > **[parámetro](http://dle.rae.es/?id=Rrl8oAZ){: target="_blank"}**: <br>
-> 1. m. Dato o factor que se toma como necesario para analizar o valorar una situación. <br>
-> 2. m. Mat. Variable que, en una familia de elementos, sirve para identificar cada uno de ellos mediante su valor numérico.
+> 1- m. Dato o factor que se toma como necesario para analizar o valorar una situación. <br>
+> 2- m. Mat. Variable que, en una familia de elementos, sirve para identificar cada uno de ellos mediante su valor numérico.
 
 Como puedes ver, en nuestro ejemplo de los libros de Zita, se nos dan los datos necesarios para poder analizar su situación, esos datos podemos verlos como *variables* de nuestro problema, que al final mediremos con un valor numérico, es decir, diremos cuántos libros tiene ella en total.
 
-<span>Pero, un momento, ¿qué es una variable?</span>. Como su nombre lo indica, es algo que varía, en este caso (<s>así como en las matemáticas</s>) nos referimos a que es su valor el que varía, es decir, el que puede cambiar, ser diferente, ser [variable](http://dle.rae.es/?id=bNTTsak){: target="_blank"}.
+<span>Pero, un momento, ¿qué es una variable?</span> Como su nombre lo indica, es algo que varía, en este caso (<s>así como en las matemáticas</s>) nos referimos a que es su valor el que varía, es decir, el que puede cambiar, ser diferente, ser [variable](http://dle.rae.es/?id=bNTTsak){: target="_blank"}.
 
 Recuerda que en la programación no diseñamos soluciones para un caso específico de un problema, sino que debemos diseñar soluciones para **todos** los casos de un problema. Por ellos es poco común que manejemos los datos de un problema como algo [constante](http://dle.rae.es/?id=AQymQN7){: target="_blank"}, que nunca cambia y siempre es igual, no. Hay que ver los datos del problema como algo que es variable y nuestra solución debe adaptarse a eso. De esta forma, si Zita nos preguntara cuántos libros tiene ella en total, nosotros consideraríamos lo siguiente:
 
-> libros-de-ayer + libros-de-hoy = libros-en-total
+$$ 
+\text{libros-de-ayer} + \text{libros-de-hoy} = \text{libros-en-total}
+$$
 
-Para el caso mencionado nuestras variables tendrían valores como sigue: `libros-de-ayer=5`; `libros-de-hoy=3`; dando un total de **8 libros**. Dicho de otro modo `libros-en-total= 5+3 = 8`.
+Para el caso mencionado nuestras variables tendrían valores como sigue: `libros-de-ayer = 15`; `libros-de-hoy = 3`; dando un total de **18 libros**. Dicho de otro modo `libros-en-total = 15+3 = 18` (<span>bien por ti, Zita</span>).
 
 ## Parámetros en Karel
 
@@ -59,7 +61,7 @@ Si ejecutas esta función, verás como en la *pila de llamadas* junto a el nombr
 > Las mismas reglas para los nombres de funciones aplican para el nombre de los parámetros.
 
 Es aconsejable que uses un nombre corto como nombre de las variables, (<span>muy corto, como sólo una letra</span>), de esta manera te es más sencillo escribirla y recordarla. <br>
-Ahora, ya hemos declarado, un parámetro, (<span>genial</span>) pero <span>¿Para qué dijimos que nos servía?</span>. El parámetro por sí solo no nos sirve de mucho en realidad, su poder está en **la manera en la que lo manipulamos**.
+Ahora, ya hemos declarado, un parámetro, (<span>genial</span>) pero <span>¿Para qué dijimos que nos servía?</span> El parámetro por sí solo no nos sirve de mucho en realidad, su poder está en **la manera en la que lo manipulamos**.
 
 ## Expresión sucede
 
@@ -81,11 +83,13 @@ iniciar-programa
 	termina-ejecucion
 finalizar-programa</textarea>
 
-Como puedes notar, en este código hemos agregado algo distinto al parámetro de la función `UnaNueva` que está en la línea 7. Hemos agregado la expresión **sucede**. <br>
+Como puedes notar, en este código hemos agregado algo distinto al parámetro de la función `UnaNueva` que está en la línea 7. Hemos agregado la expresión `sucede`. <br>
 El uso de esta expresión es en realidad muy sencillo, **aumenta en uno el valor de la variable o número que tiene dentro de su paréntesis**. Por ejemplo:
 
-> sucede(variable) = variable+1 <br>
-> sucede(5) = 5+1 = 6
+<textarea class="output">
+sucede(variable) = variable+1
+sucede(5) = 5+1 = 6</textarea>
+
 
 Nota que está el nombre de la función, luego unos paréntesis, ahí dentro va la expresión (si aplica) y ya que ponemos la expresión va otra vez unos paréntesis y entre ellos la variable o valor al que queremos agregar uno más. <br>
 Ahora sí, analicemos lo que sucede en la pila de llamadas cuando ejecutamos el código anterior en un mundo como este.
@@ -98,12 +102,12 @@ Ahora sí, analicemos lo que sucede en la pila de llamadas cuando ejecutamos el 
 
 Como puedes ver, el valor de su parámetro comenzó siendo 0, porque así lo definimos cuando lo llamamos por primera vez desde la función principal, y fue incrementando cada vez que hacía la llamada recursiva desde la línea 7. Cuando ya no pudo seguir realizándose la recursión, debido a que el frente se había bloqueado, el parámetro tenía valor de 5. Prueba a dar distintos *valores iniciales al parámetro*.
 
-> Es muy importante saber, que si tenemos dos funciones con parámetros en nuestro programa, por ejemplo `FuncionUno` y `FuncionDos` podemos llamar desde `FuncionUno` a la otra función dándole como valor inicial a su parámetro (al de `FuncionDos`) el valor del parámetro de `FuncionUno` . Prueba a intentarlo en tu simulador.
+> Es muy importante saber, que si tenemos dos funciones con parámetros en nuestro programa, por ejemplo `FuncionUno` y `FuncionDos` podemos llamar desde `FuncionUno` a la otra función dándole como valor inicial a su parámetro (al de `FuncionDos`) el valor del parámetro de `FuncionUno`. Prueba a intentarlo en tu simulador.
 
 ## Expresión precede
 
 Así como en la vida conocemos la suma y la resta, también Karel conoce el principio de añadir y de quitar. Como ya vimos, añade con `sucede`. <br>
-Para que Karel quite o disminuya un valor, utilizamos la expresión `precede`. Su funcionamiento es más o menos igual al de `sucede`, sólo que el funcionamiento es [inverso](http://dle.rae.es/?id=M3NVLLY){: target="_blank"}.
+Para que Karel quite o disminuya un valor, utilizamos la expresión `precede`. Su funcionamiento es más o menos igual al de `sucede`, sólo que es [inverso](http://dle.rae.es/?id=M3NVLLY){: target="_blank"}.
 
 <textarea class="eKarel">
 iniciar-programa
@@ -173,7 +177,7 @@ iniciar-programa
 	termina-ejecucion
 finalizar-programa</textarea>
 
-Lo mismo sería para restar 2, aunque claro, en lugar de *sucede* usaríamos *precede*. <span>¿Y si queremos sumarle 3? Seguro que ya lo tienes</span>.
+Lo mismo sería para restar 2, aunque claro, en lugar de `sucede` usaríamos `precede`. <span>¿Y si queremos sumarle 3? Seguro que ya lo tienes</span>.
 
 ## Expresión si-es-cero
 

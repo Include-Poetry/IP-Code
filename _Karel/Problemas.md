@@ -20,7 +20,7 @@ Para poder mandar soluciones a problemas, debes [registrarte](http://www.cmirg.c
 
 Volviendo a los problemas, cada solución que hagas te dará puntos según la cantidad de casos que hayas solucionado correctamente de cada problema. <span>¿A qué se refiere la palabra "casos"?</span>
 
-Considera un problema cualquiera. Por ejemplo ser panadero. Es una tarea que no podemos decir que hemos solucionado correctamente si sólo sabemos hacer un tipo de pan. Para poder decir que tenemos la solución a la situación de volverse panadero hemos de dominar la hechura de distintos tipos de panes. Si ya conoces una gran variedad y los puedes hacer correctamente, se puede decir entonces que eres un buen panadero, y por lo tanto el problema estaría solucionado.
+Considera un problema cualquiera. Por ejemplo ser panadero. Es una tarea que no podemos decir que hemos solucionado correctamente si sólo sabemos hacer un tipo de pan. Para poder decir que tenemos la solución a la situación de volverse panadero, hemos de dominar la hechura de distintos tipos de panes. Si ya conoces una gran variedad y los puedes hacer correctamente, se puede decir entonces que eres un buen panadero, y por lo tanto el problema estaría solucionado.
 
 > Nota que con "problema" nos referimos a una situación a resolver, y que no necesariamente es una situación mala.
 
@@ -28,7 +28,7 @@ Del mismo modo, para solucionar un problema de Karel, hay que saber solucionar t
 
 > Para decir que sabemos sumar, no basta con aprendernos una suma en específico (como 8+4=12) sino que hay que saber realizar una suma sin conocer desde antes las partes que lo conforman.
 
-En Karelotitlán por cada solución que mandamos a un problema podemos recibir puntos, <span>o una calificación</span>, si nuestra solución cumple con todos los **casos de prueba** entonces recibiremos la calificación máxima, es decir **100 puntos**. De la misma forma, podemos obtener calificaciones [parciales](http://dle.rae.es/?id=RtqUTs5){: target="_blank"} si nuestra solución no resuelve todos los casos correctamente.
+En Karelotitlán por cada solución que mandamos a un problema, podemos recibir puntos, <span>o una calificación</span>, si nuestra solución cumple con todos los **casos de prueba** entonces recibiremos la calificación máxima, es decir **100 puntos**. De la misma forma, podemos obtener calificaciones [parciales](http://dle.rae.es/?id=RtqUTs5){: target="_blank"} si nuestra solución no resuelve todos los casos correctamente.
 
 ## Tipos de problemas en Karelotitlán
 
@@ -72,7 +72,7 @@ A la vez que resuelves problemas y juntas puntos, se van acumulando en tu perfil
 
 En los problemas que ya has solucionado, se registra el puntaje de tu primer envío. De esta forma puedes tener una idea de como te iría en una competencia nacional, pues se busca que se llegue a la solución correcta en la menor cantidad de tiempo e intentos.
 
-Además en la pestaña de "Usuarios" puedes ver el puntaje y residencia de otros usuarios, para que puedas ver cómo vas en progreso comparado al resto de los participantes.
+Además en la pestaña de "Usuarios" puedes ver el puntaje y residencia de otros usuarios, para que puedas ver cómo va tu progreso comparado al resto de los participantes.
 
 <div class="Nav">
 	<a href="{{ site.baseurl }}/Karel/Funciones/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/">Tema siguiente</a>

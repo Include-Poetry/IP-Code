@@ -4,8 +4,8 @@ title: Instrucciones lineales en Karel
 ---
 
 El funcionamiento de todo programa puede verse tan simple como **tomar una serie de instrucciones e ir haciendo lo que cada una indica**. <br>
-Imaginemos ahora, que nos dan instrucciones a nosotros para realizar una tarea, y detallan esas instrucciones en una hoja de papel, podríamos tomar a esa hoja como el **código** de un programa y a nosotros el robot que seguirá ese código. <br>
-Realizar las instrucciones en exactamente el mismo orden en el que están escritas, **que no requieren regresar ni adelantarnos** en los pasos, sería realizar **instrucciones lineales**.
+Imaginemos ahora, que nos dan instrucciones a nosotros para realizar una tarea, y detallan esas instrucciones en una hoja de papel, podríamos tomar a esa hoja como el **código** de un programa y a nosotros como el robot que seguirá ese código. <br>
+Las instrucciones que se realizan en exactamente el mismo orden en el que están escritas, **que no requieren regresar ni adelantarnos** en los pasos, son **instrucciones lineales**.
 
 {: #ListaContenido}
 - Comandos básicos
@@ -60,7 +60,7 @@ gira-izquierda;</textarea>
 
 ## Coger un zumbador
 
-Karel puede tomar un zumbador si así se requiere, al tomarlo lo guarda en su mochila. En el mundo lo podemos ver porque se descuenta en uno la cantidad de zumbadores en esa posición y aumenta la cantidad en su mochila.<br>
+Karel puede tomar un zumbador si así se requiere, al tomarlo lo guarda en su mochila. En el mundo lo podemos ver porque disminuye en uno la cantidad de zumbadores en esa posición y aumenta la cantidad en la mochila.<br>
 Por cada instrucción `coge-zumbador` Karel toma un zumbador, y así sucesivamente hasta que ya no pueda hacerlo o se indique hacer otra cosa.
 
 [<picture>
@@ -77,7 +77,7 @@ coge-zumbador;</textarea>
 
 ## Dejar un zumbador
 
-Así como puede tomar, Karel también puede dejar zumbadores en una posición. Lo podemos notar en el mundo porque se agrega uno a la cantidad de zumbadores en esa posición y disminuye la cantidad en su mochila. <br>
+Así como puede tomar, Karel también puede dejar zumbadores en una posición. Lo podemos notar en el mundo porque aumenta en uno la cantidad de zumbadores en esa posición y disminuye la cantidad en la mochila. <br>
 Por cada instrucción `deja-zumbador` Karel deja un zumbador, y así sucesivamente hasta que ya no pueda hacerlo o se indique hacer otra cosa.
 
 [<picture>
@@ -101,6 +101,8 @@ Sintaxis:
 
 <textarea class="eKarel">
 apagate;</textarea>
+
+> No importa si hay comandos después de `apagate`, al llegar a éste, la ejecución terminará.
 
 <div class="Nav">
 	<a href="{{ site.baseurl }}/Karel/Principio/Simulador/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/">Tema siguiente</a>
