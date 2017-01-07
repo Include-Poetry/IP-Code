@@ -27,15 +27,9 @@ google_analytics: UA-74086952-1
 # url: "https://include-poetry.github.io"
 url: "https://www.include-poetry.com"
 baseurl: /Code
-host: 0.0.0.0
 
 # Excuidos de la conversión
-exclude: [vendor]
-
-# incremental: true;
-
-# paginate: 8
-# paginate_path: "/Blog/Pagina-:num/"
+exclude: [vendor, RecursosDev]
 
 # Gemas
 gems:
@@ -43,6 +37,12 @@ gems:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Algolia
+algolia:
+  application_id: 'QO0HGR5828'
+  index_name:     'IPCode'
+  read_only_api_key: 'eb04fe369bec3b6b078e4eb51ea48ae6'
 
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"

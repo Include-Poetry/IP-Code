@@ -33,7 +33,7 @@ No se necesita realmente saber un lenguaje de programación para desarrollar est
 
 Saber estructurar todas las partes que conforman un problema es uno de los principios fundamentales de la programación además de saber estructurar todas las partes de una posible solución. Organizar todos los elementos y plasmarlos de la manera **más sencilla, clara y específica posible** (diría yo, de la manera más *elegante*) debe ser una prioridad al programar. Claramente, para todo esto es necesario (<s>y como en todo</s>) practicar mucho, tener mucha paciencia y gusto por ello.
 
-> Si aún te quedan dudas de porqué aprender a programar, es porque aún te falta ir [acá]({{ site.url }}/Motivacion/){: target="_blank"}
+> Si aún te quedan dudas de porqué aprender a programar, es porque aún te falta ir [acá]({{ site.url }}/Code/Motivacion/){: target="_blank"}
 
 <div class="Nav">
 	<a href="{{ site.baseurl }}/C++/Lenguaje/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Compilador/">Tema siguiente</a>
