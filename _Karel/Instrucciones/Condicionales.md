@@ -27,14 +27,14 @@ si condición entonces acción-a-realizar;</textarea>
 Podemos notar varias partes en el enunciado: <br>
 La palabra reservada del compilador `si` que le indica que está recibiendo una sentencia condicional. <br>
 La condición que debe evaluar para saber en base a qué decidir. <br>
-La palabra `entonces` que le dice que está por recibir lo que **tiene que hacer si esa condición se cumple**.
+La palabra `entonces` que le dice al compilador que está por recibir lo que **tiene que hacer si esa condición se cumple**.
 
 También podemos agregar lo que Karel tendría que hacer en caso de que la condición **no se cumpla**.
 
 <textarea class="output">
-si condición entonces acción-a-realizar sino acción-a-realizar-si-la-condición-no-se-cumple;</textarea>
+si condición entonces acción-a-realizar sino acción-alternativa;</textarea>
 
-Nota que podemos prescindir de especificar un `sino`, pero no podemos poner un `sino` sin un `si` antes de él. (<span>Ni siquiera tendría sentido la oración</span>)
+Nota que podemos [prescindir](http://dle.rae.es/?id=U5RdD3G){: target="_blank"} de especificar un `sino`, pero no podemos poner un `sino` sin un `si` antes de él. (<span>Ni siquiera tendría sentido la oración</span>)
 
 > El `;` se pone al final de la expresión completa, si mi condición no lleva un `sino` iría justo después de la acción a realizar, de llevarlo iría hasta el final de la acción del `sino`.
 
@@ -67,7 +67,7 @@ Las condiciones que Karel puede evaluar, son las siguientes:
 
 Donde cada condición expresa lo que evalúa.
 
-> La expresión: `si junto-a-zumbador entonces` es **verdadera** si Karel comparte su posición con un zumbador.
+> La expresión: `si junto-a-zumbador` es **verdadera** si Karel comparte su posición con un zumbador.
 
 ## Bloques de instrucciones
 
@@ -178,6 +178,8 @@ fin sino
 		si frente-bloqueado entonces avanza;
 		apagate;
 	fin;</textarea>
+
+> Nota lo útil que es *identar* nuestros códigos para poder distinguir mejor entre un bloque de acciones y otro.
 
 <div class="Nav">
 	<a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/">Tema siguiente</a>

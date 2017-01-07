@@ -42,12 +42,12 @@ fin;</textarea>
 Donde `define-nueva-instruccion` es una sentencia de control que dice que se está declarando una nueva función.<br>
 `MiFuncion` es el nombre de la función que estamos creando en este ejemplo. Puede ser cualquiera pero no puede llevar espacios o acentos, sí puede llevar guiones y números. No puede ser un comando o instrucción que ya exista en el compilador. Tampoco podemos repetir nombres de instrucciones.<br>
 `como` es una palabra de control que le dice al compilador que está por definirse las instrucciones que conformarán esa función.<br>
-Al igual que con las sentencias condicionales y cíclicas usamos bloques de instrucciones cuando hablaremos de más de una instrucción, o podemos omitirlas si sólo usaremos una. En nuestro ejemplo a nuestra función de nombre "MiFuncion" la conforman dos instrucciones, avanzar y girar a la izquierda, es por ello que se usan bloques de inicio y fin.<br>
+Al igual que con las sentencias condicionales y cíclicas, usamos bloques cuando hablaremos de más de una instrucción, o podemos omitirlas si sólo usaremos una. En nuestro ejemplo a nuestra función de nombre "MiFuncion" la conforman dos instrucciones, `avanza` y `gira-izquierda`, es por ello que se usan bloques de `inicio` y `fin`.<br>
 Los nombres de las funciones que declaramos no se ponen en azul como el resto del código pero eso no significa que estén mal escritas.
 
 > Ninguna función que declaremos puede estar antes de `iniciar-programa` o después de `finalizar-programa`, tampoco puede estar dentro de otra función, sea la principal o una secundaria. Tampoco debemos declararla después de la función de donde es llamada, pues cuando el compilador revise que se llama a esa función aún no conoce la función en sí.
 
-Para ejecutar la instrucción que acabamos de declarar, hay que llamarla por su nombre desde la parte del  programa que queremos que se ejecute. Podemos llamar una instrucción secundaria **desde cualquier parte**.
+Para ejecutar la instrucción que acabamos de declarar, hay que llamarla por su nombre desde la parte del  programa que queremos que se ejecute. Podemos llamar una instrucción secundaria **desde cualquier parte** <span>(excepto por lo mencionado arriba)</span>.
 
 <textarea class="eKarel">
 iniciar-programa
@@ -68,7 +68,7 @@ En este ejemplo llamamos a nuestra función secundaria desde la función princip
 
 ## Ejemplos en la función principal
 
-Recuerda que cuando corremos un código compilado, siempre siempre va a empezar a ejecutar por la primera instrucción de la función principal. Algunos ejemplos de instrucciones en la función principal son:
+Recuerda que cuando corremos un código compilado, siempre siempre va a empezar la ejecución por la primera instrucción de la función principal. Algunos ejemplos de instrucciones en la función principal son:
 
 <textarea class="eKarel">
 iniciar-programa
@@ -140,7 +140,7 @@ finalizar-programa</textarea>
 Y aquí una de las primeras implementaciones de las funciones secundarias y facilitadora del desarrollo de muchos programas, la función de `gira-derecha`.<br>
 <span>¿Ya notaste por qué funciona?</span>
 
-> ¡Felicidades! Ya sabes como empezar a hacer tus propios programas para Karel.
+> ¡Felicidades! Ya sabes como empezar a hacer tus propios programas para Karel en Pascal.
 
 <div class="Nav">
 	<a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Problemas/">Tema siguiente</a>

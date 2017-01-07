@@ -3,8 +3,8 @@ layout: G-Article
 title: Instrucciones cíclicas en Karel
 ---
 
-Seguramente ya te has imaginado lo [tedioso](http://dle.rae.es/?id=ZJf6SDH){: target="_blank"} que resultaría hacer caminar 100 veces a Karel con lo que hasta ahora sabemos, pues habría que escribir 100 veces el comando "avanza;", cosa que resulta además poco práctico.<br>
-Para hacer una o varias acciones una determinada cantidad de veces, utilizamos instrucciones repetitivas.
+Seguramente ya te has imaginado lo [tedioso](http://dle.rae.es/?id=ZJf6SDH){: target="_blank"} que resultaría hacer caminar 100 veces a Karel con lo que hasta ahora sabemos, pues habría que escribir 100 veces el comando `avanza;`, cosa que resulta además poco práctico.<br>
+Para hacer una o varias acciones una determinada cantidad de veces, utilizamos instrucciones repetitivas o cíclicas.
 	
 {: #ListaContenido}
 - Sentencia mientras
@@ -16,7 +16,7 @@ Para hacer una o varias acciones una determinada cantidad de veces, utilizamos i
 Tomemos en cuenta primeramente que existen varios tipos de repeticiones, es decir, que las realizamos bajo diferentes circunstancias, por ejemplo, cuando llueve usamos un paraguas, pero sólo **mientras** llueve, pues una vez que ya terminó de llover, deja de ser necesario. <br>
 Para Karel, esta idea queda muy clara, y de hecho estructura muy bien este tipo de repeticiones.
 
-Imaginemos que Karel está en algún lugar desconocido del mundo, y que queremos llevarlo hasta la pared que tenga a su frente, como no sabemos qué tan lejos está la pared de Karel, tampoco podemos saber cuántas veces debemos avanzar, puede que pongamos de menos y no llegue o puede que pongamos de más y choque contra una pared. <span>Entonces, ¿cómo saber cuántas veces avanzar?</span><br>
+Imaginemos que Karel está en algún lugar desconocido del mundo, y que queremos llevarlo hasta la pared que tenga a su frente, como no sabemos qué tan lejos está la pared de Karel, tampoco podemos saber cuántas veces debemos avanzar, puede que pongamos de menos y no llegue o puede que pongamos de más y choque contra la pared. <span>Entonces, ¿cómo saber cuántas veces avanzar?</span><br>
 Es ahí donde llega la sentencia "mientras" a auxiliarnos. Tiene la siguiente estructura:
 
 <textarea class="output">
@@ -44,7 +44,7 @@ Es entonces cuando usamos la sentencia `repetir`.
 <textarea class="output">
 repetir número veces acción-a-realizar;</textarea>
 
-Si la [diseccionamos](http://dle.rae.es/?id=Du8Lirp){: target="_blank"} también, encontraremos varias partes también.<br>
+Si la [diseccionamos](http://dle.rae.es/?id=Du8Lirp){: target="_blank"} también, encontraremos varias partes.<br>
 La palabra de control `repetir`. <br>
 La cantidad de veces que se repetirán las acciones. Esa cantidad puede ser cualquier número mayor a 0.<br>
 La palabra de control `veces`. <br>

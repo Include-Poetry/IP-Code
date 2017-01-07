@@ -3,7 +3,7 @@ layout: G-Article
 title: Recursión en programación
 ---
 
-La idea y uso de la recursión entre otras cosas, ha permitido a la informática ser la potencia que es actualmente, así es que sí, se podría decir que **es una de las ideas centrales de la computación**.<br>
+La idea y uso de la recursión, entre otras cosas, ha permitido a la informática ser la potencia que es actualmente, por lo tanto, se podría decir que **es una de las ideas centrales de la computación**.<br>
 La recursión como técnica de resolver problemas es tan útil que la utilizamos en la vida cotidiana sin siquiera darnos cuenta, comprender el funcionamiento de la recursión es un arma **[invaluable](http://dle.rae.es/?id=M27S7Oj){: target="_blank"} e [imprescindible](http://dle.rae.es/?id=L6eq745){: target="_blank"}** en la informática.
 
 (<span>En este apartado no se explicará la recursión en un lenguaje de programación en especial, sino la idea general de ella en la programación</span>)
@@ -22,7 +22,7 @@ Se podrían dar muchas versiones de lo que es la recursión, sin embargo, partir
 > [Recursivo, va](http://dle.rae.es/?id=VXkDTwd){: target="_blank"}<br>
 > Dicho especialmente de un proceso: Que se aplica de nuevo al resultado de haberlo aplicado previamente.
 
-Es decir, es la acción de aplicar un procedimiento a una cosa, y después, al resultado de eso volver a aplicar el procedimiento otra vez. <br>
+Es decir, es la acción de aplicar un procedimiento a una cosa, y después, al resultado de eso volver a aplicar el procedimiento otra vez. <span>Como hornear un pastel, sacarlo del horno y volverlo a hornear.</span> <br>
 De esta manera podemos solucionar un problema si lo vemos como un conjunto de problemas más pequeños.
 
 <span>¿Qué nos dice esto?</span><br>
@@ -42,7 +42,7 @@ inicio
 	matrioskas;
 fin;</textarea>
 
-Siguiendo el funcionamiento del anterior procedimiento, primero tienes una matrioska, la abres, sacas la matrioska en su interior, y a continuación ejecutas el procedimiento "matrioskas". (<span>[¿Esto no tiene sentido para ti?]({{ site.baseurl }}/Karel/Funciones/){: target="_blank"}</span>). <br>
+Siguiendo el funcionamiento del anterior procedimiento, primero tienes una matrioska, la abres, sacas la matrioska en su interior, y a continuación ejecutas el procedimiento "matrioskas". <br>
 <span>¿Qué pasa cuando ejecutamos de nuevo el procedimiento "matrioskas"?</span> Tomaríamos la matrioska, la abriríamos, sacaríamos la muñeca en su interior y volveríamos a aplicar el procedimiento anterior. Esto se vería más o menos así:
 
 [<picture>
@@ -54,15 +54,15 @@ Siguiendo el funcionamiento del anterior procedimiento, primero tienes una matri
 
 ## Fin de la recursión
 
-En nuestra misión de abrir todas las matrioskas y aplicada en el mundo real (donde las matrioskas no son infinitas) nos detuvimos al llegar a la muñeca más pequeña pues dentro de ella ya no hay más muñecas. Sin embargo, un robot, o una computadora, (<span>como Karel</span>) no sabe por sí solo cuando detenerse. Recuerda que (<s>hasta ahora</s>) una máquina no sabe nada si tú no se lo programas.
+En nuestra misión de abrir todas las matrioskas y aplicada en el mundo real (<span>donde las matrioskas no son infinitas</span>) nos detuvimos al llegar a la muñeca más pequeña pues dentro de ella ya no hay más muñecas. Sin embargo, un robot, o una computadora, no sabe por sí solo cuando detenerse. Recuerda que (<s>hasta ahora</s>) una máquina no sabe nada si tú no se lo programas.
 
 > En la recursión una de las cosas más importantes (<s>por no decir que la más importante</s>) es su final.
 
 <span>¿Por qué es tan importante saber detenerse?</span> Como en todo, el exceso no es bueno. En el caso de Karel ¿recuerdas lo que pasaba cuando le decíamos que avanzara sin importar nada? en el momento en que llegaba a una pared y trataba de atravesarla, fallaba, o como cuando tomaba o dejaba zumbadores **sin consideración**.
 
-¿Notaste dónde empieza la recursión en el procedimiento anterior? La recursión empieza por una cosa que llamaremos **llamada recursiva** que es el momento en el que se vuelve a llamar una función dentro de sí misma. En el procedimiento que declaramos la llamada recursiva está en la línea 5.
+¿Notaste dónde empieza la recursión en el procedimiento anterior? La recursión empieza por una cosa que llamaremos **llamada recursiva**, que es el momento en el que se vuelve a llamar una función **dentro de sí misma**. En el procedimiento que declaramos la llamada recursiva está en la línea 5.
 
-Sin embargo una función nunca, **nunca** debe declararse si no es controlada por una condición. Es decir, toda llamada recursiva debe ser realizada dentro de una condición. En el proceso anterior, ¿dónde debemos poner la condición y qué condición debe ser evaluada?.
+Sin embargo una llamada recursiva nunca, **nunca** debe declararse si no es controlada por una condición. Es decir, toda llamada recursiva debe ser realizada dentro de una condición. En el proceso anterior, ¿dónde debemos poner la condición y qué condición debe ser evaluada?.
 
 ## Condición de la recursión
 
@@ -82,7 +82,7 @@ Toma en cuenta que lo anterior **no es un código real**, sólo es una manera ge
 
 ## Más recursión
 
-> Cuando buscas "recursión" en google ¿cuál es el sentido de que te diga "*Quizás quisiste decir: **recursión***"?
+> Cuando buscas "[recursión](https://www.google.com.mx/search?q=recursión){: target="_blank"}" en google ¿cuál es el sentido de que te diga "*Quizás quisiste decir: **recursión***"?
 
 > ¿Te gustó el gif de las matrioskas interminables? Las [animaciones recursivas](http://giphy.com/search/recursive){: target="_blank"} siempre son geniales.
 
