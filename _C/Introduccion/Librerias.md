@@ -1,4 +1,4 @@
-- ---
+---
 layout: G-Article
 title: Librerías para C++
 ---
