@@ -29,9 +29,9 @@ Como puedes ver, en nuestro ejemplo de los libros de Zita, se nos dan los datos 
 
 Recuerda que en la programación no diseñamos soluciones para un caso específico de un problema, sino que debemos diseñar soluciones para **todos** los casos de un problema. Por ellos es poco común que manejemos los datos de un problema como algo [constante](http://dle.rae.es/?id=AQymQN7){: target="_blank"}, que nunca cambia y siempre es igual, no. Hay que ver los datos del problema como algo que es variable y nuestra solución debe adaptarse a eso. De esta forma, si Zita nos preguntara cuántos libros tiene ella en total, nosotros consideraríamos lo siguiente:
 
-$$ 
-\text{libros-de-ayer} + \text{libros-de-hoy} = \text{libros-en-total}
-$$
+<textarea class="output">
+libros-de-ayer + libros-de-hoy = libros-en-total</textarea>
+
 
 Para el caso mencionado nuestras variables tendrían valores como sigue: `libros-de-ayer = 15`; `libros-de-hoy = 3`; dando un total de **18 libros**. Dicho de otro modo `libros-en-total = 15+3 = 18` (<span>bien por ti, Zita</span>).
 
