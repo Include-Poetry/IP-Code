@@ -21,15 +21,15 @@ Consideremos las siguientes maneras de hacer un barrido
 
 La primera como en zig zag, o también llamada comúnmente "de serpiente".
 
-![Barrido de serpiente]({{ site.url }}/Recursos/Multimedia/Karel/Barridos/Serpiente.png "Serpiente")
+![Barrido de serpiente]({{ site.url }}/{{ iP-Sources }}/Multimedia/Karel/Barridos/Serpiente.png "Serpiente")
 
 Otra forma sería hacerlo por columnas, es decir, subir y bajar una columna y luego pasarse a la siguiente y continuar.
 
-![Barrido por columnas]({{ site.url }}/Recursos/Multimedia/Karel/Barridos/Columnas.png "Columnas")
+![Barrido por columnas]({{ site.url }}/{{ iP-Sources }}/Multimedia/Karel/Barridos/Columnas.png "Columnas")
 
 Otra manera puede ser en espiral, haciendo un recorrido como sigue.
 
-![Barrido en espiral]({{ site.url }}/Recursos/Multimedia/Karel/Barridos/Espiral.png "Espiral")
+![Barrido en espiral]({{ site.url }}/{{ iP-Sources }}/Multimedia/Karel/Barridos/Espiral.png "Espiral")
 
 Todas los métodos anteriores cumplirían con recorrer cada espacio de un área cuadrada determinada, sin embargo, tenemos que analizar cuál es la mejor manera de hacerlo. Recuerda que no sólo buscamos resolver problemas, sino hacerlo *de manera óptima*.
 
