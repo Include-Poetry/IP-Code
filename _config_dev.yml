@@ -5,7 +5,7 @@ name: Include Poetry
 title: Include Poetry
 
 # Descripcón del sitio
-description: Curso de preparación para las Olimpiadas de Informática
+description: Curso de preparación para las Olimpiadas de Informática, como la OMI y OMIPS
 
 # Email
 email: includepoetry@gmail.com
@@ -24,7 +24,7 @@ markdown: kramdown
 google_analytics: UA-74086952-1
 
 # Base del sitio url: "http://localhost:4000"
-url: "http://192.168.1.67:4000"
+url: "http://192.168.1.66:4000"
 baseurl: /Code
 host: 0.0.0.0
 
