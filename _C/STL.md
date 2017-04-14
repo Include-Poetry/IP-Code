@@ -27,5 +27,5 @@ Es por esto, que lo más aconsejable es utilizarlas sólo en los casos en los qu
 Cuando queremos incluir los contenedores de la *STL*, debemos incluir cada contenedor individualmente, de esta manera podemos incluir sólo lo que necesitamos, y no tener que extendernos tanto con herramientas que no usaremos y que sólo harán que nuestro código sea menos ágil.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/Estructuras/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/STL/Vector/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Estructuras/Cola/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/STL/Vector/">Tema siguiente</a>
 </div>
