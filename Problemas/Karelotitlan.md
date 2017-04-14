@@ -74,7 +74,3 @@ A la vez que resuelves problemas y juntas puntos, se van acumulando en tu perfil
 En los problemas que ya has solucionado, se registra el puntaje de tu primer envío. De esta forma puedes tener una idea de como te iría en una competencia nacional, pues se busca que se llegue a la solución correcta en la menor cantidad de tiempo e intentos.
 
 Además en la pestaña de "Usuarios" puedes ver el puntaje y residencia de otros usuarios, para que puedas ver cómo va tu progreso comparado al resto de los participantes.
-
-<div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Funciones/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/">Tema siguiente</a>
-</div>
