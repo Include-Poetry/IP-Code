@@ -20,7 +20,7 @@ En la antigüedad, existió un muy ingenioso físico llamado **Alessandro Volta*
 [<picture>
 	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Karel/PilaVolta.jpg">
 	<img class="Imagen" src="{{ site.iP-Sources }}/Multimedia/Karel/PilaVolta.jpg" alt="Pila voltaica">
-</picture>]({{ site.iP-Sources }}/Multimedia/PilaVolta.jpg){: data-lightbox="image-1"}
+</picture>]({{ site.iP-Sources }}/Multimedia/Karel/PilaVolta.jpg){: data-lightbox="image-1"}
 
 <span>¿Ya has notado la idea?</span> El secreto de la idea aquí, se encuentra en la palabra [apilar](http://dle.rae.es/?id=3AOy8Wo){: target="_blank"}, que seguro te suena familiar, como también lo es ahora la palabra **pila**. Como *una pila de platos*. En donde hay un plato arriba de otro.
 
