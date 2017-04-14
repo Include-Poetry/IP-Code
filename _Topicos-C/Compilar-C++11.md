@@ -7,9 +7,9 @@ categories:
   - Compilador
 ---
 
-Así como *C++* puede ser visto como una evolución de *C*, *C++11* puede ser visto como el sucesor de C++. Es la segunda versión más reciente de este lenguaje de programación, lleva ya algunos años desde que se aprobó por la [ISO](http://www.iso.org/ "Sitio oficial"). La extensión del nombre se debe, como tradicionalmente, por el año de publicación, siendo que se publico oficialmente en el año 2011.
+Así como *C++* puede ser visto como una evolución de *C*, *C++11* puede ser visto como el sucesor de C++. Es la segunda versión más reciente de este lenguaje de programación, lleva ya algunos años desde que se aprobó por la [ISO](http://www.iso.org/ "Sitio oficial"). La extensión del nombre se debe, como tradicionalmente, por el año de publicación, siendo que se publicó oficialmente en el año 2011.
 
-El lenguaje sucede al C++03, y precede al C++14, y trae consigo algunas mejoras importantes que las versiones anteriores necesitaban. Es de gran utilidad al momento de implementar funciones más avanzadas de la STL por ejemplo.
+El lenguaje sucede al C++03, y precede al C++14, y trae consigo algunas mejoras importantes que las versiones anteriores necesitaban. Es de gran utilidad al momento de implementar funciones más avanzadas de la STL, por ejemplo.
 
 ## Compilación
 

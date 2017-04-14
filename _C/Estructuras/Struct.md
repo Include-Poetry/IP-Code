@@ -169,5 +169,5 @@ int main(){
 Sí, es más *show* hacer algo así, además de poco práctico, sin embargo más adelante veremos maneras más sencillas de hacer una asignación como la que estábamos tratando de hacer. Con el ejemplo anterior, también pudimos ver una manera de mostrar las instancias de un objeto, usando el operador `.`. El programa anterior daría la salida `G chocolate 200 2.5`.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Introduccion/Arreglos/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/STL/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Introduccion/Arreglos/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Class/">Tema siguiente</a>
 </div>
