@@ -55,6 +55,6 @@ collections:
     permalink: /Topicos-adicionales/Karel/:categories/:title/
   Resueltos-C:
     output: true
-    permalink: /Problemas-resueltos/C++/:year/:month/:day/:title/
+    permalink: /Problemas/Resueltos/C++/:title/
   Descargables:
     output: false

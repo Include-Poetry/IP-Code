@@ -1,6 +1,7 @@
 ---
 layout: G-Article
-title: Problemas de Karel
+title: Problemas en Karelotitlán
+permalink: /Problemas/Karelotitlan/
 ---
 
 <span>¿En qué momento Karel tiene problemas?</span> El motivo de existir de un programa, siempre es solucionar un problema. Cualquier programa que encuentres nació con ese propósito, que puede ir desde entretener hasta realizar complejos cálculos. Pero volvamos a Karel, Karel como ya se había dicho, es un robot muy activo, y a lo largo de toda su vida (<s>y como todos</s>) se enfrenta a una gran cantidad de problemas. Sin embargo, Karel no se preocupa mucho, (<span>recordemos que es un robot</span>) pues confía en ti para que le digas qué es lo que tiene que hacer para salir de cada situación.
