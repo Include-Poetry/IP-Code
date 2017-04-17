@@ -28,12 +28,14 @@ url: "http://192.168.1.65:4000"
 baseurl: /Code
 host: 0.0.0.0
 
+# Gemas - también en Gemfile
 gems:
   - algoliasearch-jekyll
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Algolia - buscador
 algolia:
   application_id: 'QO0HGR5828'
   index_name: 'IPCode'
@@ -43,6 +45,10 @@ algolia:
     - Motivacion/index.html
     - Topicos-adicionales/Karel/Tags/index.html
     - Topicos-adicionales/C++/Tags/index.html
+    - Topicos-adicionales/C++/index.html
+    - Topicos-adicionales/Karel/index.html
+    - Problemas/Resueltos/C++/index.html
+    - Problemas/Resueltos/C++/Tags/index.html
   record_css_selector: 'p,ul,ol,blockquote,table'
 
 # Excuidos de la conversión
