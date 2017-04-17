@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Tipos de variables en C++
+tags: [Variables, ASCII, Memoria]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 En la vida diaria construimos y hacemos todo tipo de cosas, desde comida hasta computadoras, sin embargo, no utilizamos los mismos componentes para todas nuestras creaciones, si queremos hacer un pastel usamos harina, leche, mantequilla... que no son los mismos componentes que usaríamos si quisiéramos construir una casa (<s>a menos de que vivamos en el universo de Hansel y Gretel</s>) pues cada componente tiene características que son enfocadas a un cierto uso. En la programación pasa exactamente lo mismo.

@@ -2,5 +2,7 @@ _site/
 RecursosDev/
 _algolia_api_key
 Montar.bat
+Construir.bat
+UpAlgolia.bat
 IP-Code.sublime-workspace
 .jekyll-metadata

@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Funciones en C++
+tags: [Funciones]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Es hora de abrir nuestro *IDE* favorito porque estamos a sólo un paso de comenzar a escribir nuestros propios programas. Sólo nos falta saber cómo comenzar. Una función es una parte del código que puede ser llamado desde cualquier parte del mismo, esta parte lleva un nombre específico y al invocarse se ejecuta la parte del código que abarca.

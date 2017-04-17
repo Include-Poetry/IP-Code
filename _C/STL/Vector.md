@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Contenedor Vector
+tags: [STL, Vector]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 El elemento `vector` es un contenedor que funciona como un arreglo de tamaño dinámico.

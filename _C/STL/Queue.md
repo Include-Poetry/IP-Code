@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Contenedor queue
+tags: [STL, Cola]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 La clase `queue` es un contenedor que brinda la usabilidad de una estructura FIFO.

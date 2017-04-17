@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Estructura pair
+tags: [STL, Listas]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 La estructura `pair` es una plantilla que permite almacenar dos variables en un sólo objeto.

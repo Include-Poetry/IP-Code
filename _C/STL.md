@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: STL en C++
+tags: [Librerías, STL]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 *STL* es el acrónimo de *Standard Template Library*, que es una librería para el desarrollo de programas en C++. Esta librería la componen *algoritmos*, *contenedores*, *iteradores* y funciones. Todas relacionadas entre sí y dedicadas a facilitar la implementación  de diversas estructuras de datos, muy utilizadas en la programación.

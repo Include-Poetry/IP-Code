@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Instalación y uso de Karel el robot
+tags: [Introducción]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Lo primero que tenemos que hacer es conseguir la última versión del simulador desde la página oficial de Karel, <span>es decir [acá](http://www.cmirg.com/karelotitlan/Pantallas/descargas.aspx){: target="_blank"}</span>. <span>[¿Ya no recuerdas qué es Karel el robot?]({{ site.baseurl }}/Karel/Principio/Karel/){: target="_blank"}</span>

@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Recursión en programación
+tags: [Recursión, Introducción]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 La idea y uso de la recursión, entre otras cosas, ha permitido a la informática ser la potencia que es actualmente, por lo tanto, se podría decir que **es una de las ideas centrales de la computación**.<br>

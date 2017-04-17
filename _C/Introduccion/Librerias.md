@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Librerías para C++
+tags: [Introducción, Librerías]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 En ocasiones encontramos palabras cuyo significado no sabemos, pues para hablar un determinado idioma no necesitamos conocer todas las palabras existentes. Se podría decir que conocemos la mayoría y cuando encontramos una que no conocemos recurrimos a un *diccionario*, una vez que conocemos su significado podemos usarla. Lo mismo sucede con los compiladores, por eso cuando queremos usar una *función* o *método* que él desconoce, debemos primero decirle dónde aprender qué es.

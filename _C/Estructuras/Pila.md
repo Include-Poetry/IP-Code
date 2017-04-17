@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Estructura pila
+tags: [Estructuras, Pila, Arreglos, Clases, Funciones]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Una estructura de gran utilidad al momento de resolver problemas, ***es la pila***, que es una estructura de tipo FILO.
