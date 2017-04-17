@@ -31,14 +31,14 @@ baseurl: /Code
 # Excuidos de la conversión
 exclude: [vendor, RecursosDev]
 
-# Gemas
+# Gemas - también en Gemfile
 gems:
   - algoliasearch-jekyll
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Algolia
+# Algolia - buscador
 algolia:
   application_id: 'QO0HGR5828'
   index_name: 'IPCode'
@@ -48,6 +48,10 @@ algolia:
     - Motivacion/index.html
     - Topicos-adicionales/Karel/Tags/index.html
     - Topicos-adicionales/C++/Tags/index.html
+    - Topicos-adicionales/C++/index.html
+    - Topicos-adicionales/Karel/index.html
+    - Problemas/Resueltos/C++/index.html
+    - Problemas/Resueltos/C++/Tags/index.html
   record_css_selector: 'p,ul,ol,blockquote,table'
 
 # Variables del sitio
