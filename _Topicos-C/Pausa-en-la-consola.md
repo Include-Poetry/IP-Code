@@ -2,12 +2,11 @@
 layout: G-Article
 title: Pausar la ejecución en la consola
 author: rivel_co
-tags: tip
-categories:
-  - Consola
+tags: [tip]
+categories: [C++, OMI]
 ---
 
-¿Alguna vez has visto lo que pasa cuando ejecutas el ejecutable que se genera de lagún código tuyo, fuera del IDE? Si no lo has intentado, lo que sucede es que en cuanto no ya no hay alguna solicitud de entrada de datos, es decir, que ya no hayas puesto algún `cin`, la consola se cerrará rápidamente, sin siquiera dejarnos ver las salidas.
+¿Alguna vez has visto lo que pasa cuando ejecutas el ejecutable que se genera de algún código tuyo, fuera del IDE? Si no lo has intentado, lo que sucede es que en cuanto no ya no hay alguna solicitud de entrada de datos, es decir, que ya no hayas puesto algún `cin`, la consola se cerrará rápidamente, sin siquiera dejarnos ver las salidas.
 
 Esto es normal de la consola, pues no tiene consideración de que los datos deban ser vistos por nosotros, sólo hace lo que está en el código y cuando termina se cierra. Los IDE actuales mantienen la consola abierta después de la ejecución para que podamos ver los resultados que arroja, pero en versiones anteriores eso no pasaba, por lo que era necesario "congelar" la pantalla por distintos métodos para poder apreciar la información.
 

@@ -53,6 +53,10 @@ algolia:
     - Problemas/Resueltos/C++/index.html
     - Problemas/Resueltos/C++/Tags/index.html
   record_css_selector: 'p,ul,ol,blockquote,table'
+  attributesForFaceting:
+    - tags
+    - categories
+    - author
 
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"
@@ -72,10 +76,10 @@ collections:
     permalink: /Karel/:path/
   Topicos-C:
     output: true
-    permalink: /Topicos-adicionales/C++/:categories/:title/
+    permalink: /Topicos-adicionales/C++/:title/
   Topicos-Karel:
     output: true
-    permalink: /Topicos-adicionales/Karel/:categories/:title/
+    permalink: /Topicos-adicionales/Karel/:title/
   Resueltos-C:
     output: true
     permalink: /Problemas/Resueltos/C++/:title/

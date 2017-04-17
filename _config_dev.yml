@@ -28,6 +28,9 @@ url: "http://192.168.1.65:4000"
 baseurl: /Code
 host: 0.0.0.0
 
+# Excuidos de la conversión
+exclude: [Construir.bat, Montar.bat, UpAlgolia.bat]
+
 # Gemas - también en Gemfile
 gems:
   - algoliasearch-jekyll
@@ -50,6 +53,11 @@ algolia:
     - Problemas/Resueltos/C++/index.html
     - Problemas/Resueltos/C++/Tags/index.html
   record_css_selector: 'p,ul,ol,blockquote,table'
+  attributesForFaceting:
+    - tags
+    - categories
+    - author
+
 
 # Excuidos de la conversión
 exclude: [Montar.bat, IP-Code.sublime-workspace]
@@ -72,10 +80,10 @@ collections:
     permalink: /Karel/:path/
   Topicos-C:
     output: true
-    permalink: /Topicos-adicionales/C++/:categories/:title/
+    permalink: /Topicos-adicionales/C++/:title/
   Topicos-Karel:
     output: true
-    permalink: /Topicos-adicionales/Karel/:categories/:title/
+    permalink: /Topicos-adicionales/Karel/:title/
   Resueltos-C:
     output: true
     permalink: /Problemas/Resueltos/C++/:title/
