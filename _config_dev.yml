@@ -23,7 +23,7 @@ markdown: kramdown
 # Google services
 google_analytics: UA-74086952-1
 
-# Base del sitio url: "http://localhost:4000"
+# Base del sitio url:  "http://localhost:4000"
 url: "http://192.168.1.65:4000"
 baseurl: /Code
 host: 0.0.0.0
