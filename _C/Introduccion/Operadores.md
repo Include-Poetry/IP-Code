@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Operadores y entrada/salida de datos
+tags: [Operadores]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Para manipular variables y conocer algunas de sus características utilizamos *operadores*, también tenemos la entrada y salida de datos, para mostrar y recibir información en la pantalla y del teclado respectivamente.

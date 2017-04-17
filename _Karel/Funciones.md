@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Funciones en Karel
+tags: [Funciones]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 <span>¡Por fin ha llegado la hora de programar!</span> Sólo nos falta saber cómo empezar, y para ello tenemos que conocer lo que es una función. Lo primero que hay que saber, es que existen varios tipos de funciones:

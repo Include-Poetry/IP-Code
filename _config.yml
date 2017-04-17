@@ -41,8 +41,14 @@ gems:
 # Algolia
 algolia:
   application_id: 'QO0HGR5828'
-  index_name:     'IPCode'
-  read_only_api_key: 'eb04fe369bec3b6b078e4eb51ea48ae6'
+  index_name: 'IPCode'
+  excluded_files:
+    - index.html
+    - 404.md
+    - Motivacion/index.html
+    - Topicos-adicionales/Karel/Tags/index.html
+    - Topicos-adicionales/C++/Tags/index.html
+  record_css_selector: 'p,ul,ol,blockquote,table'
 
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"

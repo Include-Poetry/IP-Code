@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Recursión en C++
+tags: [Recursión]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 En la actualidad, se podría decir que ningún gran programa está hecho sin algo de *recursión*. Y esto es porque la recursión como técnica de resolver problemas es tan útil que la utilizamos en la vida cotidiana sin siquiera darnos cuenta, comprender el funcionamiento de la recursión es un arma *invaluable* e *imprescindible* en la informática.

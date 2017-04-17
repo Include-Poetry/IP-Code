@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Punteros
+tags: [Operadores, Punteros, Funciones]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 ¿Alguna vez has notado que si declaras una variable dentro de una función ésta no es accesible por otra función distinta a la de declaración? Ésta es una situación común que no debe presentar un mayor problema para el programador, pues afortunadamente existen elementos sencillos que nos permiten realizar este tipo de operaciones, esos elementos son los *punteros*.

@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Introducción a la programación en C/C++
+tags: [Introducción]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Ahora que ya conoces qué es un lenguaje de programación y en especial, qué es el lenguaje *C++* con el que estaremos trabajando, tal vez pasó por tu cabeza la idea de ¿por qué programar?

@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Plantilla string
+tags: [STL, Cadena, Variables, Variables compuestas]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 La plantilla de clase `string` almacena y manipula secuencias de variables tipo `char`.

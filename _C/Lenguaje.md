@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Lenguaje C/C++
+tags: [Introducción]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 ¿Alguna vez te has preguntado cómo es que se crean los programas? Ya sean en la computadora o en un celular (<s>en realidad en cualquier dispositivo electrónico</s>) encontramos programas y todos ellos han sido creados en base a una herramienta fundamental **un lenguaje de programación**. Existen muchos lenguajes de programación y muy a menudo se crean nuevos. *C++* es uno de ellos.

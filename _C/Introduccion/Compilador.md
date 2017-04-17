@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Compilador de C++
+tags: [Introducción]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Cuando queremos escribir un programa, lo hacemos en un determinado *lenguaje de programación*. A este escrito que hay que hacer le llamamos *código fuente* o simplemente *código*. Éste no es ejecutado por la computadora tal cual ha sido escrito, sino que debe de ser *traducido* a su lenguaje, *el lenguaje máquina*. Una de las maneras de hacer esta traducción es **compilando** el código, y esto, lo hace un **compilador**. Cada lenguaje de programación necesita un compilador particular.

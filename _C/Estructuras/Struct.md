@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Estructuras de datos en C++
+tags: [Variables compuestas, Estructuras]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Si quisiéramos describir un pastel, por ejemplo, necesitaríamos hablar de varias de sus características, al menos abarcar las que necesitaremos para realizar una descripción general. En esta descripción podemos considerar a el pastel como un conjunto de variables, pues el valor de sus características no siempre es el mismo. Este sistema es muy útil, y de hecho, sencillo de implementar en *C++*. Aquí las conocemos como *estructuras de datos*, que son un conjunto de datos, juntos, bajo un mismo nombre.

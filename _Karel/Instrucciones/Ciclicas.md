@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Instrucciones cíclicas en Karel
+tags: [Instrucciones, Ciclos]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Seguramente ya te has imaginado lo [tedioso](http://dle.rae.es/?id=ZJf6SDH){: target="_blank"} que resultaría hacer caminar 100 veces a Karel con lo que hasta ahora sabemos, pues habría que escribir 100 veces el comando `avanza;`, cosa que resulta además poco práctico.<br>

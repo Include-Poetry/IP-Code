@@ -44,9 +44,11 @@
 			{{ content }}
 
 			<p>
+				{% unless page.Hide_Tags %}
 				{% for tag in page.tags %}
 		            <a class="TagPost" href="{{ site.url }}{{ pagina }}/Tags/#{{ tag | slugify }}"><i class="fa fa-tag"></i> {{ tag }}</a>
 		        {% endfor %}
+		        {% endunless %}
 	        </p>
 	        {% unless page.Hide_FBC %}
 	        	{% include U-FBComments.html %}

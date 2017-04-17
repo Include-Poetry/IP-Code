@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Karel el robot
+tags: [Introducción]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 **Karel el robot** es una aplicación que simula un robot y su entorno. Dicho robot sigue instrucciones en su lenguaje, que tiene una sintaxis muy similar a un lenguaje de programación real, como *PASCAL*, o *Java*. Fue creado por [Richard E. Pattis en 1981](https://es.wikipedia.org/wiki/Karel_el_Robot){: target="_blank"} con un objetivo; enseñar a pensar de una manera **ordenada** y **eficiente**.

@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Instrucciones lineales en Karel
+tags: [Instrucciones]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 El funcionamiento de todo programa puede verse tan simple como **tomar una serie de instrucciones e ir haciendo lo que cada una indica**. <br>

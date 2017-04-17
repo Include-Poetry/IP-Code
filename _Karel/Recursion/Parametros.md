@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Recursión con parámetros en Karel
+tags: [Funciones, Recursión]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 ¿Has notado que con Karel no usamos números? Es decir, sí, los usamos pero sólo para la estructura `repetir`, con otra cosa no. Pero siendo más claros, no podemos contar contar alguna cosa y tener presente ese número (de lo que ya contamos) para usarlo de diversas formas ¿o sí? <br>

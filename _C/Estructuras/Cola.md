@@ -1,6 +1,9 @@
 ---
 layout: G-Article
 title: Cola
+tags: [Estructuras, Cola, Arreglos, Clases, Funciones]
+Hide_Tags: true
+categories: [C++, OMI]
 ---
 
 Otra estructura muy útil para resolver problemas es la que es del tipo *FIFO*, en este caso, ***la cola***.
