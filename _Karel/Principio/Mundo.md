@@ -4,7 +4,7 @@ title: Mundo de Karel
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
-categories: [C++, OMI]
+categories: [Karel, OMIPS]
 ---
 
 Karel al igual que todos, vive en un lugar particular, su mundo puede verse como una gran cuadricula, donde cada linea horizontal es una *calle* y cada linea vertical es una *avenida*. En otras palabras las calles corren de *este a oeste* y las avenidas de *norte a sur*. <br>
