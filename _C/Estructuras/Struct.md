@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Estructuras de datos en C++
+author: rivel_co
 tags: [Variables compuestas, Estructuras]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Estructura pair
+author: rivel_co
 tags: [STL, Listas]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Lenguaje C/C++
+author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
 categories: [C++, OMI]

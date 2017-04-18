@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Librerías para C++
+author: rivel_co
 tags: [Introducción, Librerías]
 Hide_Tags: true
 categories: [C++, OMI]

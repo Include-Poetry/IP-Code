@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Mundo de Karel
+author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
 categories: [C++, OMI]

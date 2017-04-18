@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Cola
+author: rivel_co
 tags: [Estructuras, Cola, Arreglos, Clases, Funciones]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -5,20 +5,50 @@
 <html lang="es">
 	<head>
 		{% include G-Head.html %}
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<!-- IE < 10 support -->
+		<!--[if lte IE 9]>
+			<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.iP-Sources }}/CSS/Universal/Buscador.css">
 	</head>
 
 	<body>
 		{% include G-BTTL.html %}
 		{% include G-LoaderG.html %}
-		{% include G-HBarMain.html %}
-		
-		<div class="Cuerpo">
-			<div class="Contenido">
-				{{ content }}
-			</div>
-		</div>
+		{% include G-HBarCode.html %}
+
+		<section id="main">
+			{{ content }}
+		</section>
 
 		{% include G-FGlobal.html %}
-		{% include G-ScriptU.html %}
+
+		<!-- TEMPLATES -->
+		{% raw %}
+		<script type="text/html" id="hit-template">
+			<div class="hit">
+				<div class="hit-content">
+					<a href="/Code{{ url }}"><h2 class="hit-name">{{{_highlightResult.title.value}}}</h2></a>
+					<p class="hit-description">{{{_highlightResult.text.value}}}</p>
+				</div>
+			</div>
+		</script>
+
+		<script type="text/html" id="no-results-template">
+			<div id="no-results-message">
+				<p>No se encontraron resultados para <span class="algolia__result-highlight">"{{query}}"</span>.</p>
+				<a href="." class='clear-all'>Limpiar búsqueda</a>
+			</div>
+		</script>
+		{% endraw %}
+		<!-- /TEMPLATES -->
+
+		<script type="text/javascript" src="{{ site.iP-Sources }}/JS/Universal/BTTyL.js"></script>
+		<script type="text/javascript" src="{{ site.iP-Sources }}/JS/Course/Header.js"></script>
+		<script type="text/javascript" src="{{ site.iP-Sources }}/JS/Course/Loader.js"></script>
+		<script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
+		<script src="{{ site.iP-Sources }}/JS/Universal/Buscador.js"></script>
 	</body>
 </html>

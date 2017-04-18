@@ -52,11 +52,13 @@ algolia:
     - Topicos-adicionales/Karel/index.html
     - Problemas/Resueltos/C++/index.html
     - Problemas/Resueltos/C++/Tags/index.html
+    - Buscador/index.html
   record_css_selector: 'p,ul,ol,blockquote,table'
-  attributesForFaceting:
-    - tags
-    - categories
-    - author
+  settings:
+    attributesForFaceting:
+      - tags
+      - categories
+      - author
 
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"

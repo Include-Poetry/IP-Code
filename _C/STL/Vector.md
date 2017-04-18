@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Contenedor Vector
+author: rivel_co
 tags: [STL, Vector]
 Hide_Tags: true
 categories: [C++, OMI]

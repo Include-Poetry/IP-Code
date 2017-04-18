@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Contenedor stack
+author: rivel_co
 tags: [STL, Pila]
 Hide_Tags: true
 categories: [C++, OMI]

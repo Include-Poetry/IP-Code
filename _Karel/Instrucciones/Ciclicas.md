@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Instrucciones cíclicas en Karel
+author: rivel_co
 tags: [Instrucciones, Ciclos]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión con parámetros en Karel
+author: rivel_co
 tags: [Funciones, Recursión]
 Hide_Tags: true
 categories: [C++, OMI]

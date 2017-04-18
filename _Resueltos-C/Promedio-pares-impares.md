@@ -4,6 +4,7 @@ title: Promedios con números pares e impares
 date: 2016-10-20 17:30:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
+categories: [C++, OMI]
 ---
 
 Es un clásico que en un día de aburrimiento, no nos quede de otra mas que sacar promedios de números, y como somos además muy <s>poco</s> creativos, decidimos obtener promedios de números pares e impares.

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Funciones en Karel
+author: rivel_co
 tags: [Funciones]
 Hide_Tags: true
 categories: [C++, OMI]
