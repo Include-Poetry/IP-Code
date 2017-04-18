@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Sentencias en C++
+author: rivel_co
 tags: [Ciclos, Condicionales]
 Hide_Tags: true
 categories: [C++, OMI]

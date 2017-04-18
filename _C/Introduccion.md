@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Introducción a la programación en C/C++
+author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
 categories: [C++, OMI]

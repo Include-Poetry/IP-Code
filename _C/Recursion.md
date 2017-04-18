@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión en C++
+author: rivel_co
 tags: [Recursión]
 Hide_Tags: true
 categories: [C++, OMI]

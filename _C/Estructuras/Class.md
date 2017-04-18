@@ -2,6 +2,7 @@
 layout: G-Article
 title: Class
 tags: [Variables compuestas, Funciones, Clases]
+author: rivel_co
 Hide_Tags: true
 categories: [C++, OMI]
 ---

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Plantilla string
+author: rivel_co
 tags: [STL, Cadena, Variables, Variables compuestas]
 Hide_Tags: true
 categories: [C++, OMI]

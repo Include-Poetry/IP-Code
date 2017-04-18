@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Arreglos en C++
+author: rivel_co
 tags: [Variables compuestas, Arreglos]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Zumbadores en Karel
+author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
 categories: [C++, OMI]

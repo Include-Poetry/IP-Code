@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Instrucciones condicionales en Karel
+author: rivel_co
 tags: [Instrucciones, Condicionales]
 Hide_Tags: true
 categories: [C++, OMI]

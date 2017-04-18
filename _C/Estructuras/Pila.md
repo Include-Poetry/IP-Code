@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Estructura pila
+author: rivel_co
 tags: [Estructuras, Pila, Arreglos, Clases, Funciones]
 Hide_Tags: true
 categories: [C++, OMI]

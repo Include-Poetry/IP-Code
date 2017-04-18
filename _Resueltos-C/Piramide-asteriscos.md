@@ -4,6 +4,7 @@ title: Pirámide de asteriscos
 date: 2016-10-15 23:00:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
+categories: [C++, OMI]
 ---
 
 Fascinado por la geometría de las pirámides, el maestro B, después de su visita a Teotihuacán, decidió imitar la belleza de la pirámide del Sol, y qué mejor manera de hacerlo que haciendo un programa que la dibujara. Dado un número de pisos, ayuda al maestro B, a dibujar la mitad derecha de la pirámide del Sol.

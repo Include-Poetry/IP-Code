@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Punteros
+author: rivel_co
 tags: [Operadores, Punteros, Funciones]
 Hide_Tags: true
 categories: [C++, OMI]

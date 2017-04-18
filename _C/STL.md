@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: STL en C++
+author: rivel_co
 tags: [Librerías, STL]
 Hide_Tags: true
 categories: [C++, OMI]

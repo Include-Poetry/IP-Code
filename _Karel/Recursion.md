@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión en programación
+author: rivel_co
 tags: [Recursión, Introducción]
 Hide_Tags: true
 categories: [C++, OMI]

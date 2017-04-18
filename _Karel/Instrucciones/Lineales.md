@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Instrucciones lineales en Karel
+author: rivel_co
 tags: [Instrucciones]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Operadores y entrada/salida de datos
+author: rivel_co
 tags: [Operadores]
 Hide_Tags: true
 categories: [C++, OMI]

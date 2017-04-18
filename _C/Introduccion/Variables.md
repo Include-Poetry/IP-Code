@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Tipos de variables en C++
+author: rivel_co
 tags: [Variables, ASCII, Memoria]
 Hide_Tags: true
 categories: [C++, OMI]

@@ -4,6 +4,7 @@ title: Dos dados
 date: 2016-10-15 22:22:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
+categories: [C++, OMI]
 ---
 
 El maestro B (pronunciado en inglés "Bi"), un día que no tenía mucho que hacer, buscando por sorpresas entre sus cosas, encontró una caja con muchos dados, con diferentes números de caras. Al verlos se preguntó cuáles eran todas las posibles combinaciones de puntos que podríamos obtener al lanzar dos dados. Sabía que había una cantidad considerable de combinaciones, sin embargo él quería verlas todas ordenadas, porque, como todos sabemos, al profesor B le encanta el orden, y además, le encanta resolver problemas particulares.

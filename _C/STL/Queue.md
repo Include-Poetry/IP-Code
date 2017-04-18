@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Contenedor queue
+author: rivel_co
 tags: [STL, Cola]
 Hide_Tags: true
 categories: [C++, OMI]

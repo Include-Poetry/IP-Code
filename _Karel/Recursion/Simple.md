@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión simple en Karel
+author: rivel_co
 tags: [Funciones, Recursión]
 ---
 Ya que sabemos lo que es la [recursión]({{ site.baseurl }}/Karel/Recursion/){: target="_blank"} es momento de aprender cómo aprovecharla en Karel, conocer su correcta declaración y uso principal.
