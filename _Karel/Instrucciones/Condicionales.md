@@ -4,7 +4,7 @@ title: Instrucciones condicionales en Karel
 author: rivel_co
 tags: [Instrucciones, Condicionales]
 Hide_Tags: true
-categories: [C++, OMI]
+categories: [Karel, OMIPS]
 ---
 
 En ocasiones cuando queremos hacer algo ocurre un evento desafortunado por el cual ya no podemos realizarlo, como querer comprar un pastel tres leches y que ya no haya mas que pays <span>:c</span> <br>

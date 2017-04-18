@@ -68,7 +68,7 @@ En esta sección encontrarás los concursos en los que puedes participar, la pue
 
 Otro aspecto genial sobre omegaUp es el hecho de que también soporta problemas de ***Karel***. De hecho, en omegaUp hay problemas que no están en [Karelotitlán](http://www.cmirg.com/karelotitlan/Pantallas/Inicio.aspx "Ir allá"){: target="_blank"}, por lo que si creías que sólo existía Karelotitlán para practicar tus habilidades en Karel, <span>¡no es así!</span>
 
-Los problemas de Karel en omegaUp siguen un formato muy similar al de [Karelotitlán]({{ site.baseurl }}/Karel/Karelotitlan/ "Ver guía"){: target="_blank"}:
+Los problemas de Karel en omegaUp siguen un formato muy similar al de [Karelotitlán]({{ site.baseurl }}/Problemas/Karelotitlan/ "Ver guía"){: target="_blank"}:
 
 - ***Historia o descripción***: Aquí se narra la situación que enfrenta Karel
 - ***Problema***: La situación exacta que debes resolver.

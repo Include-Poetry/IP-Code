@@ -10,12 +10,12 @@
 		{% assign pagina = "Code/Topicos-adicionales/C++" %}
 	{% endif %}
 {% endif %}
-{% if page.url contains "Problemas-resueltos/" %}
+{% if page.url contains "Problemas/Resueltos/" %}
 	{% if page.url contains "Karel/" %}
-		{% assign pagina = "Code/Problemas-resueltos/Karel" %}
+		{% assign pagina = "Code/Problemas/Resueltos/Karel" %}
 	{% endif %}
 	{% if page.url contains "C++/" %}
-		{% assign pagina = "Code/Problemas-resueltos/C++" %}
+		{% assign pagina = "Code/Problemas/Resueltos/C++" %}
 	{% endif %}
 {% endif %}
 
@@ -46,7 +46,7 @@
 			<p>
 				{% unless page.Hide_Tags %}
 				{% for tag in page.tags %}
-		            <a class="TagPost" href="{{ site.url }}{{ pagina }}/Tags/#{{ tag | slugify }}"><i class="fa fa-tag"></i> {{ tag }}</a>
+		            <a class="TagPost" href="{{ site.url }}/{{ pagina }}/Tags/#{{ tag | slugify }}"><i class="fa fa-tag"></i> {{ tag }}</a>
 		        {% endfor %}
 		        {% endunless %}
 	        </p>
