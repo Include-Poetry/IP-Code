@@ -4,7 +4,8 @@ title: Estructura pair
 author: rivel_co
 tags: [STL, Listas]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 La estructura `pair` es una plantilla que permite almacenar dos variables en un sólo objeto.

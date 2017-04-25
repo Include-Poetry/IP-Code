@@ -4,7 +4,8 @@ title: Contenedor Vector
 author: rivel_co
 tags: [STL, Vector]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 El elemento `vector` es un contenedor que funciona como un arreglo de tamaño dinámico.

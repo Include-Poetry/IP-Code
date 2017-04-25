@@ -3,7 +3,8 @@ layout: G-Article
 title: Pausar la ejecución en la consola
 author: rivel_co
 tags: [tip]
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 ¿Alguna vez has visto lo que pasa cuando ejecutas el ejecutable que se genera de algún código tuyo, fuera del IDE? Si no lo has intentado, lo que sucede es que en cuanto no ya no hay alguna solicitud de entrada de datos, es decir, que ya no hayas puesto algún `cin`, la consola se cerrará rápidamente, sin siquiera dejarnos ver las salidas.

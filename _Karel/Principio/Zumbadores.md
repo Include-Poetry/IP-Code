@@ -4,7 +4,8 @@ title: Zumbadores en Karel
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
-categories: [Karel, OMIPS]
+olimpiada: [OMIPS]
+subject: [Karel pascal]
 ---
 
 Seguramente habrás notado en el menú contextual del mundo que podemos ubicar unas cosas llamadas **zumbadores**. Un zumbador [etimológicamente](http://definicion.de/etimologia/){: target="_blank"} hablando, es un aparato que emite un zumbido. En el mundo de Karel un zumbador no es algo muy diferente, además, es algo que Karel puede **tomar** y **dejar**. Al tomarlos, los guarda en una **mochila** de capacidad (<s>extrañamente</s>) **infinita**.

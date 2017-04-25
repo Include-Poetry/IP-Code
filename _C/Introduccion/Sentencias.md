@@ -4,7 +4,8 @@ title: Sentencias en C++
 author: rivel_co
 tags: [Ciclos, Condicionales]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 Las sentencias nos permiten modificar la manera en que el código se ejecuta, además de que nos facilitan la resolución de muchos problemas, haciéndolos más sencillos de resolver al tener herramientas más eficaces para prever más situaciones y casos de problemas. Su uso es muy sencillo y tiene además muchos usos.

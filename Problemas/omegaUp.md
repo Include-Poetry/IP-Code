@@ -2,6 +2,8 @@
 layout: G-Article
 title: Problemas en omegaUp
 permalink: /Problemas/omegaUp/
+olimpiada: [OMI, OMIPS]
+subject: [C++, Karel pascal]
 ---
 
 Dicho en sus propias palabras: [omegaUp](https://omegaup.com/ "Dale un vistazo"){: target="_blank"} *es un proyecto web enfocado a elevar el nivel de competitividad de desarrolladores de software en América Latina mediante la resolución de problemas de algoritmos, con un enfoque competitivo y divertido a la vez*, además, es nuestra principal herramienta para practicar las nuevas cosas aprendidas.

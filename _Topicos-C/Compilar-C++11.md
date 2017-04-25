@@ -3,7 +3,8 @@ layout: G-Article
 title: Compilar C++11
 author: rivel_co
 tags: [C++11, tip, Compilador]
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 Así como *C++* puede ser visto como una evolución de *C*, *C++11* puede ser visto como el sucesor de C++. Es la segunda versión más reciente de este lenguaje de programación, lleva ya algunos años desde que se aprobó por la [ISO](http://www.iso.org/ "Sitio oficial"). La extensión del nombre se debe, como tradicionalmente, por el año de publicación, siendo que se publicó oficialmente en el año 2011.
