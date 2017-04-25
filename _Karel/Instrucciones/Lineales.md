@@ -4,7 +4,8 @@ title: Instrucciones lineales en Karel
 author: rivel_co
 tags: [Instrucciones]
 Hide_Tags: true
-categories: [Karel, OMIPS]
+olimpiada: [OMIPS]
+subject: [Karel pascal]
 ---
 
 El funcionamiento de todo programa puede verse tan simple como **tomar una serie de instrucciones e ir haciendo lo que cada una indica**. <br>

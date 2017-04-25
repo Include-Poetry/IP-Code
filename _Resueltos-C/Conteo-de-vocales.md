@@ -4,7 +4,8 @@ title: Conteo de vocales
 date: 2016-10-10 15:00:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 Como es bien sabido, resulta difícil hacer pan al mismo tiempo que escribes en el teclado. Sin embargo, esto para el maestro B nunca ha sido un impedimento, y aunque parezca que escribe al azar, siempre termina escribiendo algo entendible. Inclusive, le gusta hacer pruebas al momento de hacer panes y escribir. Dichas pruebas consisten en hacer un conteo de la cantidad de vocales que ingresó, pero como es muy tedioso contar letras, prefiere que un programa las cuente por él. Tu tarea es ayudarle a realizar este programa.

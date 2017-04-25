@@ -4,7 +4,8 @@ title: Contenedor list
 author: rivel_co
 tags: [STL, Listas]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 La clase `list` es un contenedor que soporta la inserción y eliminación de elementos desde cualquier parte del mismo.

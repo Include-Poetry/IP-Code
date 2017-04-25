@@ -3,7 +3,8 @@ layout: G-Article
 title: Barridos con Karel
 author: rivel_co
 tags: [Algoritmo]
-categories: [Karel, OMI]
+olimpiada: [OMIPS]
+subject: [Karel pascal]
 ---
 
 Interpretemos como *barrido* el hecho de recorrer todos los espacios posibles de una determinada área. Esto resulta especialmente útil en Karel, pues la solución a muchos problemas lo requiere. Sin embargo hay muchísimas formas de realizar un barrido, pero nuestro deber es encontrar la manera óptima de hacerlo.

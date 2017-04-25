@@ -4,7 +4,8 @@ title: Arreglos en C++
 author: rivel_co
 tags: [Variables compuestas, Arreglos]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 Así como una variable tipo `int` almacena números enteros, `char` caracteres, `bool` valores booleanos, etc. Se podría decir que existen variables que almacenan, nada más y nada menos que *otras variables*. Esta es una manera de concebir a los *arreglos*.

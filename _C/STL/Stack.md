@@ -4,7 +4,8 @@ title: Contenedor stack
 author: rivel_co
 tags: [STL, Pila]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 La clase `stack` es un contenedor que brinda la usabilidad de una estructura FILO.

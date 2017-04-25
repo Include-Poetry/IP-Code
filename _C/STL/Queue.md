@@ -4,7 +4,8 @@ title: Contenedor queue
 author: rivel_co
 tags: [STL, Cola]
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 La clase `queue` es un contenedor que brinda la usabilidad de una estructura FIFO.

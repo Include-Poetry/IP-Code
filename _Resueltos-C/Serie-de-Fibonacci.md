@@ -4,7 +4,8 @@ title: Serie de Fibonacci
 date: 2016-10-10 16:00:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 La belleza de la naturaleza sólo puede estar hecha o al azar o con una temible exactitud matemática. Al menos eso es lo que piensa el maestro B, quien ha quedado impresionado con la belleza de una flor. Al buscar sobre ella en internet, encontró que sigue el patrón que sigue la llamada ***serie de Fibonacci***.

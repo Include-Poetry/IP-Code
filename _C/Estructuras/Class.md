@@ -4,7 +4,8 @@ title: Class
 tags: [Variables compuestas, Funciones, Clases]
 author: rivel_co
 Hide_Tags: true
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 Así como las [estructuras]({{ site.baseurl }}/C++/Estructuras/Struct/ "Volver allá"){: target="_blank"}, las *clases* contienen datos miembro, como variables, pero de forma adicional, nos permiten definir ***funciones***, también como miembro.

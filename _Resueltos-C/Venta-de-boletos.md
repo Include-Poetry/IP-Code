@@ -4,7 +4,8 @@ title: Tickets
 date: 2016-10-21 22:22:00
 author: rivel_co
 tags: [Ciclos, Introductorios]
-categories: [C++, OMI]
+olimpiada: [OMI]
+subject: [C++]
 ---
 
 Para ir al cine, uno, aunque quisiera, no puede llevar a todos los amigos que tenemos, pues las salas tienen lugares limitados. Como todos sabemos el maestro B no es la excepción y como a todos, le gusta ir al cine con sus amigos. Al comprar sus boletos tiene que hacerlo en una máquina automática. Si aún quedan lugares en la sala puede seguir comprando boletos. 

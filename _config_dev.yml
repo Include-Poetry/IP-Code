@@ -57,7 +57,8 @@ algolia:
   settings:
     attributesForFaceting:
       - tags
-      - categories
+      - olimpiada
+      - subject
       - author
 
 
