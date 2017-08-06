@@ -41,7 +41,7 @@ gems:
 # Algolia - buscador
 algolia:
   application_id: 'QO0HGR5828'
-  index_name: 'IPCode'
+  index_name: 'MainIndexIPC'
   excluded_files:
     - index.html
     - 404.md
