@@ -77,12 +77,12 @@ collections:
   Karel:
     output: true
     permalink: /Karel/:path/
-  Topicos-C:
+  Otros-C:
     output: true
-    permalink: /Topicos-adicionales/C++/:title/
-  Topicos-Karel:
+    permalink: /Otros-temas/C++/:title/
+  Otros-Karel:
     output: true
-    permalink: /Topicos-adicionales/Karel/:title/
+    permalink: /Otros-temas/Karel/:title/
   Resueltos-C:
     output: true
     permalink: /Problemas/Resueltos/C++/:title/

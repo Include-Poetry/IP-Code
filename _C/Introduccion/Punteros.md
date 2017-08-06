@@ -41,7 +41,7 @@ int main(){
     return 0;
 }</textarea>
 
-Al intentar compilar el código anterior recibirás un mensaje de error del compilador indicando que la variable `temp`no ha sido declarada en ese ámbito o contexto. Y en efecto, la función `secundaria` no conoce la variable `temp`. Claro, en base a nuestros conocimientos sobre [funciones]({{ site.baseurl }}/C++/Introduccion/Funciones/ "Volver allá"){: target="_blank"}, podemos intentar algo como:
+Al intentar compilar el código anterior recibirás un mensaje de error del compilador indicando que la variable `temp` no ha sido declarada en ese ámbito o contexto. Y en efecto, la función `secundaria` no conoce la variable `temp`. Claro, en base a nuestros conocimientos sobre [funciones]({{ site.baseurl }}/C++/Introduccion/Funciones/ "Volver allá"){: target="_blank"} podemos intentar algo como:
 
 <textarea class="editor">
 #include &lt;iostream&gt;
@@ -60,7 +60,7 @@ int main(){
     return 0;
 }</textarea>
 
-Y así imprimimos el valor de la variable `temp`, sin embargo, lo que hemos hecho aquí, es copiar el valor de `temp` a una nueva variable llamada `x` que sí conoce `secundaria`, pero esta función aún no conoce la variable `temp`. El problema se vuelve más evidente al querer hacer una reasignación a una variable desde una función distinta a la que fue creada, por ejemplo:
+Y así imprimimos el valor de la variable `temp`, sin embargo, lo que hemos hecho aquí, es copiar el valor de `temp` a una nueva variable llamada `x` que sí es conocida por `secundaria`, pero esta función aún no conoce la variable `temp`. El problema se vuelve más evidente al querer hacer una reasignación a una variable desde una función distinta a la que fue creada, por ejemplo:
 
 <textarea class="editor">
 #include &lt;iostream&gt;
@@ -103,14 +103,14 @@ En la salida encontrarás un valor como `0x22fe9c`, no obtendrás exactamente es
 
 Como hemos visto, obtenemos la dirección de memoria de una variable utilizando el operador `&`, pero en el ejemplo anterior sólo lo hemos mostrado, lo útil es cuando hay una variable que pueda almacenar esa dirección de memoria, entonces es cuando utilizamos el operador de desreferencia `*`. Al utilizar este operador, podemos declarar una variable que almacene una determinada dirección de memoria, esta variable sería entonces un ***apuntador***.
 
-Entonces, el operador de desreferencia `*` indica que la variable de la que se habla no manejará enteros ni caracteres ni ninguna otra cosa que no sea una dirección de memoria. De forma esquemática, podemos decir que:
+Entonces, el operador de desreferencia `*` indica que la variable de la que se habla no manejará enteros ni caracteres ni ninguna otra cosa que no sea una ***dirección de memoria***. De forma esquemática, podemos decir que:
 
 - Una variable almacena un entero o un caracter o un valor booleano etc.
 - Una dirección de memoria es el lugar en donde se aloja el valor de esa variable.
 - El puntero almacena la dirección de memoria de otra variable como su propio valor.
 - Un puntero también tiene su propia dirección de memoria en donde almacena su valor, que en su caso es otra dirección de memoria.
 
-Por lo que sí, podemos decir que el el caso de un puntero, hay una dirección de memoria almacenado en una determinada dirección de memoria, mientras que en una variable que no sea apuntadora, hay almacenada un valor como un entero, en una determinada dirección de memoria.
+Por lo que en efecto, podemos decir que en el caso de un puntero, hay una dirección de memoria almacenado en una determinada dirección de memoria, mientras que en una variable que no sea apuntadora, hay almacenada un valor como un entero, en una determinada dirección de memoria.
 
 > Al operador de desreferencia también se le suele llamar operador de indirección.
 
@@ -137,7 +137,7 @@ int main(){
     return 0;
 }</textarea>
 
-El ejecutar el código anterior obtendremos la dirección de memoria de la variable `x`. Nota que no habríamos podido compilar siquiera si no hubiéramos puesto el operador de desreferencia `*`.
+Al ejecutar el código anterior obtendremos la dirección de memoria de la variable `x`. Nota que no habríamos podido compilar siquiera si no hubiéramos puesto el operador de desreferencia `*`.
 
 Para mostrar la cosa a la que apunta `p`, debemos utilizar el operador de desreferencia:
 
@@ -181,7 +181,7 @@ La salida del programa anterior es `5` pues hemos modificado la cosa a la que ap
 
 > Para referirnos al valor de la cosa a la que apunta el puntero, utilizamos el operador de desreferencia.
 
-Y por supuesto, podemos seguir modificando nuestra variable *apuntada* como normalmente, y puedes estar seguro de que `*p` se irá *actualizando* siempre.
+Y por supuesto, podemos seguir modificando nuestra variable *apuntada* como normalmente, y puedes estar seguro de que `*p` se irá "*actualizando*" siempre.
 
 <textarea class="editor">
 #include &lt;iostream&gt;

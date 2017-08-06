@@ -24,12 +24,12 @@ markdown: kramdown
 google_analytics: UA-74086952-1
 
 # Base del sitio url:  "http://localhost:4000"
-url: "http://192.168.1.65:4000"
+url: "http://192.168.1.75:4000"
 baseurl: /Code
 host: 0.0.0.0
 
 # Excuidos de la conversión
-exclude: [Construir.bat, Montar.bat, UpAlgolia.bat]
+exclude: [Construir.bat, Montar.bat, UpAlgolia.bat, IP-Code.sublime-workspace, Development]
 
 # Gemas - también en Gemfile
 gems:
@@ -61,10 +61,6 @@ algolia:
       - subject
       - author
 
-
-# Excuidos de la conversión
-exclude: [Montar.bat, IP-Code.sublime-workspace]
-
 # Variables del sitio
 logo-grande-n: "/Multimedia/Logo/IPoetryN.png"
 logo-chico-n: "/Multimedia/Logo/IPN.png"
@@ -81,12 +77,12 @@ collections:
   Karel:
     output: true
     permalink: /Karel/:path/
-  Topicos-C:
+  Otros-C:
     output: true
-    permalink: /Topicos-adicionales/C++/:title/
-  Topicos-Karel:
+    permalink: /Otros-temas/C++/:title/
+  Otros-Karel:
     output: true
-    permalink: /Topicos-adicionales/Karel/:title/
+    permalink: /Otros-temas/Karel/:title/
   Resueltos-C:
     output: true
     permalink: /Problemas/Resueltos/C++/:title/
