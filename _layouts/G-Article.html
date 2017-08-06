@@ -2,12 +2,12 @@
 {% include U-Comentario.html %}
 {% endif %}
 
-{% if page.url contains "Topicos-adicionales/" %}
+{% if page.url contains "Otros-temas/" %}
 	{% if page.url contains "Karel/" %}
-		{% assign pagina = "Code/Topicos-adicionales/Karel" %}
+		{% assign pagina = "Code/Otros-temas/Karel" %}
 	{% endif %}
 	{% if page.url contains "C++/" %}
-		{% assign pagina = "Code/Topicos-adicionales/C++" %}
+		{% assign pagina = "Code/Otros-temas/C++" %}
 	{% endif %}
 {% endif %}
 {% if page.url contains "Problemas/Resueltos/" %}
@@ -57,6 +57,7 @@
 		{% include G-FGlobal.html %}
 
 		{% include G-ScriptU.html %}
+		<script type="text/javascript" src="{{ site.iP-Sources }}/JS/Universal/DarkMode.js"></script>
 		{% include U-AceEditor.html %}
 	</body>
 </html>
