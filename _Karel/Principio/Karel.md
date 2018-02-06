@@ -8,6 +8,8 @@ olimpiada: [OMIPS]
 subject: [Karel pascal]
 ---
 
+En este sitio encontrarás el más completo manual y tutorial para aprender a programar a *Karel el robot*, donde además de encontrar de forma detallada todas las funciones del lenguaje, lo aprenderás con un enfoque especialmente diseñado para la [Olimpiada Mexicana de Informática](http://www.olimpiadadeinformatica.org.mx/){: target="_blank"} para [Primaria](http://www.olimpiadadeinformatica.org.mx/OMI/OMI_Primaria/Inicio.aspx){: target="_blank"} y [Secundaria](http://www.olimpiadadeinformatica.org.mx/OMI/OMI_Secundaria/Inicio.aspx){: target="_blank"}.
+
 **Karel el robot** es una aplicación que simula un robot y su entorno. Dicho robot sigue instrucciones en su lenguaje, que tiene una sintaxis muy similar a un lenguaje de programación real, como *PASCAL*, o *Java*. Fue creado por [Richard E. Pattis en 1981](https://es.wikipedia.org/wiki/Karel_el_Robot){: target="_blank"} con un objetivo; enseñar a pensar de una manera **ordenada** y **eficiente**.
 
 {: #ListaContenido}

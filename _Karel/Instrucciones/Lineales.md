@@ -15,7 +15,7 @@ Las instrucciones que se realizan en exactamente el mismo orden en el que están
 {: #ListaContenido}
 - Comandos básicos
 - Avanzar
-- Girar a la izquierda
+- Gira a la izquierda
 - Coger un zumbador
 - Dejar un zumbador
 - Apagarse
