@@ -8,7 +8,7 @@ title: Include Poetry
 description: Curso de preparación para las Olimpiadas de Informática, como la OMI y OMIPS
 
 # Email
-email: includepoetry@gmail.com
+email: contacto@include-poetry.com
 
 # Facebook
 facebook:
@@ -24,19 +24,12 @@ markdown: kramdown
 google_analytics: UA-74086952-1
 
 # Base del sitio
-# url: "https://include-poetry.github.io"
 url: "https://www.include-poetry.com"
 baseurl: /Code
 
 # Excuidos de la conversión
-exclude: [vendor, RecursosDev]
-
-# Gemas - también en Gemfile
-gems:
-  - algoliasearch-jekyll
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
+exclude:
+  - vendor
 
 # Algolia - buscador
 algolia:

@@ -132,7 +132,7 @@ int main(){
     return 0;
 }</textarea>
 
-Nota como la variable `i` irá cambiando a medida que el ciclo se repite, y para cada cambio su valor hace referencia a una locación de memoria distinta. De esta manera podemos manejar el arreglo con muy pocas líneas. <span>genial ¿no crees?</span>
+Nota como la variable `i` irá cambiando a medida que el ciclo se repite, y para cada cambio su valor hace referencia a una locación de memoria distinta. De esta manera podemos manejar el arreglo con muy pocas líneas. <span>Genial ¿no crees?</span>
 
 ## Arreglo de caracteres
 

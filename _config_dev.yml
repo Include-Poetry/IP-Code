@@ -8,7 +8,7 @@ title: Include Poetry
 description: Curso de preparación para las Olimpiadas de Informática, como la OMI y OMIPS
 
 # Email
-email: includepoetry@gmail.com
+email: contacto@include-poetry.com
 
 # Facebook
 facebook:
@@ -23,26 +23,24 @@ markdown: kramdown
 # Google services
 google_analytics: UA-74086952-1
 
-# Base del sitio url:  "http://localhost:4000"
-url: "http://192.168.1.75:4000"
+# Base del sitio url
+url: "http://localhost:4000"
 baseurl: /Code
-host: 0.0.0.0
+#host: 0.0.0.0
 
 # Excuidos de la conversión
-exclude: [Construir.bat, Montar.bat, UpAlgolia.bat, IP-Code.sublime-workspace, Development]
-
-# Gemas - también en Gemfile
-gems:
-  - algoliasearch-jekyll
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
+exclude: 
+  - Construir.bat
+  - Montar.bat
+  - UpAlgolia.bat
+  - IP-Code.sublime-workspace
+  - Development
 
 # Algolia - buscador
 algolia:
   application_id: 'QO0HGR5828'
   index_name: 'MainIndexIPC'
-  excluded_files:
+  files_to_exclude:
     - index.html
     - 404.md
     - Motivacion/index.html
@@ -53,7 +51,7 @@ algolia:
     - Problemas/Resueltos/C++/index.html
     - Problemas/Resueltos/C++/Tags/index.html
     - Buscador/index.html
-  record_css_selector: 'p,ul,ol,blockquote,table'
+  nodes_to_index: 'p,ul,ol,blockquote,table'
   settings:
     attributesForFaceting:
       - tags

@@ -43,15 +43,14 @@
 
 			{{ content }}
 
-			<p>
-				{% unless page.Hide_Tags %}
+			{% unless page.Hide_Tags %}
 				{% for tag in page.tags %}
-		            <a class="TagPost" href="{{ site.url }}/{{ pagina }}/Tags/#{{ tag | slugify }}"><i class="fa fa-tag"></i> {{ tag }}</a>
+		            <a class="TagPost" href="{{ site.url }}/{{ pagina }}/Tags/#{{ tag | slugify }}"><i class="fas fa-tag"></i> {{ tag }}</a>
 		        {% endfor %}
-		        {% endunless %}
-	        </p>
-	        {% unless page.Hide_FBC %}
-	        	{% include U-FBComments.html %}
+	        {% endunless %}
+
+	        {% unless page.no_comments %}
+	        	{% include U-Disqus.html %}
 	        {% endunless %}
 		</section>
 		{% include G-FGlobal.html %}
