@@ -33,7 +33,7 @@ Existen muchísimas maneras de hacer la implementación del *Merge Sort*, aquí 
 
 Lo primero que tenemos que realizar es la división recursiva de los conjuntos. Para realizar esto primero tenemos que definir el punto medio del conjunto, para eso usaremos la "formula" de `(inicio+fin)/2`, donde `inicio` es la locación del arreglo en donde está nuestro primer valor y `fin` es la última locación en donde hay un valor. Para hacer la división recursiva, primero llamaremos a la función recursiva desde el inicio hasta la mitad, y luego desde la locación siguiente a la mitad y hasta el final del conjunto. Hay que recordar, que cada vez que pasamos los nuevos parámetros en la recursión, nuestros límites de `inicio` y `fin` se acercan más y más, en el momento en que sean el mismo valor, habremos terminado de *fragmentar* nuestro conjunto, por lo que estaremos con conjuntos unitarios.
 
-<textarea class="editor">
+<textarea class="cpp">
 void MergeSort (int inicio, int fin){
     if (inicio == fin) return;      // Terminamos de dividir los conjuntos
     
@@ -45,7 +45,7 @@ void MergeSort (int inicio, int fin){
 
 En cuanto el flujo de la ejecución termine con la llamada recursiva para dividir la segunda mitad, entonces podemos pasar a meter en las colas los elementos de cada nuevo subconjunto. En cada subconjunto estaremos ordenando cada mitad definida en la recursión. En la llamada `cola1` meteremos los elementos de los conjuntos de la izquierda, los que van desde el `inicio` hasta `mitad` y en la llamada `cola2` meteremos los conjuntos de la derecha, los que van desde `mitad+1` hasta `fin`. Esto lo realizamos fácilmente con dos ciclos `for`.
 
-<textarea class="editor">
+<textarea class="cpp">
 for (int i=inicio; i<=mitad; i++){      // Metemos los elementos del conjunto de la izquierda
     cola1.push(arreglo[i]);
 }
@@ -61,7 +61,7 @@ No olvidemos que tenemos que seguir un criterio para ordenar, por ejemplo, para 
 
 Una vez que hayamos ubicado cada nuevo elemento tomado de las colas, sea cual sea, tenemos que actualizar el valor de `pos`, darle un valor una unidad mayor, para que se actualice el lugar donde se pondrá el nuevo elemento a guardar ya ordenado. Lo anterior lo podemos ver en este fragmento de código:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Comenzamos a mezclar los subconjuntos
 int pos=inicio;             // Definición del auxiliar de ubicaciones
     
@@ -86,7 +86,7 @@ while (!cola1.empty() || !cola2.empty()){   // Estaremos extrayendo elementos mi
 
 Podemos mezclar todo lo anterior en una sola función `MergeSort` en donde todo ensambla de la siguiente manera:
 
-<textarea class="editor">
+<textarea class="cpp">
 void MergeSort (int inicio, int fin)
 {
     if (inicio == fin) return;

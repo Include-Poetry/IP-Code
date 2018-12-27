@@ -30,7 +30,7 @@ La idea general de este tipo de estructura es igual a la fila de la panadería, 
 
 Podemos visualizar nuestra formación, cola o fila, como un arreglo de gente, donde cada persona o dato, tiene una ubicación determinada, el primer dato o persona en procesar es el que se ha formado o ingresado primero. En base a esto podemos ir generando nuestro código con un arreglo (no dinámico) como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -44,7 +44,7 @@ int main(){
 
 Donde el arreglo `cola` almacenará nuestros datos en la formación y la variable `inicio` será el índice que lleva el control de quién es el siguiente en ser atendido, es decir, como el inicio de la fila, y la variable `fin` llevará control de dónde se formará la siguiente persona. Este índice ha sido inicializado en `0`, pues la primer persona que llegué se *formará* en la primer locación del arreglo, cuando una persona se haya formado, deberemos actualizar nuestro índice, para dejar todo listo para el siguiente dato. Como podemos visualizar los datos como uno detrás del otro, pondremos el siguiente dato en la siguiente locación inmediata, por lo que por cada dato ingresado sólo hemos de desplazar el contador una unidad:
 
-<textarea class="editor">
+<textarea class="cpp">
 void push(int n){
     cola[fin] = n;
     fin++;
@@ -59,7 +59,7 @@ Además, nota que hemos utilizado el nombre convencional de `push` para la funci
 
 Para poder retirar un dato, lo que tenemos que hacer es actualizar nuestro indice que manera el inicio de la estructura, pues, para nuestro programa, los datos pertenecientes a la estructura son aquellos que se encuentran en las locaciones entre `inicio` y `fin`, si actualizamos nuestro `inicio`, estaremos dando por hecho que ese dato ya no pertenece a la estructura y que por lo tanto, lo podemos olvidar, además de actualizar y decir que el siguiente dato en ser procesado es el que se encuentra una unidad después. Nuestra función que elimina elementos de la cola será:
 
-<textarea class="editor">
+<textarea class="cpp">
 void pop(void){
     inicio++;
     return;
@@ -71,14 +71,14 @@ Como puedes notar, sólo actualizamos el índice de `inicio` y hemos utilizado e
 
 Otras funciones de nuestra pila que son muy útiles, son por ejemplo, consultar qué dato está en el inicio y en el fin de la estructura, esto lo podemos hacer así:
 
-<textarea class="editor">
+<textarea class="cpp">
 int front(void){
     return cola[inicio];
 }</textarea>
 
 Con la función anterior, estaremos devolviendo el valor del próximo elemento en salir pero sin sacarlo de la estructura. Además, hemos utilizado el clásico nombre para acceder al elemento *al frente* de la estructura `front`.
 
-<textarea class="editor">
+<textarea class="cpp">
 int back(void){
     return cola[fin-1];
 }</textarea>
@@ -87,7 +87,7 @@ La función anterior devuelve el último elemento que entró, se encuentra en la
 
 Para saber si la cola está vacía, podemos comparar nuestros índices de inicio y fin. Por ejemplo, en el inicio del uso de la estructura, tanto el fin como el inicio eran el mismo, pues no había ningún elemento en la estructura. Así podemos entender fácilmente que cuando el inicio apunte al mismo lugar que el fin, es que la cola está vacía, sin importar el valor que tengan.
 
-<textarea class="editor">
+<textarea class="cpp">
 bool empty(void){
     return inicio == fin;
 }</textarea>
@@ -108,7 +108,7 @@ Como puedes ver, podemos obtener mucha información sobre nuestra estructura uti
 
 El ejemplo completo con todas las funciones citadas sería:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -166,7 +166,7 @@ El código anterior produce como salida `20 50 40`. Nota que el código anterior
 
 Generar varias estructuras de este tipo, es sencillo utilizando clases.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 

@@ -99,7 +99,7 @@ Insertar o remover un elemento | lineal en función de la distancia a la que est
 
 **Asignaciones y entrada/salida**
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;string&gt; // Librería de la plantilla 'string'
 using namespace std;
@@ -161,7 +161,7 @@ Lorem ipsum</textarea>
 
 **Acceso a elementos**
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;string&gt;
 using namespace std;
@@ -194,7 +194,7 @@ l</textarea>
 
 **Capacidad**
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;string&gt;
 using namespace std;
@@ -237,7 +237,7 @@ La salida anterior puede variar en la línea 5, según cada computadora.
 
 **Operaciones**
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;string&gt;
 using namespace std;
@@ -378,7 +378,7 @@ Chocolat
 
 **Búsquedas**
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;string&gt;
 using namespace std;
@@ -481,7 +481,7 @@ Sub cadena no encontrada
 
 **Funciones no miembro**
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;string&gt;
 using namespace std;

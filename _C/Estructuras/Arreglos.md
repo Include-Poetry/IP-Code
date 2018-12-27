@@ -37,7 +37,7 @@ Bajo este principio es como existen y usamos los arreglos. Como un *conjunto de 
 
 Para declarar un arreglo primero tenemos que decir de qué tipo será, puede ser de cualquiera de los tipos de variables que ya vimos. Luego el nombre que tendrá el arreglo y al final y entre corchetes la cantidad de variables que tendrá este arreglo. Por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Declaración de un arreglo
 int primero[10];
 char segundo[5];
@@ -51,7 +51,7 @@ Al manejar arreglos tenemos que tener en mente siempre que son variables ordenad
 
 Al igual que cualquier otra variable ya vista, los arreglos y sus locaciones necesitan inicializarse para que podamos empezar a usar sus valores, hay varias maneras:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización 
 #include &lt;iostream&gt;
 using namespace std;
@@ -73,7 +73,7 @@ La salida del código anterior es `5 12 2`. Las *locaciones* o variables del arr
 
 También podemos inicializarlo todo de una vez, sin hacer uso de tantas asignaciones, de la siguiente manera:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización de un arreglo
 #include &lt;iostream&gt;
 using namespace std;
@@ -88,7 +88,7 @@ int main(){
 
 De esta manera, separamos con comas cada valor dentro de las llaves, estos valores se irán asignando a cada locación, en el mismo orden en el que se especifica dentro de las llaves. De esta manera el programa anterior nos daría la salida `212 5 2312`. También podemos inicializar sólo una parte del arreglo, pero en el mismo orden anterior.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización de un arreglo
 #include &lt;iostream&gt;
 using namespace std;
@@ -115,7 +115,7 @@ En el ejemplo anterior, nos referimos a algunas locaciones del arreglo de manera
 
 Ahora imagina la siguiente situación; necesitas hacer un programa que lea del teclado una 10 números, y que después de haberlos ingresado todos, los muestre en pantalla en el mismo orden en el que fueron ingresados. De manera manual tendríamos que poner $$ 10 $$ `cin` pidiendo en cada una una locación distinta, para después poner $$ 10 $$ `cout` mostrando cada una. Sin embargo de manera dinámica esto sería mucho más sencillo:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Uso de un arreglo
 #include &lt;iostream&gt;
 using namespace std;
@@ -140,7 +140,7 @@ El término *arreglo* en realidad se desprende del término original (en inglés
 
 Tomemos entonces la definición de un arreglo como una composición de partes ordenadas. Ahora, ya vimos que cada parte es una variable. Si estas variables son enteros, tenemos entonces una composición de números enteros. ¿y si estas variables son letras o simplemente caracteres?
 
-<textarea class="editor">
+<textarea class="cpp">
 // Arreglo de caracteres
 #include &lt;iostream&gt;
 using namespace std;
@@ -163,7 +163,7 @@ La salida del anterior código es `Hola`. Tras este principio es como usamos *pa
 
 ¿Y qué pasaría si hubiéramos usado menos letras que locaciones? Pues tendríamos espacios sin *inicializar*, por lo que al recorrer el arreglo completo para mostrar la palabra, obtendríamos un resultado extraño. Por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Arreglo de caracteres
 #include &lt;iostream&gt;
 using namespace std;
@@ -184,7 +184,7 @@ int main(){
 
 Al correr el código anterior, obtuve como salida `Hola  ê "` que muy seguramente es distinta a la que tú obtendrías. Esos valores que no aparecen o son caracteres extraños, pertenecen a los espacios sin inicializar. Teniendo este problema de la cantidad de locaciones y la cantidad de caracteres utilizados, *C++* nos da una gran ventaja.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Arreglo de caracteres
 #include &lt;iostream&gt;
 using namespace std;
@@ -206,7 +206,7 @@ De esta manera no nos preocupamos si se ingresa una cantidad menor de caracteres
 
 Recuerda que aún con el método anterior, la palabra ingresada sigue perteneciendo a un arreglo, y como tal, podemos referirnos a cada locación individualmente. También podemos inicializar un arreglo de caracteres de la siguiente manera:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización de un arreglo
 #include &lt;iostream&gt;
 using namespace std;
@@ -221,7 +221,7 @@ int main(){
 }</textarea>
 
 Se mostraría la salida `u P a r`. Con todo esto en mente ¿cómo mostrarías una palabra de 8 letras al revés?
-
+    
 ## Máximo de un arreglo
 
 Como ya sabes, cuando declaramos un arreglo, el compilador busca en la memoria un bloque de locaciones en donde estén todas éstas juntas, si pedimos $$ 10 $$ locaciones, no le será muy difícil encontrar un espacio en donde hay $$ 10 $$ espacios disponibles y contiguos. Pero a medida que aumentamos la cantidad de locaciones solicitadas, se vuelve una tarea más complicada encontrar un bloque más grande de espacios disponibles.

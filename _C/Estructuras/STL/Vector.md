@@ -75,7 +75,7 @@ Insertar o remover un elemento | lineal en función de la distancia a la que est
 
 ## Ejemplo general
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;vector&gt; // Librería del contenedor
 using namespace std;

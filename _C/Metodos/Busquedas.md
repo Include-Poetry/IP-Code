@@ -93,7 +93,7 @@ Son los datos que conforman nuestra entrada, por ejemplo el conjunto de números
 
 Resulta muy útil crear una [clase]({{ site.baseurl }}/C++/Estructuras/Class/ "Clases"){: target="_blank"} o una [estructura]({{ site.baseurl }}/C++/Estructuras/Struct/ "Estructuras"){: target="_blank"} para expresar las características que conforman un estado. Por ejemplo en nuestro problema de las ciudades y el máximo número de ciudades conectadas, podemos dar como definición de estado algo como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 struct estado{
     char id;
     int conexiones;

@@ -42,7 +42,7 @@ Acceder a un elemento | constante | $$ o(l) $$
 
 ## Ejemplo general
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;algorithm&gt; // Librería
 using namespace std;

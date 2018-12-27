@@ -34,7 +34,7 @@ Como ya sabemos, en la recursión necesitaremos una *llamada recursiva*, que ser
 
 Ahora, el punto más importante, <span>¿Qué queremos hacer en la recursión?</span> Vamos a crear un programa que sume todos los números enteros del $$ 1 $$ al $$ n $$, donde $$ n $$ es un número que ingresa el usuario. Dicho lo anterior podemos tener un esqueleto del programa como sigue: 
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -69,7 +69,7 @@ Ahora consideremos cómo resolvemos el problema manualmente, usando un razonamie
 Ahora tenemos que traducir nuestro procedimiento al lenguaje de programación en cuestión, es decir C++.<br>
 Notemos que podemos estar tomando el número a sumar como un parámetro de la función que realizará la magia, y además, cada que estemos agregando un número tenemos que considerar el número final, por lo que también lo pasaremos como un parámetro. Lo anterior se vería como:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -94,7 +94,7 @@ Nota que hacemos la llamada a `suma` desde `main`, pasando como parámetros el $
 
 Para hacer la llamada recursiva, tomemos en cuenta que la función `suma` desde donde sea que sea citada, va a devolver un entero, por lo que podemos usar ese valor que está regresando a nuestro favor. También recordemos que el número que estamos agregando al total, es una unidad menor al siguiente, por lo que la próxima vez que llamemos a la función, (ya dentro de la recursión), debemos de sumarle $$ 1 $$ al número que recién se sumó. El número final debe mantenerse igual, pues el valor final es siempre el mismo.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -122,7 +122,7 @@ Si tuviéramos $$ n = 2 $$ entonces sólo tendríamos que tomar nuestro $$ 1 $$,
 
 Por lo anterior, podemos ver, que el método que nos está generando el resultado de todas las respuestas, está en la línea 8. Siendo ahí donde generamos el resultado, es el valor que debemos regresar, sumado, claro, al número actual sumado, pues juntos irán generando la serie.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -150,7 +150,7 @@ Sin embargo, sucede una cosa, la primera vez que la ejecución toca la línea 8,
 
 Ya lo habíamos dicho cuando sintetizamos la información, sabemos que terminamos cuando el próximo número a sumar sea $$ n $$, por lo tanto, mientras ese número actual, no sea $$ n $$, podemos seguir con la recursión, y si el número a sumar ya es igual al final, lo que nos faltaría por sumar, sería precisamente ese número final, por lo que sería el valor a devolver.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -203,7 +203,7 @@ A continuación se agregan más ejemplos con los que puedas agudizar aún más t
 
 Podemos imprimir el abecedario, apoyándonos el el código ASCII. Para imprimirlo al revés, podemos usar recursión, aprovechando la pila de llamadas, el hecho de que el primer elemento en entrar es el último en salir.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -232,7 +232,7 @@ int main(){
 
 El máximo común divisor de dos números, es el número más grande que divide a ambos de forma entera. Para este ejemplo recursivo, se utiliza el ***algoritmo de Euclides***.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -257,7 +257,7 @@ int main(){
 
 Usando el mismo principio, podemos obtener el máximo común divisor de tres números:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -289,7 +289,7 @@ El clásico problema de Fibonacci desarrollado con recursión. Ya en la sección
 
 Como ejemplo la serie empezaría como $$ 1, 1, 2, 3, 5, 8, 13 ... $$
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 

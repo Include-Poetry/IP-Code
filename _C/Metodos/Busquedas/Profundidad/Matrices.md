@@ -53,7 +53,7 @@ Además de nuestra matriz de caracteres, necesitaremos otra matriz de iguales me
 
 Según lo anteriormente dicho, sólo nos falta realizar la búsqueda. Hasta ahora tenemos nuestra solución del siguiente modo:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #define MAX 1000
 using namespace std;
@@ -98,7 +98,7 @@ La forma en la que la búsqueda funcionará debe estar perfectamente regulada, p
 - La generación de cada nuevo camino será generada en llamadas recursivas individuales y seriadas, de esa forma por cada dirección que tomemos, dejaremos pendiente en la recursión el resto de las direcciones.
 - Cuando lleguemos a la casilla de fin, podemos aumentar nuestro contador de formas posibles y regresar en la recursión, pues no es necesario explorar estados a partir del estado meta o final.
 
-<textarea class="editor">
+<textarea class="cpp">
 void DFS(int x, int y){
     /* ----------- Creación de los posibles estados ----------- */
     DFS(x+1, y);                // Probamos avanzando hacia la derecha
@@ -111,7 +111,7 @@ void DFS(int x, int y){
     return;
 }</textarea>
 
-<textarea class="editor">
+<textarea class="cpp">
 void DFS(int x, int y){
     /* ------------ Determinación de un estado válido ------------ */
     // Si nos salimos de los límites o si es una casilla no válida o es la casilla de la que venimos
@@ -128,7 +128,7 @@ void DFS(int x, int y){
     return;
 }</textarea>
 
-<textarea class="editor">
+<textarea class="cpp">
 void DFS(int x, int y){
     // Si nos salimos de los límites o si es una casilla no válida o es la casilla de la que venimos
     if (x < 0 || y < 0 || x >= columnas || y >= filas || mapa[x][y] == '#' || visi[x][y]){
@@ -148,7 +148,7 @@ void DFS(int x, int y){
     return;
 }</textarea>
 
-<textarea class="editor">
+<textarea class="cpp">
 /* -------------------------- función completa de búsqueda -------------------------- */
 void DFS(int x, int y){
     // Si nos salimos de los límites o si es una casilla no válida o es la casilla de la que venimos
@@ -176,7 +176,7 @@ void DFS(int x, int y){
 
 Así, al final tendremos un código completo como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #define MAX 1000
 using namespace std;
