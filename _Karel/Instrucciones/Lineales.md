@@ -42,7 +42,7 @@ Karel avanzará todas las veces que tú le indiques siempre y cuando **le sea po
 
 Sintaxis:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 avanza;</textarea>
 
 Karel, aunque hábil, no puede atravesar paredes, así que de intentarlo, mostrará un mensaje de error.
@@ -58,7 +58,7 @@ Durante la ejecución de un programa **Karel se orienta girando**. Toma en cuent
 
 Sintaxis:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 gira-izquierda;</textarea>
 
 > A diferencia de la instrucción `avanza`, **no hay nada** que pueda impedir a Karel girar.
@@ -75,7 +75,7 @@ Por cada instrucción `coge-zumbador` Karel toma un zumbador, y así sucesivamen
 
 Sintaxis:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 coge-zumbador;</textarea>
 
 > Karel no puede tomar un zumbador de donde no hay <s>(lógicamente)</s>.
@@ -92,7 +92,7 @@ Por cada instrucción `deja-zumbador` Karel deja un zumbador, y así sucesivamen
 
 Sintaxis:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 deja-zumbador;</textarea>
 
 > Karel no puede dejar un zumbador si ya no tiene en la mochila (<s>lógicamente</s>).
@@ -104,7 +104,7 @@ Karel no puede "reiniciarse" si no es volviendo a iniciar la ejecución, porque 
 
 Sintaxis:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 apagate;</textarea>
 
 > No importa si hay comandos después de `apagate`, al llegar a éste, la ejecución terminará.

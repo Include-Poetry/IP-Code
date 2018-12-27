@@ -79,7 +79,7 @@ Podemos verlo en las descripciones generales, el algoritmo más sencillo de impl
 
 En base a la descripción general que hicimos al inicio, podemos llegar al siguiente código:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
   define-nueva-instruccion barrido como
   inicio

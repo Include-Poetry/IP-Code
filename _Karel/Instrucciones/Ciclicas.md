@@ -30,13 +30,13 @@ mientras condición hacer acción-a-realizar;</textarea>
 Comienza con la palabra de control `mientras` que le dice al compilador que sigue una sentencia repetitiva, seguido de una **condición**, luego la palabra de control `hacer` y finalmente **las acciones a realizar**. <br>
 ¿Recuerdas las [condiciones]({{ site.baseurl }}/Karel/Instrucciones/Condicionales/#condiciones-disponibles){: target="_blank"} que Karel puede evaluar? Pues aquí las volvemos a usar, para decirnos que **mientras** esa condición se cumpla, Karel realizará las acciones dichas. Por ejemplo:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 mientras no-orientado-al-norte hacer gira-izquierda;</textarea>
 
 Con la línea anterior nos aseguramos de que Karel se oriente al norte, pues estará girando mientras no tenga esa orientación <span>(muy útil, ¿verdad?)</span>. <br>
 A estas alturas seguramente has deducido cómo resolver el problema inicial:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 mientras frente-libre hacer avanza;</textarea>
 
 <span>¿Y qué hay de las [condiciones agrupadas]({{ site.baseurl }}/Karel/Instrucciones/Condicionales/#condiciones-agrupadas){: target="_blank"}?</span> Las podemos utilizar de la misma manera que con la sentencia `si`, utilizando una clausula `o`, una clausula `y`, e incluso también la clausula `no` según nos convenga.
@@ -56,7 +56,7 @@ La palabra de control `veces`. <br>
 Las acciones a realizar. <br>
 Viéndolo en un ejemplo quedaría como sigue.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 repetir 12 veces coge-zumbador;</textarea>
 
 Con el código anterior Karel tomará exactamente 12 zumbadores de la posición sobre la que está. <br>
@@ -67,22 +67,22 @@ En ese caso se mostraría un mensaje de error, pues Karel **no puede tomar zumba
 
 `mientras` sencillo
 
-<textarea class="eKarel">
+<textarea class="karelp">
 mientras izquierda-bloqueada hacer avanza;</textarea>
 
 `repetir` sencillo:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 repetir 3 veces gira-izquierda;</textarea>
 
 `mientras` compuesto:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 mientras izquierda-bloqueada y frente-libre hacer avanza;</textarea>
 
 `mientras` con bloque:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 mientras algun-zumbador-en-la-mochila hacer
 inicio
 	si frente-libre entonces avanza;
@@ -92,7 +92,7 @@ fin;
 
 `repetir` con bloque:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 repetir 8 veces
 inicio
 	avanza;
