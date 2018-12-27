@@ -36,7 +36,7 @@ Para crear un contenedor que funcione como una pila y de forma no dinámica, usa
 
 Por lo tanto, primero declaramos un nuevo arreglo, para este ejemplo lo haremos de enteros `int`, además en el ejemplo almacenaremos máximo $$100$$ elementos. Para fines prácticos, declararemos nuestra pila como una variable global.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -49,7 +49,7 @@ int main(){
 
 Entonces, en el arreglo `pila` estaremos guardando nuestros datos. Nota que lo importante de este tipo de estructuras es la forma en la que manejamos los datos cuando entran y cuando salen. Para esto, nos estaremos apoyando en una variable que será nuestro ***índice***, esta variable irá recordando cuál es la posición en la que ingresará el nuevo elemento y también cuál es el próximo elemento en salir. A nuestro índice lo llamaremos `i` y su valor inicial será $$0$$ por comodidad. Por el mismo motivo la declararemos como una variable global también.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -69,7 +69,7 @@ Ahora sí, el punto interesante es cuando empezamos a ingresar datos. Como decí
 
 Una vez que el nuevo valor se ha ingresado a la estructura, hay que actualizar nuestro índice, indicando en dónde irá el siguiente elemento que pueda llegar. Entonces lo que haremos será "mover" una locación nuestro índice hacia adelante, es decir, el siguiente elemento (el segundo) se guardará en `pila[1]`. Considera que en el caso específico de este ejemplo, la función sólo necesita saber qué valor ingresará, pues gracias al índice ya sabe donde lo guardará.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -99,7 +99,7 @@ Entonces, todo sobre nuestra pila está entre `0` y `i-1`, no es hasta `i`, de h
 
 En base a lo anterior, nuestro código iría así:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -130,7 +130,7 @@ Entonces, ya podemos ingresar datos y sacarlos de nuestro arreglo también, todo
 
 Seguramente hay más cosas que necesitaremos en un problema que sólo meter y sacar elementos. Una función clásica es obtener el valor del próximo elemento en salir, es decir, del último que entró. Esto sin eliminarlo de la pila. Generalmente a esta función de la pila se le llama `top`.
 
-<textarea class="editor">
+<textarea class="cpp">
 int top(void){
     return pila[i-1];
 }</textarea>
@@ -139,7 +139,7 @@ Podemos confirmar su funcionamiento por el razonamiento que hacíamos anteriorme
 
 Otra función útil es saber si el contenedor está vacío, de estar vacío no podemos seguir retirando elementos. Esto lo podemos revisar fácilmente viendo el valor de nuestro índice, si ese índice vale $$0$$ entonces podemos decir que el contenedor está vacío, pues estaríamos como en las condiciones iniciales. A la función que revisa si un contenedor de este estilo está vacío o no, se le llama típicamente `empty`.
 
-<textarea class="editor">
+<textarea class="cpp">
 bool empty(void){
     return i == 0;
 }</textarea>
@@ -162,7 +162,7 @@ Nota que la función anterior devuelve `true` cuando la pila está vacía.
 
 De manera global, podemos ver el código como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -224,7 +224,7 @@ Es importante que notes además, que deberás adaptar el concepto de muchas form
 
 Para una implementación mucho más útil, es aconsejable utilizar clases, dejando un código como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 

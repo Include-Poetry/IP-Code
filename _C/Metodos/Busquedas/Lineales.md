@@ -38,7 +38,7 @@ En nuestro problema general, utilizando C++, podemos hacer un barrido convencion
 
 Para una forma iterativa:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -71,7 +71,7 @@ int main(){
 
 Para una forma recursiva: 
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -122,7 +122,7 @@ Ahora sólo tienes que cambiar en la descripción anterior, los *pasteles* por *
 
 ### Implementación
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -194,7 +194,7 @@ Aplicando el mismo concepto de los intervalos, podemos comenzar con la parte ***
 
 Para una forma iterativa:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -243,7 +243,7 @@ int main(){
 
 Para una forma recursiva:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 

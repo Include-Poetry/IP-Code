@@ -61,7 +61,7 @@ Con lo anterior, podemos anticiparnos a decir que las dimensiones del mapa son v
 
 Para las ***características de un estado*** en un problema de este tipo, vamos a considerar obviamente, el punto en el que estamos, es decir, la ***posición*** del mapa que estamos revisando para así poder conocer los estados próximos, que corresponden a las posiciones contiguas. Entonces por cada estado, habrá que recordar la coordenada en $$x$$ y la coordenada en $$y$$ (recuerda que lo estamos visualizando como un plano cartesiano). La otra característica muy importante, es la cantidad de operaciones que hemos realizado hasta ese estado, es decir, la ***distancia*** que hemos recorrido para llegar a esa posición. Para esas tres características, resulta muy útil crear una estructura o clase que las contenga. Para este ejemplo utilizaremos clases.
 
-<textarea class="editor">
+<textarea class="cpp">
 class estado{
   public:
     int x;  // Coordenada en x
@@ -78,7 +78,7 @@ Entonces, iremos avanzando a los estados inmediatos o contiguos al nuestro y los
 
 Como se menciona en el razonamiento del problema, está de más revisar una misma posición más de una vez, si ahí no estaba lo que buscábamos al inicio, no estará si revisamos de nuevo (al menos no en la mayoría de los problemas). Por lo tanto, será bueno recordar qué posiciones ya hemos revisado, para no revisarlas de nuevo. Además, sabemos de antemano, que no podremos revisar posiciones externas al mapa, es decir, que caigan fuera de los límites de nuestra matriz-plano-cartesiano. Tampoco sería buena idea procesar las paredes o los puntos por los que no podemos circular, pues no tiene sentido por definición del problema. En base a todo esto, sabremos que usaremos estructuras como:
 
-<textarea class="editor">
+<textarea class="cpp">
 char mapa[MAX][MAX];            // Mapa
 bool visitado[MAX][MAX];        // Mapa de visitados
 queue&lt;estado&gt; cola;             // Cola con los estados a revisar
@@ -89,7 +89,7 @@ Como puedes ver, hemos definido la matriz que será el mapa (`mapa`) por defecto
 
 ## Implementación iterativa
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;queue&gt;
 #define MAX 1000
@@ -160,7 +160,7 @@ Como ya hemos mencionado, lo primero es comenzar por nuestro estado inicial, el 
 
 La función que realiza lo anterior puede ser:
 
-<textarea class="editor">
+<textarea class="cpp">
 int BFS(int h, int l, int x, int y){
     estado inicial(x, y, 0);    // Estado inicial con coordenadas iniciales y 0 pasos dados
 
@@ -193,7 +193,7 @@ Nota la forma tan genial en que generamos los cuatro posibles nuevos estados inm
 
 El código completo de esta solución es:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;queue&gt;
 #define MAX 1000

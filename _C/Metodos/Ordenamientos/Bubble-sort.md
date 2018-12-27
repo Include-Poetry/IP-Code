@@ -47,7 +47,7 @@ Puedes observar el algoritmo en acción con la siguiente animación:
 
 La implementación del Bubble sort en C++ es bastante sencilla
 
-<textarea class="editor">
+<textarea class="cpp">
 for (int i = 0; i < N; i++){
     for (int j = 0; j < N - 1; j++){
         if (conjunto[j] > conjunto[j + 1]){

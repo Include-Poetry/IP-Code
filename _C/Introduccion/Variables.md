@@ -54,7 +54,7 @@ tipo-de-variable nombre-de-variable[=valor]</textarea>
 
 Nota que lo que está entre corchetes es opcional, puedes o no dar el valor a la variable al mismo tiempo que la declaras. Podemos además declarar varias variables del mismo tipo separándolas con comas. Si quisiéramos declarar variables como las básicas, sería así:
 
-<textarea class="editor">
+<textarea class="cpp">
 int T=1401, variable=1, a;
 float pi=3.14, decimal, otra=0.23;
 char letra='C', mas;

@@ -27,7 +27,7 @@ Los comentarios nos permiten agregar mensajes en el código que el compilador ig
 <br>
 Para agregar un comentario en línea debemos agregar dos *slash* seguidos, uno detrás del otro `//` lo que está a la derecha de este símbolo será ignorado por el compilador.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -42,7 +42,7 @@ Nota que la instrucción `cout` y `return` sí serán tomadas en cuenta por el c
 <br>
 Si queremos hacer un comentario más extenso, que ocupe varias líneas del código, podemos agregar varios comentarios en línea, por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -56,7 +56,7 @@ int main(){
 
 Sin embargo, puede resultar tedioso poner muchos `//` si vamos a comentar una parte muy grande del programa, y para esto tenemos los comentarios *de varias líneas* que marcarán como tal a todo lo que esté entre `/*` y `*/`. El mensaje anterior escrito con estos comentarios sería así:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -70,7 +70,7 @@ int main(){
 
 Como recordarás, *la práctica y la organización hacen al maestro*, mantener nuestros códigos ordenados es muy importante, tanto como lo es agregar comentarios, puedes usarlos para especificar qué estabas haciendo en las líneas difíciles, cómo lograste descifrar el problema, qué método implementaste o qué problema estabas realizando. Todo lo que puedas necesitar para que si un día vuelves a ver un viejo código tuyo, recuerdes cómo lo hiciste.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Problema de "Hola mundo"
 // Realizado por #iP
 #include &lt;iostream&gt;
@@ -96,7 +96,7 @@ Las `acciones` son cualquier instrucción que queramos realizar.
 <br>
 Un ejemplo completo sería:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia if
 #include &lt;iostream&gt;
 using namespace std;
@@ -117,7 +117,7 @@ En el ejemplo anterior la sentencia de la línea 7 realizará la acción entre s
 <br>
 También puede evaluar con los operadores de conjunción y disyunción, `&&` y `||`
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia if y operadores && y ||
 #include &lt;iostream&gt;
 using namespace std;
@@ -139,7 +139,7 @@ Al final de la ejecución del anterior programa nuestras variables quedarán as�
 
 La sentencia `if` puede ser utilizada agregando un `else` al final de su bloque. Las acciones del bloque de éste último serán ejecutadas si el valor booleano evaluado *no* es verdadero. De hecho, la traducción inmediata de `else` es *sino*.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia if con else
 #include &lt;iostream&gt;
 using namespace std;
@@ -161,7 +161,7 @@ En este caso como `A` no es mayor $$ 13 $$ sólo se mostrará el mensaje `La var
 
 A diferencia de `if` esta sentencia no trabaja directamente con un valor *booleano* sino que trabaja con uno de los valores que conformarían a ese valor. Seguramente esto no ha quedado muy claro, así que vamos a revisarlo por partes. Lo primero es su estructura.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Estructura de switch
 switch ( x ){
    case y:
@@ -185,7 +185,7 @@ El funcionamiento de `switch` es muy sencillo, si el valor que está en el paré
 
 Pueden haber tantos casos como gustes, y dentro de cada caso pueden haber las acciones que tú decidas. Un ejemplo real sería:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Uso switch
 #include &lt;iostream&gt;
 using namespace std;
@@ -233,7 +233,7 @@ Imagina que queremos imprimir (mostrar en pantalla) los números del $$ 0 $$ has
 
 La sentencia `while` repite las acciones que abarca y en el mismo orden, mientras el valor booleano que evalúa sea verdadero. Su estructura es la siguiente.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Estructura de while
 while ( valor_booleano ){
    // Acciones a repetir
@@ -241,7 +241,7 @@ while ( valor_booleano ){
 
 Recuerda que por `valor_booleano` debemos entender cualquier expresión que nos devuelva un valor `true` o `false`, como puede ser una *comparación* o una *variable o función booleana*. También podemos usar operadores de *conjunción* y *disyunción*. Ahora, imagina el siguiente ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Uso de while
 #include &lt;iostream&gt;
 using namespace std;
@@ -256,7 +256,7 @@ int main(){
 
 ¿Cuántas veces se mostrará el mensaje "*hola*"? No es necesario pensarlo muchas veces si nos damos cuenta de que la variable `T` siempre va a ser mayor a $$ 0 $$, esto haría que el programa nunca terminara, pues se quedaría *ciclado*, es decir, la ejecución estaría en un ciclo interminable. Aquí está el factor principal que debemos tener en cuenta al utilizar una estructura cíclica, el asegurarnos de que *termine en algún momento*. En el ejemplo anterior para que ese ciclo termine la variable `T` tiene que cambiar. Podemos hacer lo siguiente:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Uso de while
 #include &lt;iostream&gt;
 using namespace std;
@@ -279,7 +279,7 @@ Como ya se terminó de ejecutar el bloque de `while`, se vuelve a checar la cond
 
 ¿Cuántas veces se mostrará el mensaje "*hola*"? ¿Por qué pasa así? Prueba ahora con este código:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Uso de while
 #include &lt;iostream&gt;
 using namespace std;
@@ -304,7 +304,7 @@ int main(){
 
 En base al siguiente segmento de código:
 
-<textarea class="editor">
+<textarea class="cpp">
 int T = 5;
 while ( T > 10 ){
    cout << "Mensaje\n";
@@ -313,7 +313,7 @@ while ( T > 10 ){
 
 ¿Cuántas veces se mostrará la palabra "*Mensaje*"? En efecto, no se mostrará ninguna vez, pues `T` no fue mayor de $$ 10 $$ al llegar al `while`. Si hubiéramos querido que primero se ejecutara lo que hay en las líneas 3 y 4 hubiéramos tenido que usar la estructura `do{} while()` justo así:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Estructura do while
 int T = 5;
 do {
@@ -329,7 +329,7 @@ Nota también que `T` no fue mayor a 10 en ningún momento, sin embargo las inst
 
 La última sentencia cíclica (<s>y mi favorita</s>) es la estructura `for`. Ésta es un poco diferente a las dos anteriores, su estructura es así:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Estructura for
 for ( b1; b2; b3 ){
    // Acciones a repetir
@@ -342,7 +342,7 @@ En donde está *b2* irá el valor booleano de control del ciclo.<br>
 En donde está *b3* irá la (o las) modificaciones a la (o las) variables de control.<br>
 Para que quede bien claro, un ejemplo completo es:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Estructura for
 for ( int T=0; T < 10; T++ ){
    cout << T << " ";
@@ -364,7 +364,7 @@ También podemos no poner nada en el bloque de *b3*, por ejemplo si vamos a modi
 También podemos no utilizar la variable de control en el bloque de *b2*, pero siempre siempre debe haber algo ahí que devuelva un valor booleano.<br>
 Debido a esto podemos escribir un programa como este:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Estructura for
 #include &lt;iostream&gt;
 using namespace std;
@@ -402,7 +402,7 @@ Las sentencias de salto nos permiten modificar la forma en la que se ejecuta una
 `break`<br>
 Esta sentencia hace que al momento de que la ejecución pasa por ella, se *salga* de la sentencia cíclica en la que está metida sin importar el valor booleano de control. Por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia break
 #include &lt;iostream&gt;
 using namespace std;
@@ -425,7 +425,7 @@ Seguramente también recuerdas que encontramos `break` anteriormente en la estru
 `continue`<br>
 Esta sentencia se *brinca* una iteración, justo la iteración en la que se aplicó esta sentencia. No se sale del ciclo completo, sino que sólo no hace una repetición.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia continue
 #include &lt;iostream&gt;
 using namespace std;
@@ -445,7 +445,7 @@ En este ejemplo se estaría mostrando el valor de `T`, pero cuando su valor sea 
 `goto`<br>
 Esta para el funcionamiento de esta sentencia, necesitamos declarar previamente una *etiqueta*. Esta etiqueta se compone de un nombre válido seguido de dos puntos, va ubicada en cualquier parte del código. Una etiqueta no lleva un *tipo* que la preceda, sólo es el nombre válido y dos puntos. Al momento de que la ejecución pase por la sentencia `goto` se redirigirá hacia la línea donde está esa etiqueta y se seguirá desde ahí.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia goto
 #include &lt;iostream&gt;
 using namespace std;
@@ -467,7 +467,7 @@ int main(){
 
 El anterior programa mostraría la salida `Otro mensaje 0 1 2 3 4 5 6 7 8 9 `. El mensaje de la línea 8 no se mostraría, sin embargo la variable `letra` sí se declaró. No se puede inicializar en una parte del código que sea saltado por un `goto`, de hacerse una inicialización será ignorada.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sentencia goto
 #include &lt;iostream&gt;
 using namespace std;

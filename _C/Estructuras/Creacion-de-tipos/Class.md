@@ -44,7 +44,7 @@ De igual forma, podemos declarar objetos justo entre la llave de cierre y el pun
 
 Un ejemplo de declaración de una clase es:
 
-<textarea class="editor">
+<textarea class="cpp">
 class Pastel{
     int precio;
     string sabor;
@@ -57,7 +57,7 @@ Como puedes ver, nuestra clase se llama `Pastel`, que es como el nuevo tipo de v
 
 Como ha sido declarado, podemos acceder normalmente a las funciones públicas, justo como lo haríamos en una estructura (`struct`), tan solo insertando un punto. Por ejemplo podemos hacer algo como:
 
-<textarea class="editor">
+<textarea class="cpp">
 GrandDuc.inicializar(12,"chocolate");
 cout << GrandDuc.precio_por_rebanadas(3);</textarea>
 
@@ -72,7 +72,7 @@ int Nombre_de_clase::Nombre_funcion_miembro(int x){
 
 En el caso de nuestro ejemplo de la clase `Pastel` sería:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -107,7 +107,7 @@ Además, es importante notar el uso del ***operador de alcance*** (*scope operat
 
 También puedes definir las funciones miembro dentro de la misma definición de la clase, sería como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -138,7 +138,7 @@ Ambos métodos son válidos.
 
 El principal atributo de las clases, es el hecho de que podemos declarar varios objetos de la misma clase y mantendrán sus propiedades individualmente, por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -176,7 +176,7 @@ Como hemos visto, hemos llamado a la función `precio_por_rebanadas` sólo despu
 
 Podemos crear un constructor de clase de manera interna en la definición de clase, o externa como con las demás funciones miembro. En ambos casos creamos una nueva función que no regresa ningún tipo de dato, de hecho ni siquiera hay que poner un tipo de dato `void`. Para la ***definición externa*** ponemos el nombre de la clase, los dobles dos puntos y luego de nuevo el nombre de la clase, para la ***definición interna*** basta con crear una función con el nombre de la clase, en ambos casos los parámetros que recibe la función, serán las variables privadas que hemos declarado y que queremos *inicializar*. En base a nuestro ejemplo, añadiendo un constructor podemos deshacernos de la función `inicializar`, pues de eso se encargará nuestro *constructor*. La forma de utilizarlo es como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -209,7 +209,7 @@ Como podrás notar, hemos declarado e inicializado al mismo tiempo nuestros past
 
 Otra cosa genial sobre las clases, es que podemos crear un constructor *default*, que inicialice de forma predeterminada el objeto, y además, otro constructor para hacer una inicialización específica, por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 

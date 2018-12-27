@@ -24,7 +24,7 @@ Como se decía cuando se introdujeron los [tipos de variables]({{site.baseurl}}/
 
 Nosotros casi no notamos la presencia de las direcciones, sin embargo son elementales. Cuando declaramos una variable en una función, sólo esa función conoce la dirección de memoria de esa variable, por lo que al querer citarla desde otra parte, esa variable resulta desconocida, por ejemplo el siguiente caso:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -43,7 +43,7 @@ int main(){
 
 Al intentar compilar el código anterior recibirás un mensaje de error del compilador indicando que la variable `temp` no ha sido declarada en ese ámbito o contexto. Y en efecto, la función `secundaria` no conoce la variable `temp`. Claro, en base a nuestros conocimientos sobre [funciones]({{ site.baseurl }}/C++/Introduccion/Funciones/ "Volver allá"){: target="_blank"} podemos intentar algo como:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -62,7 +62,7 @@ int main(){
 
 Y así imprimimos el valor de la variable `temp`, sin embargo, lo que hemos hecho aquí, es copiar el valor de `temp` a una nueva variable llamada `x` que sí es conocida por `secundaria`, pero esta función aún no conoce la variable `temp`. El problema se vuelve más evidente al querer hacer una reasignación a una variable desde una función distinta a la que fue creada, por ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -85,7 +85,7 @@ El código anterior seguirá mostrando como salida el valor de `10`, pues no ha 
 
 Como se mencionaba antes, las variables tienen asociada una dirección de memoria única, esa dirección podemos verla nosotros utilizando el operador de dirección de memoria `&`. Si ya tenemos declarada una variable, podemos ver su dirección de memoria así:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -118,12 +118,12 @@ Por lo que en efecto, podemos decir que en el caso de un puntero, hay una direcc
 
 Para declarar un puntero, tenemos que especificar el tipo de dato al que apuntará, además, debemos de usar el operador de desreferencia y luego declarar el nombre del puntero.
 
-<textarea class="editor">
+<textarea class="cpp">
 int *puntero;</textarea>
 
 En el ejemplo anterior hemos declarado un puntero de enteros que se llama `puntero`. Recordemos que sólo almacenará direcciones de memoria, y sólo de variables tipo `int` en este ejemplo, en base a esto podemos hacer algo como:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -141,7 +141,7 @@ Al ejecutar el código anterior obtendremos la dirección de memoria de la varia
 
 Para mostrar la cosa a la que apunta `p`, debemos utilizar el operador de desreferencia:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -159,7 +159,7 @@ La salida del código anterior es `10`, pues es la cosa a la que el apuntador ap
 
 En base a lo anterior podemos modificar una variable utilizando el apuntador asociado:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -183,7 +183,7 @@ La salida del programa anterior es `5` pues hemos modificado la cosa a la que ap
 
 Y por supuesto, podemos seguir modificando nuestra variable *apuntada* como normalmente, y puedes estar seguro de que `*p` se irá "*actualizando*" siempre.
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -209,7 +209,7 @@ El código anterior dará como salida `10 5 20`.
 
 Como seguramente ya te puedes imaginar, el problema inicial se resuelve fácilmente con punteros y de hecho, de dos formas distintas:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -229,7 +229,7 @@ int main(){
 
 O también:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -253,7 +253,7 @@ Donde el parámetro de la función `secundaria` ha sido declarado como una ***re
 
 Si podemos hacer punteros a cualquier tipo de variable, entonces también podemos hacer punteros a otros punteros. La forma de hacerlo es muy sencilla:
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 

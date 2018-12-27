@@ -38,7 +38,7 @@ Si una función debe devolver algo, es importante que al final de su función lo
 <br>
 Toma en cuenta que en algunos casos necesitaremos más de un parámetro para hacer la ejecución de una función, estos parámetros pueden ser de distintos tipos, y deberán declararse en el paréntesis como si fueran variables nuevas, y en el mismo orden con el que se *pasaron* desde el lugar de donde la función fue llamada. (<span>Si no te queda muy claro aún, espera a la explicación de las llamadas a función</span>). La declaración real de una función es algo así:
 
-<textarea class="editor">
+<textarea class="cpp">
 int funcion(void){
 	char b;
 	return 5;
@@ -46,7 +46,7 @@ int funcion(void){
 
 Nota que la función devuelve un entero, al final devolvió $$ 5 $$ que sí es un entero. También pudo haber regresado una variable, siempre y cuando sea del mismo tipo del valor que devolverá. Nota también que esta función no necesitó un parámetro para funcionar, es por eso que entre el paréntesis se puso `void`. La función lo único que hizo fue declarar una variable tipo carácter y después regresar $$ 5 $$.
 
-<textarea class="editor">
+<textarea class="cpp">
 void funcion(int a, int b){
 	char letra;
 	bool otra;
@@ -62,12 +62,12 @@ Para llamar a una función debemos considerar dos cosas, *lo que devuelve* y *lo
 
 Cuando llamamos a una función que no necesita parámetros, podemos poner en su paréntesis `void` o dejarlo en blanco. Si necesita de algunos parámetros, dentro del paréntesis irán esos valores, en el mismo orden en el que deberán declararse en la función invocada.
 
-<textarea class="editor">
+<textarea class="cpp">
 int valor=FuncionGenial();</textarea>
 
 En este ejemplo suponemos que la función `FuncionGenial` regresa un entero y no necesita de un parámetro;
 
-<textarea class="editor">
+<textarea class="cpp">
 OtraFuncion(5, 'T');</textarea>
 
 En este ejemplo suponemos que la función no devuelve nada y necesita como parámetro dos valores, el primero tipo entero y el segundo tipo carácter.
@@ -78,7 +78,7 @@ Cuando compilamos un código fuente en C/C++, el compilador, una vez que haya co
 
 Es importante saber que no se supone que se llame a ella en alguna parte del programa, sólo es por donde el compilador inicia su ejecución. La función `main` siempre devuelve un entero y no necesita valores externos para funcionar. Su declaración sería así. (<span>Una vez que compiles el siguiente código habrás creado oficialmente tu primer programa, y no puede ser un genial primer-programa si no es: </span>)
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -93,7 +93,7 @@ Nota que al final estamos cumpliendo con el hecho de que debe devolver un entero
 
 El orden en el que declaramos las funciones es importante, pues no podemos llamar a una función si no la hemos declarado previamente. Imagina el siguiente ejemplo:
 
-<textarea class="editor">
+<textarea class="cpp">
 int main(void){
    int valor=FuncionSec();
    return 0;
@@ -106,7 +106,7 @@ int FuncionSec(void){
 
 En este caso no podríamos compilar ese programa, porque la función `FuncionSec` está declarada después de donde es llamada. Para solucionar esto podemos hacer una de dos cosas, la primera es declarar la función `FuncionSec` antes de `main`
 
-<textarea class="editor">
+<textarea class="cpp">
 int FuncionSec(void){
    int a=5;
    return a;
@@ -119,7 +119,7 @@ int main(void){
 
 La otra forma es usando *funciones prototipo*. Para esto hacemos la declaración sólo de la parte superior de la función, es decir, lo que regresa, el nombre de la función y los parámetros que necesita, después de esto va `;`. De la siguiente manera.
 
-<textarea class="editor">
+<textarea class="cpp">
 int FuncionSec(void);
 
 int main(void){

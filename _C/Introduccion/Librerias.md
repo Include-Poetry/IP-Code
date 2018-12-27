@@ -74,7 +74,7 @@ Debido a esto y aunque su uso es muy práctico, sugiero no utilizarla al hacer n
 
 ## Ejemplos
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;cmath&gt;
 #include &lt;cstring&gt;

@@ -178,7 +178,7 @@ Podemos imaginarnos un árbol fácilmente como un árbol genealógico, donde el 
 
 Podemos también definir un árbol utilizando listas o matrices de adyacencia, o podemos utilizar estructuras, que de hecho es lo más clásico y recomendable. Para un árbol binario, por ejemplo, en el que cada nodo tiene máximo dos nodos hijos, podemos definir una estructura como sigue:
 
-<textarea class="editor">
+<textarea class="cpp">
 struct nodo{
     int id;             // El identificador del nodo en sí
     int HijoIzq;        // El identificador del hijo izquierdo

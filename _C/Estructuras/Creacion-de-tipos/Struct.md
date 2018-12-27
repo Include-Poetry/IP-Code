@@ -44,7 +44,7 @@ Así, podemos decir, que `SelvaNegra` es un objeto del tipo *pastel*, y que adem
 
 Así como fácilmente en el ejemplo anterior, pudimos decir un tipo de objeto, sus características, y además crear un objeto de ese tipo, podemos, con la misma facilidad, hacer lo mismo en C++. Para esto usaremos el elemento `struct`. Su sintaxis es muy similar a la manejada en el ejemplo.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sintáxis de struct
 struct TipoDeObjeto{
     // Características
@@ -53,7 +53,7 @@ struct TipoDeObjeto{
 
 Primero usamos la palabra reservada `struct`, seguido del nombre del *tipo* de objeto. Luego, y entre llaves, ponemos sus características, que estarán relacionadas con un tipo de variable, y un nombre para ésta. Al final ponemos un `;`. Siguiendo eso, si quisiéramos hacer nuestro objeto tipo *pastel* una realidad, haríamos lo siguiente:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Sintáxis de struct
 struct pastel{
 	char tamano;
@@ -64,7 +64,7 @@ struct pastel{
 
 Nota que para el tamaño estamos contemplando solamente una letra, (C, M, G). Para el sabor estamos contemplando una palabra, por ello utilizamos un arreglo. El precio lo tomamos como que siempre será un número entero, y el peso como un número que sí puede ser decimal. Un programa incluyendo lo anterior, y además declarando un objeto en sí, de éste tipo, se vería así:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Declaración con struct
 #include &lt;iostream&gt;
 using namespace std;
@@ -84,7 +84,7 @@ int main(){
 
 Como verás, aún no hemos dado características a `SelvaNegra`, sino que sólo hemos dicho que usaremos un objeto de tipo `pastel` y que se llamará así. Para darle las características, podemos hacer dos cosas, la primera es dar sus valores al momento que lo declaramos, poniendo los valores de cada característica *en el mismo orden* en el que están las variables declaradas dentro del tipo de objeto.
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización en linea con struct
 #include &lt;iostream&gt;
 using namespace std;
@@ -104,7 +104,7 @@ int main(){
 
 La otra manera de hacerlo, es refiriéndonos a cada característica del objeto. Para hacerlo, usaremos el operador `.` que nos da una *instancia* de un objeto. Es lo que hemos venido manejando como las *características*. Para referirnos a cada *instancia* de un objeto, debemos poner primero el nombre del objeto (no su tipo), luego el operador `.` y después el nombre de la instancia, en otras palabras, el nombre de la variable declarada dentro del tipo de objeto. En nuestro ejemplo sería de la siguiente manera:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización individual con struct
 #include &lt;iostream&gt;
 using namespace std;
@@ -134,7 +134,7 @@ int main(){
 
 Para este ejemplo se puso como comentario la asignación y salida de la propiedad `sabor`, esto debido a que no podemos hacer la asignación directa a un arreglo completo, como lo hicimos en el ejemplo anterior. Sin embargo, podemos referirnos a cada locación de la instancia, de esta manera:
 
-<textarea class="editor">
+<textarea class="cpp">
 // Inicialización individual con struct
 #include &lt;iostream&gt;
 using namespace std;

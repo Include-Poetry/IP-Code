@@ -53,7 +53,7 @@ Eliminar un elemento | constante | $$ O(l) $$
 
 ## Ejemplo general
 
-<textarea class="editor">
+<textarea class="cpp">
 #include &lt;iostream&gt;
 #include &lt;stack&gt; // Libreria
 using namespace std;
