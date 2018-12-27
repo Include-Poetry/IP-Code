@@ -21,7 +21,7 @@ subject: [Karel pascal]
 La **función principal** es la parte del código por donde empieza a realizarse la ejecución, es lo primero que busca el compilador cuando queremos que ejecute nuestro código, por lo tanto **siempre** debe estar presente en nuestros programas. <br>
 En el simulador de Karel, podemos encontrar la función principal al iniciar a hacer un nuevo programa. Para esto nos dirigimos a la pestaña de **programa** y a continuación en el botón nuevo.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	inicia-ejecucion
 		apagate;
@@ -37,7 +37,7 @@ Una función secundaria o [subrutina](https://es.wikipedia.org/wiki/Subrutina){:
 
 En Karel para declarar una función nueva, hay que usar la siguiente estructura:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 define-nueva-instruccion MiFuncion como
 inicio
 	avanza;
@@ -54,7 +54,7 @@ Los nombres de las funciones que declaramos no se ponen en azul como el resto de
 
 Para ejecutar la instrucción que acabamos de declarar, hay que llamarla por su nombre desde la parte del  programa que queremos que se ejecute. Podemos llamar una instrucción secundaria **desde cualquier parte** <span>(excepto por lo mencionado arriba)</span>.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion MiFuncion como
 	inicio
@@ -75,7 +75,7 @@ En este ejemplo llamamos a nuestra función secundaria desde la función princip
 
 Recuerda que cuando corremos un código compilado, siempre siempre va a empezar la ejecución por la primera instrucción de la función principal. Algunos ejemplos de instrucciones en la función principal son:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	inicia-ejecucion
 		repetir 3 veces avanza;
@@ -86,7 +86,7 @@ iniciar-programa
 	termina-ejecucion
 finalizar-programa</textarea>
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	inicia-ejecucion
 		si frente-libre entonces avanza;
@@ -99,7 +99,7 @@ finalizar-programa</textarea>
 
 ¿Notaste lo que hace Karel al girar tres veces a la izquierda?
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	inicia-ejecucion
 		mientras frente-libre hacer avanza;
@@ -112,7 +112,7 @@ finalizar-programa</textarea>
 
 ## Ejemplos de funciones secundarias
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion AvanzayGira como
 	inicio
@@ -127,7 +127,7 @@ finalizar-programa</textarea>
 
 ¿Recuerdas el segundo ejemplo de la función principal?
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion gira-derecha como
 	inicio

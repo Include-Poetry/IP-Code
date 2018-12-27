@@ -55,7 +55,7 @@ Es por esto que cuando la ejecución llega a la línea 9 en la pila de llamadas 
 
 Primero veamos la manera correcta de realizar una llamada recursiva con Karel. En estos casos, podemos tomar como recursión el hecho de **llamar a una función desde sí misma**. Es decir, tener una función y como una instrucción dentro de ella está el realizar la función misma. <span>¿No queda muy claro?</span> Analiza el siguiente código.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion avanzando como
 	inicio
@@ -91,7 +91,7 @@ La acción empieza en la línea 11 cuando desde la función principal se llama a
 
 ¿Notaste que durante la ejecución algo tuviera alguna relación con la pila de llamadas? Si pones atención, notarás que Karel avanzó la misma cantidad de veces que se llamó a la instrucción `avanzando`. Exactamente la misma cantidad, pues cada que se llamaba a la instrucción Karel avanzaba. Siendo así, podemos utilizar esto a nuestro favor. Hagamos una pequeña modificación al código que usamos arriba.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion avanzando como
 	inicio

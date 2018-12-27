@@ -94,21 +94,21 @@ fin;</textarea>
 
 Puede darse (<s>muy seguido</s>) que necesitemos considerar no sólo una condición, si ese es el caso podemos usar una simple clausula `y` para agregar más, por ejemplo:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador y frente-libre entonces avanza;</textarea>
 
 Karel avanzará si y sólo si **ambas condiciones se cumplen**, es decir, si está junto a un zumbador **y** tiene el frente libre. No importa si sólo una se cumple, **tienen que cumplirse ambas** para que la acción se realice.
 
 Pero existe otro caso, el caso en el que tanto si se cumple una u otra condición se realice cierta acción. Ahí usamos la cláusula `o` como sigue:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador o izquierda-libre entonces deja-zumbador;</textarea>
 
 En este caso, Karel dejará un zumbador si **una de las dos condiciones se cumple** es decir si está junto a un zumbador **o** si tiene la izquierda libre. No importa si una no se cumple, **con que una de las dos se cumpla** se realizará la acción.
 
 Está además la clausula `no`, que se considera verdadera cuando la condición **no** se cumple
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si no frente-bloqueado entonces avanza;</textarea>
 
 Karel avanzará si el frente **no** está bloqueado.<br>
@@ -119,17 +119,17 @@ Sí, en este caso podemos utilizar la condición análoga, sin embargo, más ade
 
 Condición sencilla:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si frente-libre entonces avanza;</textarea>
 
 Condición completa:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si frente-libre entonces avanza sino gira-izquierda;</textarea>
 
 Condición sencilla con bloque:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador entonces
 inicio
 	coge-zumbador;
@@ -138,7 +138,7 @@ fin;</textarea>
 
 Condición completa con bloque:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador entonces
 inicio
 	coge-zumbador;
@@ -151,7 +151,7 @@ fin sino
 
 Condición agrupada sencilla con bloque:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador y frente-libre entonces
 inicio
 	coge-zumbador;
@@ -160,7 +160,7 @@ fin;</textarea>
 
 Condición agrupada completa con bloque:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador y frente-libre entonces
 inicio
 	coge-zumbador;
@@ -173,7 +173,7 @@ fin sino
 
 Por si no te lo habías preguntado, puedes poner una condición dentro de otra, de hecho **puedes poner cualquier cosa dentro de un bloque**.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si junto-a-zumbador y frente-libre entonces
 inicio
 	coge-zumbador;

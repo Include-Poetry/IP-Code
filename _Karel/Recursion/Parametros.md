@@ -44,7 +44,7 @@ Para el caso mencionado nuestras variables tendrían valores como sigue: `libros
 
 ¿Notaste que en la pila de llamadas cada que se llamaba una función, al registrarse su nombre se ponía justo delante unos paréntesis vacíos? Seguro te preguntaste el porqué de esos paréntesis. En realidad, esos paréntesis están ahí para mostrar **el valor de un parámetro**. <span>¿Pero qué parámetro?</span> Hasta ahora no hemos declarado ningún parámetro en realidad, no le hemos dicho a el compilador que vamos a usar alguno, pero él ya está listo para el caso en el que lo necesitemos. Para declarar un parámetro tenemos que hacerlo de la siguiente manera:
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion UnaNueva(x) como
 	inicio
@@ -72,7 +72,7 @@ Ahora, ya hemos declarado, un parámetro, (<span>genial</span>) pero <span>¿Par
 
 En las matemáticas el poder de las variables está en que podemos modificar su valor, por ejemplo sumándole alguna determinada cantidad (u otra variable incluso). En el lenguaje de Karel, también podemos modificar el valor de sus parámetros, la manera de hacer esto es en realidad sencilla (<s>y poderosa</s>).
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion UnaNueva(x) como
 	inicio
@@ -114,7 +114,7 @@ Como puedes ver, el valor de su parámetro comenzó siendo 0, porque así lo def
 Así como en la vida conocemos la suma y la resta, también Karel conoce el principio de añadir y de quitar. Como ya vimos, añade con `sucede`. <br>
 Para que Karel quite o disminuya un valor, utilizamos la expresión `precede`. Su funcionamiento es más o menos igual al de `sucede`, sólo que es [inverso](http://dle.rae.es/?id=M3NVLLY){: target="_blank"}.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion UnaNueva(x) como
 	inicio
@@ -166,7 +166,7 @@ NombreDeFuncion( 1+( 1+(valor) ) )</textarea>
 
 <span>Seguramente ya lo tienes</span>. Para hacer, entonces que Karel incremente 2 a su parámetro por cada llamada recursiva, un código completo se vería así. 
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion UnaNueva(x) como
 	inicio
@@ -193,12 +193,12 @@ En realidad Karel también puede evaluar un número ya definido, pero el que nos
 
 Recuerda que estamos hablando de **una condición** aunque a diferencia de las demás parezca más bien una comparación en sí por como se lee. Pero no te confundas, un ejemplo te será más útil.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 si si-es-cero(x) entonces avanza;</textarea>
 
 De esta forma, si el valor de el parámetro `x` es igual a 0, Karel avanzará. En un programa completo podemos verlo así.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion UnaNueva(x) como
 	inicio
@@ -222,7 +222,7 @@ Seguramente ya notaste que en este caso Karel nunca dejará un zumbador ni hará
 
 Cuando vimos por primera vez la cláusula `no`, parecía que usarla no tenía mucho sentido, sin embargo, ahora y dado a que no existe la condición `no-es-cero(x)` tenemos que usar la cláusula `no` forzosamente para evaluar cuando una variable **no** es igual a cero.
 
-<textarea class="eKarel">
+<textarea class="karelp">
 iniciar-programa
 	define-nueva-instruccion UnaNueva(x) como
 	inicio
