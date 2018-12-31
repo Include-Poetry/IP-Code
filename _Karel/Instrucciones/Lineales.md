@@ -110,5 +110,5 @@ apagate;</textarea>
 > No importa si hay comandos después de `apagate`, al llegar a éste, la ejecución terminará.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Simulador/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/Karel/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">Tema siguiente</a>
 </div>

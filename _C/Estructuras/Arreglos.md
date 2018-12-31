@@ -233,5 +233,5 @@ Debido a esto, no podemos declarar arreglos excesivamente grandes, de hecho los 
 Recordemos además el hecho de que tenemos que ser considerados con la memoria, si declaramos un arreglo tipo `int` de $$ 1000000 $$ de locaciones, y cada variable `int` mide $$ 32 $$ bits, y además $$ 1000 $$ bits equivalen a un *kilobit* y a su vez, $$ 1000 $$ kilobits equivalen a un *megabit*, el arreglo mencionado nos constaría ¡$$ 32 $$ *mb* de memoria!
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Introduccion/Sentencias/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Introduccion/Sentencias/" title="Sentencias &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/" title="Struct &vert; #iP Code">Tema siguiente</a>
 </div>

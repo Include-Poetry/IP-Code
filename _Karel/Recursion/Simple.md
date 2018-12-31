@@ -139,5 +139,5 @@ Como puedes notar, Karel gira la misma cantidad de veces que la cantidad de zumb
 > Pon a prueba lo que has aprendido haciendo los problemas de la sección de recursión de Karelotitlán.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Recursion/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/Parametros/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/Karel/Recursion/" title="Recursión &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/Parametros/" title="Recursión con parámetros &vert; #iP Code">Tema siguiente</a>
 </div>

@@ -195,5 +195,5 @@ De las grandes cualidades de estas estructuras, es que su implementación estimu
 Más adelante retomaremos estas estructuras para conocer distintas formas de *recorrer* cada nodo y aprovecharemos la naturaleza de las aristas para poder optimizar búsquedas y ordenamientos, entre muchas cosas más.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Recursion/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">Tema siguiente</a>
 </div>

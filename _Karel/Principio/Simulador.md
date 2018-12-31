@@ -1,6 +1,6 @@
 ---
 layout: G-Article
-title: Instalación y uso de Karel el robot
+title: Simulador Karel.js
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -8,104 +8,87 @@ olimpiada: [OMIPS]
 subject: [Karel pascal]
 ---
 
-Lo primero que tenemos que hacer es conseguir la última versión del simulador desde la página oficial de Karel, <span>es decir [acá](http://www.cmirg.com/karelotitlan/Pantallas/descargas.aspx){: target="_blank"}</span>. <span>[¿Ya no recuerdas qué es Karel el robot?]({{ site.baseurl }}/Karel/Principio/Karel/){: target="_blank"}</span>
-
-La versión que usaremos para entrenar es la versión **azul** de Karel. Las otras versiones son para desarrollar y probar problemas, y mundos para ellos. No los usaremos por ahora.
-
-> No olvides que también puedes usar la [versión en línea](https://omegaup.com/karel.js/){: target="_blank"}, pero es más recomendable que lo tengas instalado en tu equipo.
+En las competencias oficiales utilizamos [Karel.js](https://omegaup.com/karel.js/ "Karel.js"){: target="_blank"} para resolver los problemas. Antes se utilizaba [Karel Azul](http://www.cmirg.com/karelotitlan/Pantallas/descargas.aspx){: target="_blank"} pero la versión oficial hasta la fecha es Karel.js que tiene muchas mejoras respecto a su antecesor. En otros artículos se profundiza sobre el [mundo y sus opciones]({{ site.baseurl }}/Karel/Principio/Mundo/ "Mundo de Karel &vert; #iP Code") además de los [zumbadores]({{ site.baseurl }}/Karel/Principio/Zumbadores/ "Zumbadores de Karel &vert; #iP Code").
 
 {: #ListaContenido}
-- Instalación
-- Mundo
-- Programa
-- Ejecutar
-- Ayuda
+- Lenguaje y código
+- Ejecutando un programa
+- Barra superior de botones
+- Apartado de mensajes
+- Pila de llamadas
 
-## Instalación
+## Lenguaje y código
 
-Una vez que lo hayas descargado, ejecuta el archivo de instalación, primero el instalador te dirá lo que está instalando, es decir el programa `Karel OMI V2011`.
+En el simulador de *Karel.js* podemos escribir nuestro código en el recuadro que se ubica en la parte izquierda de la pantalla. Por el momento *Karel.js* puede operar en modalidad **Pascal** y modalidad **Java**. Estas son versiones del lenguaje que el simulador puede entender, como si pudiera *hablar* esos dos idiomas. La versión de *Ruby* aún está bajo desarrollo.
 
-Después de pedirá el lugar donde el simulador será instalado. <span>Está bien si dejas la ubicación [predeterminada](http://dle.rae.es/?id=TxXcrju){: target="_blank"} y sólo presionas el botón de `Next >`</span>.
+Para comenzar a escribir tu código puedes dirigirte a la pestaña de `Código` en la parte superior de la pantalla, ahí encontrarás las opciones para comenzar un código nuevo en alguno de los tres lenguajes mencionados. También está la opción de `Abrir` por si tienes algún código guardado que quieras trabajar ahí y la opción de `Guardar` para que salves el código que estás editando.
 
-A continuación se te ofrecerá la opción de crear un acceso directo en el escritorio, esto es para que puedas encontrarlo desde la pantalla principal  de tu computadora más fácilmente. <span>Tampoco hay problema si no seleccionas esta casilla</span>.
+Cada que comiences un código nuevo *Karel.js* te pondrá algo así como una *plantilla* en el **editor de código**. Esa plantilla es ideal para que tú te pongas a escribir tu código rápidamente. Sólo puedes editar el código cuando no hay algún programa ejecutándose. Puedes asegurarte que no hay nada corriendo al presionar el botón con el símbolo <i class="fas fa-redo-alt"></i> en la parte superior derecha. 
 
-Ahora sólo queda confirmar la configuración de instalación y dejar que se instale el programa de "Karel el robot". Al finalizar presiona el botón `Finish`, Karel estará instalado ya en tu equipo.
+## Ejecutando un programa
 
-Una vez instalado el programa, podemos abrirlo. Lo encontrarás fácilmente en el inicio de tu computadora, o en el escritorio si así lo escogiste. Al abrirlo lo primero que encontrarás será una pantalla azul con algunas opciones en la parte superior.
+Para ejecutar un programa lo primero que tenemos que hacer es asegurarnos de que el código a ejecutar está bien escrito en el editor, para esto hay que **compilarlo**. Para compilar el código vamos a presionar el segundo botón (de izquierda a derecha) de la barra superior <i class="fas fa-th-large"></i>. Si hay algún problema con el código entonces aparecerá un mensaje en el recuadro inferior izquierdo del entorno.
 
-[<picture>
-	<source media="(min-width=700px)" srcset="{{ site.iP-Sources }}/Multimedia/Simulador/Principal.jpg">
-	<img class="Imagen" width="100%" src="{{ site.iP-Sources }}/Multimedia/Simulador/Principal.jpg">
-</picture>]({{ site.iP-Sources }}/Multimedia/Simulador/Principal.jpg){: data-lightbox="image-1"}
+Una vez que el código ya está compilado correctamente pasamos a presionar el botón <i class="fas fa-play"></i> (el tercero de izquierda a derecha). Con eso haremos que Karel comience a hacer lo que le hemos indicado en el código que escribimos y compilamos, es decir, Karel ejecutará el programa.
 
-## Mundo
+## Cinta de opciones
 
-En la parte superior de la ventana se encuentran cuatro pestañas. La primera de ellas es la de Mundo. En ella se encuentra el entorno donde Karel se desenvuelve. <s>Sí, su mundo</s>. Y debajo de la tira de pestañas están algunas opciones para ese mundo.
+En la parte más superior de la pantalla encontramos una cinta que lleva cuatro pequeñas pestañas diferentes, como `Mundo` ([de quien ya hablamos en otro lado]({{ site.baseurl }}/Karel/Principio/Mundo/ "Mundo de Karel &vert; #iP Code")), `Código` (de quien hablamos arriba), `Opciones` y `Ayuda`.
 
-[<picture>
-	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Simulador/Mundo.jpg">
-	<img class="Imagen" width="100%" src="{{ site.iP-Sources }}/Multimedia/Simulador/Mundo.jpg">
-</picture>]({{ site.iP-Sources }}/Multimedia/Simulador/Mundo.jpg){: data-lightbox="image-1"}
+En la pestaña de `Opciones` puedes encontrar una función para cambiar el *tema* del editor de código, personalmente sugiero un tema oscuro (alguno que diga *dark* en el nombre), pues resulta ser menos molesto para los ojos después de largas horas programando.
 
-**Nuevo**: Te permite crear un mundo nuevo, si ya hiciste modificaciones a tu mundo lo borra todo y crea uno en blanco. <span>Ten cuidado, esta opción no pide confirmación</span>. <br>
-**Guardar**: Cuando creas un mundo tienes la posibilidad de guardarlo para usarlo después. Al usar esta opción el programa te pedirá que escojas una ubicación y un nombre para el archivo que será el mundo que hiciste. <br>
-**Abrir**: Aquí puedes seleccionar un mundo guardado previamente para volverlo a abrir en el editor. <br>
-**Guardar como**: <span>¿Cuál es la diferencia al botón de `Guardar`?</span> Si ya guardaste un mundo y lo sigues editando, y ahora quieres guardarlo como un archivo nuevo (<span>sin reemplazar el respaldo anterior</span>) usa esta opción.
+En la pestaña de `Ayuda` puedes encontrar el *Acerca de* de esta aplicación para que conozcas a los programadores detrás de ello. También está la parte de `Manual y trucos` <s>en donde tristemente no figuramos</s> donde puedes encontrar la primer versión de los manuales de Karel, la misma que está disponible con *Karel Azul*.
 
-**Zumbadores en la mochila**: Aquí puedes definir la cantidad inicial que Karel llevará en su mochila. No olvides que puede cambiar durante la ejecución del programa, la cosa aquí es que el número que definas ahí será la cantidad con la que Karel empieza. <br>
-<span>¿Y el botón de infinito?</span> Si lo que quieres es hacer que Karel empiece con una cantidad [infinita](http://dle.rae.es/?id=LWs5qiN){: target="_blank"} de zumbadores, no escribas nada, sólo presiona este botón.
+## Barra superior de botones
 
-Por último en la pestaña de mundo puedes encontrar unas flechas. Con ellas puedes desplazar la pantalla por el mundo, sin embargo así no mueves a Karel, sólo la vista que tú tienes del mundo.
+### Velocidad de ejecución
 
-## Programa
+Con velocidad de ejecución nos referimos a el tiempo que Karel espera entre una acción y otra. Ese tiempo está dado en milisegundos (ms). En *Karel.js* podemos indicar la velocidad de ejecución en el apartado de `Retraso` de la parte superior. Por ejemplo, si indicamos un retraso de 1000 entonces Karel esperara 1 segundo entre una acción y otra. Si ponemos un valor de 50 entonces Karel hará las cosas mucho más rápido.
 
-Aquí es en donde <span>la magia ocurre</span> pues es donde escribimos nuestro código que pasará a ser el programa que controle a Karel.
+Modificar la velocidad de ejecución es muy útil cuando estamos viendo qué es lo que hace exactamente nuestro programa, en ocasiones servirá que Karel se mueva muy rápido y otras veces querremos que lo haga lento para apreciar cada detalle.
 
-[<picture>
-	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Simulador/Programa.jpg">
-	<img class="Imagen" width="100%" src="{{ site.iP-Sources }}/Multimedia/Simulador/Programa.jpg">
-</picture>]({{ site.iP-Sources }}/Multimedia/Simulador/Programa.jpg){: data-lightbox="image-1"}
+### Paso a paso
 
-**Nuevo**: Para empezar a escribir tu código, comienza presionando este botón. Insertará cinco líneas de código que servirán como base para nuestros programas. <br>
-**Abrir**: Cuando hayas guardado un código que ya hayas hecho, puedes volver a abrirlo en el editor con esta opción. <br>
-**Guardar**: Aquí puedes guardar tu código en un archivo de texto. Al igual que con el mundo, al usar esta opción te pedirá seleccionar una ubicación y un nombre para el archivo. <br>
-**Guardar como**: Al igual que en el mundo, permite guardar un archivo en un lugar y bajo un nombre nuevo. <br>
-**Compilar**: Al [compilar](http://dle.rae.es/?id=A11NS9d){: target="_blank"} nuestro código, todo lo que escribimos es traducido a un lenguaje que Karel puede entender, para poder realizar correctamente lo que le pedimos. Recuerda que para ello todos los comandos e instrucciones que pusimos deben de estar escritos **correctamente**, de otra manera no se podrá realizar la *traducción* y el programa nos devolverá un error de compilación, mostrando un mensaje donde dice en qué parte del código algo está mal escrito. Si todo está en orden, se mostrará un mensaje diciendo "*Programa compilado*".
+El botón *paso a paso* <i class="fas fa-forward"></i> es el cuarto de izquierda a derecha. Cada que presionamos este botón Karel realiza únicamente una operación, es decir, hace que Karel haga las cosas paso a paso, un click = un paso.
 
-> No olvides que el simulador nos permite saber cuando escribimos mal un comando, cada palabra debe estar de color azul para que  esté correctamente escrita. Sin embargo sólo al tratar de compilar podremos saber de otros errores como la falta de un punto y coma o una equivocada organización de los comandos de una instrucción. (<s>No se puede todo en la vida :c</s>)
+### Ver el futuro
 
-<span>¿Y qué significa la última opción?</span>. Al final de la tira de opciones podemos ver un pequeño recuadro donde escogemos entre "Pascal" o "Java", esto es el tipo de sintaxis con el que escribimos nuestro programa (<span>como el "idioma" en que estamos escribiendo</span>). Ambos términos hacen referencia a los lenguajes de programación real que llevan precisamente esos nombres. Aquí manejaremos la sintaxis tipo "Pascal".
+Al presionar este botón *Karel.js* nos mostrará cómo queda el mundo al terminar de ejecutar todo nuestro programa. Esto es muy útil cuando Karel tiene muchas cosas que hacer y queremos ver el resultado final en un instante.
 
-> Es muy muy importante que recuerdes y entiendas que siempre siempre antes de querer ejecutar un programa, tienes que **compilarlo**.
+### Volver al inicio
 
-## Ejecutar
+Al presionar este botón el mapa del mundo se mueve automáticamente hasta la posición inicial en `1, 1`. Este botón es el quinto de izquierda a derecha y tiene una casita en él <i class="fas fa-home"></i>. 
 
-Siguiendo con nuestra [analogía](http://dle.rae.es/?id=2Vt6TRt){: target="_blank"} esta ventana es donde <span>vemos cómo ocurre la magia</span>.
+### Ve a donde esté Karel
 
-[<picture>
-	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Simulador/Ejecutar.jpg">
-	<img class="Imagen" width="100%" src="{{ site.iP-Sources }}/Multimedia/Simulador/Ejecutar.jpg">
-</picture>]({{ site.iP-Sources }}/Multimedia/Simulador/Ejecutar.jpg){: data-lightbox="image-1"}
+Este botón es el sexto y en él está Karel orientado al norte (<s>una flecha que apunta hacia arriba</s>). Al presionarlo aparece Karel en la vista del mapa del mundo actual, no importa dónde se encuentre él.
 
-Como podrás notar, del lado izquierdo está el código que compilamos, desde aquí **no podemos hacer modificaciones**. Del lado derecho y ocupando la mayor parte de la pantalla encontramos el mundo de Karel, **tampoco podemos hacer modificaciones en él desde aquí**. <br>
-<span>¿Entonces para qué están ahí?</span> El objetivo de estos recuadros es que podemos ver lo que hace Karel **al mismo tiempo** que vemos la línea del código que hace que haga eso. <span>Así podemos ver qué está pasando y porqué está pasando eso</span>.
+### Zumbadores en la mochila de Karel
 
-En la parte superior podemos encontrar varias opciones: <br>
-**Adelante**: Al presionar este botón se ejecuta la siguiente línea de código, se señala en la línea del programa y lo vemos en el mundo. <span>Es como verlo un paso a la vez.</span> <br>
-**Correr**: Con esta opción el código corre todo de manera automática. A diferencia de "*Adelante*" aquí sólo tenemos que presionar una vez para que se ejecute todo el código. <br>
-**Detener**: Si ya estás usando la opción de "*Correr*", y necesitas detener la ejecución por un momento (<s>como pausarlo</s>), usa este botón. Puedes [reanudar](http://dle.rae.es/?id=VHq0Zj1){: target="_blank"} después. <br>
-**Inicializar**: Si en algún momento quieres detenerlo todo y volver a empezar desde el principio, después de detener la ejecución, usa este botón. Tanto el código, como el mundo volverá a su estado inicial.
+En la barra donde están los demás botones, en la novena posición está el recuadro de `Mochila`, ahí podemos especificar cuántos zumbadores tiene Karel en su mochila al inicio de la ejecución. Puede tener cualquier cantidad, incluso infinito.
 
-Tal vez ya hayas notado que aquí tampoco podemos cambiar el número de zumbadores que Karel lleva en la mochila, pero es como ver el número de zumbadores en tiempo real que Karel va dejando o tomando.
+### Retraso
 
-<span>¿Qué es el retardo de ejecución?</span> El retardo de ejecución es cuánto tiempo hay de espera en la ejecución de cada comando cuando usamos la opción de "*correr*". Por lo tanto, mientras mayor sea el número aquí más tiempo se esperará para ejecutar cada instrucción, es decir **parecerá más lento**.
+En este recuadro que está a la derecha del de la mochila (<s>y del cual ya hablamos más arriba</s>) podemos indicar el tiempo en milisegundos que Karel espera cada que realiza una acción. Mientras más pequeño sea este número más rápido actuará Karel en la ejecución (pero no significa que Karel sea muy rápido en el código). Podemos usar los botones de más y menos que están a la derecha para incrementar o disminuir el tiempo.
 
-> Por si te lo habías preguntado, el motivo por el que aquí no podemos modificar nada "a mano" es porque aquí es donde vemos la ejecución. No podemos modificar las cosas mientras se ejecuta el código. Para ello hay que volver a la pestaña de "Programa" o a la de "Mundo", compilar y volver a ejecutar.
+### Tamaño del mundo
 
-## Ayuda
+A la derecha del recuadro de `Retraso` encontramos la opción de cambiar la cantidad de filas y columnas que hay en el mundo.
 
-Por último, la pestaña de ayuda contiene una guía de la sintaxis con la que estemos trabajando o tengamos seleccionada en la pestaña de "Programa". Te dice cuales son exactamente las palabras que tienes que utilizar para realizar una acción. Es muy útil cuando recién empezamos a utilizar Karel, te ayuda a recordar cuáles son los comandos que puedes utilizar y cómo debes de escribirlos.
+### Evaluador
+
+El último botón de la barra de botones de la parte superior es para indicar parámetros y condiciones específicas de un programa. Esta opción es mucho más usada cuando estamos creando un problema y queremos especificar las condiciones del mundo pero también cuando estamos probando algún caso particular, donde Karel solamente pueda hacer $$100$$ veces la acción `avanza`, por ejemplo.
+
+## Apartado de mensajes
+
+En la esquina inferior izquierda de la pantalla encontramos un recuadro donde hay 2 pestañas, de forma predeterminada está abierta la pestaña de `Mensajes`, aquí se mostrarán indicaciones por parte del simulador, por ejemplo cuando hemos compilado un código correctamente, cuando Karel ha tenido un *accidente en su ejecución* o cuando hemos terminado con la ejecución de un programa.
+
+## Pila de llamadas
+
+La otra pestaña que se encuentra en la esquina inferior izquierda de la pantalla lleva por título `Pila` y hace referencia a la pila de llamadas de Karel. Esta pila de llamadas será vital cuando estés resolviendo problemas con recursión. Aquí es donde Karel va *"anotando"* cada función que realiza para que no se le olvide ninguna. 
+
+> Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Simulador/ "Karel Azul &vert; #iP Code").
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Zumbadores/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">Tema siguiente</a>
 </div>

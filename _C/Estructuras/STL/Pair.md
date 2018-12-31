@@ -72,5 +72,5 @@ int main(){
 89 T</textarea>
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/List/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Grafos/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Estructuras/STL/List/" title="List STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Grafos/" title="Grafos &vert; #iP Code">Tema siguiente</a>
 </div>

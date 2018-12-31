@@ -137,5 +137,5 @@ Nota que de todas formas declaramos la función completa más adelante, pero dec
 <span>¡Hey! ¡Oficialmente ya estás programando!</span>
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/Variables/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Operadores/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Introduccion/Variables/" title="Variables &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Operadores/" title="Operadores &vert; #iP Code">Tema siguiente</a>
 </div>

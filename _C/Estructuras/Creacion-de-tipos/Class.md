@@ -245,5 +245,5 @@ int main(){
 Como puedes notar, podría parecer que no hemos inicializado el pastel `Croccante`, y de hecho, no lo hemos hecho nosotros, sino el constructor por defecto que hemos agregado (*línea 15*), el cual sabe que si el constructor no recibe ningún parámetro (si no es citado), él debe actual, dando por hecho que el precio será `10` y que su sabor será `vainilla`. Este constructor hará esto para cualquier objeto de la clase `Pastel` a la cual no hayamos *construido* de forma explícita en su declaración. Nota que no es necesario poner paréntesis vacíos en la declaración de `Croccante`, ponerlos nos marcaría un error de compilación. El programa anterior nos daría como salida `24 30 20`.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Pila/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/" title="Struct &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Pila/" title="Pila &vert; #iP Code">Tema siguiente</a>
 </div>

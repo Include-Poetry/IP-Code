@@ -105,5 +105,5 @@ La estructura no esta vacia
 3 2</textarea>
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/Queue/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/List/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Estructuras/STL/Queue/" title="Queue STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/List/" title="List STL &vert; #iP Code">Tema siguiente</a>
 </div>

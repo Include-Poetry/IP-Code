@@ -102,5 +102,5 @@ fin;
 </textarea>
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Funciones/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Condicionales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones &vert; #iP Code">Tema siguiente</a>
 </div>

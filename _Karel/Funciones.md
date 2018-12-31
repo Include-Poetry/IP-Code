@@ -148,5 +148,5 @@ Y aquí una de las primeras implementaciones de las funciones secundarias y faci
 > ¡Felicidades! Ya sabes como empezar a hacer tus propios programas para Karel en Pascal.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/" title="Recursión &vert; #iP Code">Tema siguiente</a>
 </div>

@@ -38,5 +38,5 @@ Grandes proyectos se han producido en C y C++ desde sus creaciones, tanto ha sid
 Toma en cuenta, que en la actualidad es muy raro que un determinado software esté hecho enteramente por un único lenguaje de programación, es muy común hoy en día que se hagan usando las virtudes de varios lenguajes. Por ello debes tener en cuenta que un gran programa no está hecho en un gran lenguaje, sino **por un gran programador**.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción &vert; #iP Code">Tema siguiente</a>
 </div>

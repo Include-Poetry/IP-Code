@@ -249,5 +249,5 @@ Salida del anterior programa.
 No olvides examinar cuidadosamente el programa anterior y su comportamiento en tu *IDE* favorito.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/String/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String STL &vert; #iP Code">Tema siguiente</a>
 </div>
