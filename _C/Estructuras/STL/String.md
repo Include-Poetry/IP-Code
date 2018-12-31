@@ -579,5 +579,5 @@ las cadenas son diferentes
 No olvides probar los programas anteriores en tu IDE favorito, experimenta con ellos.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/Vector/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/Queue/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Estructuras/STL/Vector/" title="Vector STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/Queue/" title="Queue STL &vert; #iP Code">Tema siguiente</a>
 </div>

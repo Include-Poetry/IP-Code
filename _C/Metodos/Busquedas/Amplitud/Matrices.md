@@ -307,5 +307,5 @@ La búsqueda en amplitud o BFS cumple con el principio de cualquier otro tipo de
 > La BFS es la búsqueda veloz y nos sirve para encontrar la solución más inmediata a un problema.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Lineales/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Profundidad/Matrices/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Lineales/" title="Busquedas lineales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Profundidad/Matrices/" title="Busquedas en profundidad &vert; #iP Code">Tema siguiente</a>
 </div>

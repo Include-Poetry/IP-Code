@@ -41,5 +41,5 @@ En el caso planteado en el párrafo anterior, es importante recordar que los nú
 En este caso, podemos escoger un nuevo criterio de ordenamiento o no. Si el criterio que aplicamos es ***eficiente***, entonces no importará que los datos tengan valores iguales en el ordenamiento, pues no se alterará nuestro procedimiento ni resultado final de la tarea.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Recursion/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Bubble-sort/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Bubble-sort/" title="Bubble sort &vert; #iP Code">Tema siguiente</a>
 </div>

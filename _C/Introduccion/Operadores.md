@@ -146,5 +146,5 @@ Para mostrar un salto de línea podemos usar el carácter especial `\n`, que es 
 Es más confiable usar `\n` además genera ejecuciones más rápidas.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/Funciones/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Punteros/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Introduccion/Funciones/" title="Funciones &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Punteros/" title="Punteros &vert; #iP Code">Tema siguiente</a>
 </div>

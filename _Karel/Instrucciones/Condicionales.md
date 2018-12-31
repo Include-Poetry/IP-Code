@@ -187,5 +187,5 @@ fin sino
 > Nota lo útil que es *identar* nuestros códigos para poder distinguir mejor entre un bloque de acciones y otro.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">Tema siguiente</a>
 </div>

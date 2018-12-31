@@ -41,5 +41,5 @@ Saber estructurar todas las partes que conforman un problema es uno de los princ
 > Si aún te quedan dudas de porqué aprender a programar, es porque aún te falta ir [acá]({{ site.url }}/Code/Motivacion/){: target="_blank"}
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Lenguaje/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Compilador/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Lenguaje/" title="Lenguaje C++ &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador C++ &vert; #iP Code">Tema siguiente</a>
 </div>

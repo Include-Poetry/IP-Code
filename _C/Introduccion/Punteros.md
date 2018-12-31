@@ -276,5 +276,5 @@ El código anterior mostrará algo como `0x22fe9c 0x22fe9c 0x22fe98 0x22fe98 0x2
 > En punteros que apuntan a punteros, se pone un asterisco por cada *nivel*. Por lo que un apuntador a un apuntador será `int **p` y un apuntador a ese apuntador será `int ***p`
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Introduccion/Operadores/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Sentencias/">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Introduccion/Operadores/" title="Operadores &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Sentencias/" title="Sentencias &vert; #iP Code">Tema siguiente</a>
 </div>

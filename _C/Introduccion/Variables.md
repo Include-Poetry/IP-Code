@@ -146,5 +146,5 @@ Si sabemos cuanto mide cada variable, y sabemos cuántas variables declaramos, p
 Si declaramos $$ 100 $$ variables tipo `int`, $$ 50 $$ tipo `char` y $$ 20 $$ tipo `double` estaremos ocupando en total $$ 100 \cdot 32 + 50 \cdot 8 + 20 \cdot 64 = 4880 $$ bits, es decir $$ 610 $$ bytes.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/Librerias/">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Funciones/">Tema siguiente</a>
+	<a href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Funciones/" title="Funciones &vert; #iP Code">Tema siguiente</a>
 </div>
