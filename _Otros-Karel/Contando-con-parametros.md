@@ -24,10 +24,10 @@ Lo primero que tenemos que haces es idealizar el algoritmo. Comenzamos por darno
 
 Lo primero es la **condición recursiva**, vamos a quitar zumbadores *si hay zumbadores para quitar*. Por cada zumbador que tomemos vamos a marcar un *paso en la recursión*. Entonces, si estamos junto a un zumbador lo tomamos y hacemos la **llamada recursiva** para que recordemos esa acción en la *pila de llamadas*. Cuando hayamos terminado de quitar todos los zumbadores vamos a dar un paso adelante (ya sin hacer otra llamada recursiva) y vamos a "*soltar la recursión*", es decir, terminamos la función y permitimos que por cada vez que tomamos uno, dejemos uno.
 
+<div class="karelBlock">
 <textarea class="karelp">
 iniciar-programa
-    define-nueva-instruccion recoge como
-    inicio
+    define-nueva-instruccion recoge como inicio
         si junto-a-zumbador entonces inicio
             coge-zumbador;
             recoge;
@@ -42,10 +42,29 @@ iniciar-programa
         apagate;
     termina-ejecucion
 finalizar-programa</textarea>
+<textarea class="karelj">
+class program{
+    define recoge(){
+        if (nextToABeeper){
+            pickbeeper();
+            recoge();
+            putbeeper();
+        } else {
+            move();
+        }
+    }
+    program(){
+        move();
+        recoge();
+        turnoff();
+    }
+}</textarea>
+<span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
+</div>
 
-Con la línea 13 nos ubicamos en el montón de zumbadores, luego en la 14 llamamos a la función recursiva. Lo primero que hacemos es verificar que estamos sobre un zumbador, es decir, verificar que se pueden quitar más zumbadores, esta es la *condición de la recursión* y lo hacemos en la línea 4. Si esto se cumple entramos a la línea 5 donde tomamos un zumbador (sólo uno) y volvemos a llamar a la recursión en la 6. Otra vez comprobamos que hayan zumbadores para quitar y seguimos quitando. Nota en la pila de llamadas que cada vez que quitamos un zumbador dejamos pendiente dejar uno (línea 7).
+Con la línea 12 nos ubicamos en el montón de zumbadores, luego en la 13 llamamos a la función recursiva. Lo primero que hacemos es verificar que estamos sobre un zumbador, es decir, verificar que se pueden quitar más zumbadores, esta es la *condición de la recursión* y lo hacemos en la línea 3. Si esto se cumple entramos a la línea 4 donde tomamos un zumbador (sólo uno) y volvemos a llamar a la recursión en la 5. Otra vez comprobamos que hayan zumbadores para quitar y seguimos quitando. Nota en la pila de llamadas que cada vez que quitamos un zumbador dejamos pendiente dejar uno (línea 6).
 
-Cuando ya no se cumple la condición de la recursión es porque ya hemos quitado todos los zumbadores del lugar, lo que hacemos entonces es ir a la línea 9 donde nos ubicamos en la posición donde hay que dejar la misma cantidad. Ya que estamos ahí dejamos que la función termine y entonces se *vacíe* la pila de llamadas (lo que me refería con *soltar la recursión*) y entonces por cada vez que llamamos a `recoge` estaremos dejando un zumbador. Nota aquí que cada que quitamos un zumbador llamamos a `recoge` y que cada que llamamos a `recoge` dejaremos un zumbador, entonces **cada vez que quitamos un zumbador vamos a dejar uno**. Listo, problema resuelto.
+Cuando ya no se cumple la condición de la recursión es porque ya hemos quitado todos los zumbadores del lugar, lo que hacemos entonces es ir a la línea 8 donde nos ubicamos en la posición donde hay que dejar la misma cantidad. Ya que estamos ahí dejamos que la función termine y entonces se *vacíe* la pila de llamadas (lo que me refería con *soltar la recursión*) y entonces por cada vez que llamamos a `recoge` estaremos dejando un zumbador. Nota aquí que cada que quitamos un zumbador llamamos a `recoge` y que cada que llamamos a `recoge` dejaremos un zumbador, entonces **cada vez que quitamos un zumbador vamos a dejar uno**. Listo, problema resuelto.
 
 ## Vengan los parámetros
 
@@ -55,10 +74,10 @@ Si lo piensas un poco puedes notar que este problema lo podemos resolver con rec
 
 Para resolver el problema vamos a proceder prácticamente igual que con la recursión sencilla pero cada vez que tomemos un zumbador vamos a **incrementar** el valor del parámetro `x` (que **inicialmente deberá ser** $$0$$), para cuando la recursión termine tendremos un parámetro que es igual a la cantidad de zumbadores que había.
 
+<div class="karelBlock">
 <textarea class="karelp">
 iniciar-programa
-    define-nueva-instruccion recoge(x) como
-    inicio
+    define-nueva-instruccion recoge(x) como inicio
         si junto-a-zumbador entonces inicio
             coge-zumbador;
             recoge(sucede(x));
@@ -70,13 +89,29 @@ iniciar-programa
         apagate;
     termina-ejecucion
 finalizar-programa</textarea>
+<textarea class="karelj">
+class program{
+    define recoge(x){
+        if (nextToABeeper){
+            pickbeeper();
+            recoge(succ(x));
+        }
+    }
+    program(){
+        move();
+        recoge(0);
+        turnoff();
+    }
+}</textarea>
+<span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
+</div>
 
-El código anterior está incompleto, pero realiza la recursión y utilizando `sucede` incrementa el valor de la variable  `x` (línea 6). Lo único que falta es recorrer los lugares donde hay que dejar los zumbadores y dejar una cantidad $$x$$ en cada uno, esto último lo haremos con una simple función `repetir x veces`. Recuerda que para este punto la recursión ya no es necesaria, solamente debemos modificar un `sino` para el `si` de la línea 4. Nota que llamamos a `recoge()` desde la función principal dándole $$x$$ el valor inicial de $$0$$ (línea 11).
+El código anterior está incompleto, pero realiza la recursión y utilizando `sucede | succ` incrementa el valor de la variable  `x` (línea 5). Lo único que falta es recorrer los lugares donde hay que dejar los zumbadores y dejar una cantidad $$x$$ en cada uno, esto último lo haremos con una simple función `repetir x veces | iterate (x)`. Recuerda que para este punto la recursión ya no es necesaria, solamente debemos modificar un `sino | else` para el `si | if` de la línea 3. Nota que llamamos a `recoge()` desde la función principal dándole $$x$$ el valor inicial de $$0$$ (línea 11).
 
+<div class="karelBlock">
 <textarea class="karelp">
 iniciar-programa
-    define-nueva-instruccion recoge(x) como
-    inicio
+    define-nueva-instruccion recoge(x) como inicio
         si junto-a-zumbador entonces inicio
             coge-zumbador;
             recoge(sucede(x));
@@ -99,13 +134,41 @@ iniciar-programa
         apagate;
     termina-ejecucion
 finalizar-programa</textarea>
+<textarea class="karelj">
+class program{
+    define recoge(x){
+        if (nextToABeeper){
+            pickbeeper();
+            recoge(succ(x));
+        } else {
+            move();
+            iterate (x) putbeeper();
 
-En la línea 8 nos ubicamos en la primer nueva ubicación, dejamos los $$x$$ zumbadores con la línea 9 luego en la línea 11 y 12 nos ubicamos en el `1, 1` y dejamos $$x$$ zumbadores. Al final nos ubicamos en `2, 1` con las líneas 14 y 15 y dejamos los últimos $$x$$ zumbadores. Listo, problema resuelto.
+            while (notFacingSouth) turnleft();
+            while (frontIsClear) move();
+            iterate (x) putbeeper();
+
+            while (notFacingEast) turnleft();
+            move();
+            iterate (x) putbeeper();
+        }
+    }
+    program(){
+        move();
+        recoge(0);
+        turnoff();
+    }
+}</textarea>
+<span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
+</div>
+
+En la línea 7 nos ubicamos en la primer nueva ubicación, dejamos los $$x$$ zumbadores con la línea 8 luego en la línea 10 y 11 nos ubicamos en el `1, 1` y dejamos $$x$$ zumbadores. Al final nos ubicamos en `2, 1` con las líneas 13 y 14 y dejamos los últimos $$x$$ zumbadores. Listo, problema resuelto.
 
 ## Un método adicional
 
 También podemos pasar el valor de un parámetro de una función a otra. En realidad esto ya lo hemos hecho al momento de que desde la función principal llamamos por primera vez a `recoge()`, ese primer valor fue $$0$$. Ahora vamos a pasar el parámetro $$x$$ a una tercer función llamada `deja()`;
 
+<div class="karelBlock">
 <textarea class="karelp">
 iniciar-programa
     define-nueva-instruccion deja(z) como inicio
@@ -120,9 +183,7 @@ iniciar-programa
         avanza;
         repetir z veces deja-zumbador;
     fin;
-
-    define-nueva-instruccion recoge(x) como
-    inicio
+    define-nueva-instruccion recoge(x) como inicio
         si junto-a-zumbador entonces inicio
             coge-zumbador;
             recoge(sucede(x));
@@ -136,6 +197,36 @@ iniciar-programa
         apagate;
     termina-ejecucion
 finalizar-programa</textarea>
+<textarea class="karelj">
+class program{
+    define deja(z){
+        move();
+        iterate (z) putbeeper();
+
+        while (notFacingSouth) turnleft();
+        while (frontIsClear) move();
+        iterate (z) putbeeper();
+
+        while (notFacingEast) turnleft();
+        move();
+        iterate (z) putbeeper();
+    }
+    define recoge(x){
+        if (nextToABeeper){
+            pickbeeper();
+            recoge(succ(x));
+        } else {
+            deja(x);
+        }
+    }
+    program(){
+        move();
+        recoge(0);
+        turnoff();
+    }
+}</textarea>
+<span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
+</div>
 
 Hay que remarcar que `deja()` ni siquiera es una función recursiva, solamente es una función que recibió un parámetro y que hizo algo con él. Además, `deja()` está usando un parámetro que se llama `z` y no `x` como `recoge()` pero también se puedo haber llamado `x` sin problemas.
 

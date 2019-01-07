@@ -37,7 +37,7 @@ algolia:
   index_name: 'MainIndexIPC'
   excluded_files:
     - index.html
-    - 404.md
+    - 404.html
     - Motivacion/index.html
     - Topicos-adicionales/Karel/Tags/index.html
     - Topicos-adicionales/C++/Tags/index.html
