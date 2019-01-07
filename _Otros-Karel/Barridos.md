@@ -85,6 +85,7 @@ Podemos verlo en las descripciones generales, el algoritmo más sencillo de impl
 
 En base a la descripción general que hicimos al inicio, podemos llegar al siguiente código:
 
+<div class="karelBlock">
 <textarea class="karelp">
 iniciar-programa
   	define-nueva-instrucción barrido como inicio
@@ -105,5 +106,27 @@ iniciar-programa
 		apagate;
 	termina-ejecución
 finalizar-programa</textarea>
+<textarea class="karelj">
+class program{
+	define barrido(){
+		while (nextToABeeper){
+			while (frontIsClear || nextToABeeper){
+				while (nextToABeeper) pickbeeper();
+				if (frontIsClear) move();
+			}
+			iterate (2) turnleft();
+			while (frontIsClear) move();
+			turnleft();
+			if (frontIsClear) move();
+			turnleft();
+		}
+	}
+	program(){
+		barrido();
+		turnoff();
+	}
+}</textarea>
+<span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
+</div>
 
 No olvides probar y asegurarte de entender el código anterior, así como implementar los otros dos barridos mencionados, puedes sacarles provecho en algunos casos, así que es también muy útil entenderlos y manejarlos.

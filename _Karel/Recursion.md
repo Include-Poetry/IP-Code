@@ -35,8 +35,7 @@ Es decir, es la acción de aplicar un procedimiento a una cosa y después, al re
 Imagina que tienes la muy importante tarea de sacar todas las matrioskas que viven dentro de la más grande de ellas. Para abrir todas las matrioskas, primero debemos de abrir, (<s>lógicamente</s>) la primera y seguir con las demás. Es decir, del primer gran problema de abrirlas todas, empezamos por un problema más sencillo, abrir la primera. Después, podemos ver como otro problema también pequeño, abrir la segunda. Así no lo vemos todo junto como tener que abrirlas todas. <span>Eso puede sonar además, como algo muy tardado</span>. Para ello y como buen programador, imaginas la tarea a realizar como si fuera un programa:
 
 <textarea class="output">
-definir-nuevo-procedimiento "matrioskas" como
-inicio
+definir-nuevo-procedimiento "matrioskas" como inicio
 	abrir-matrioska;
 	sacar-nueva-matrioska;
 	matrioskas;
@@ -70,8 +69,7 @@ La condición en toda recursión debe tener siempre en cuenta **qué es lo que e
 Por lo tanto, ejecutamos el procedimiento "matrioska" siempre y cuando se pueda o sea necesario seguir ejecutándolo, una vez que hayamos cumplido nuestro cometido podemos dejar de hacer eso. Viéndolo así, seguro ya te imaginas dónde y qué condición hay que ubicar. 
 
 <textarea class="output">
-definir-nuevo-procedimiento "matrioskas" como
-inicio
+definir-nuevo-procedimiento "matrioskas" como inicio
 	abrir-matrioska
 	sacar-nueva-matrioska
 	si tiene-otra-muñeca-dentro entonces matrioskas
