@@ -1,9 +1,12 @@
 language: ruby
 cache: bundler
+before_install:
+  - gem install bundler
+script:
+  - bundle exec jekyll --help
+  #- bundle exec jekyll algolia
 branches:
   only:
     - master
-script: 
-  - bundle exec jekyll --help
 rvm:
- - 2.2
+ - 2.4

@@ -43,16 +43,16 @@ algolia:
   index_name: 'MainIndexIPC'
   files_to_exclude:
     - index.html
-    - 404.html
+    - 404.md
     - Motivacion/index.html
-    - Topicos-adicionales/Karel/Tags/index.html
-    - Topicos-adicionales/C++/Tags/index.html
-    - Topicos-adicionales/C++/index.html
-    - Topicos-adicionales/Karel/index.html
+    - Otros-temas/Karel/Tags/index.html
+    - Otros-temas/C++/Tags/index.html
+    - Otros-temas/C++/index.html
+    - Otros-temas/Karel/index.html
     - Problemas/Resueltos/C++/index.html
     - Problemas/Resueltos/C++/Tags/index.html
     - Buscador/index.html
-  nodes_to_index: 'p,ul,ol,blockquote,table'
+  nodes_to_index: 'p,ul,ol,blockquote'
   settings:
     attributesForFaceting:
       - tags
