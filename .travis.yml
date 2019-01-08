@@ -1,8 +1,7 @@
-os: windows
 language: ruby
 cache: bundler
 before_install:
-  - gem install bundler
+  - bundle update
 script:
   - bundle exec jekyll --help
   #- bundle exec jekyll algolia
