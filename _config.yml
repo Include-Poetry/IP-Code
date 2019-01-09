@@ -31,6 +31,12 @@ baseurl: /Code
 exclude:
   - vendor
 
+# Gemas
+plugins: 
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
 # Algolia - buscador
 algolia:
   application_id: 'QO0HGR5828'
