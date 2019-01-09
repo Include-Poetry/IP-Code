@@ -37,6 +37,11 @@ exclude:
   - IP-Code.sublime-workspace
   - Development
 
+# Gemas
+plugins: 
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
 # Algolia - buscador
 algolia:
   application_id: 'QO0HGR5828'

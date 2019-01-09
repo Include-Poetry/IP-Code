@@ -34,7 +34,6 @@ exclude:
 # Gemas
 plugins: 
   - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll-sitemap
 
 # Algolia - buscador
