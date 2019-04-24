@@ -176,7 +176,7 @@ Podemos imaginarnos un árbol fácilmente como un árbol genealógico, donde el 
 
 > El parentesco de un nodo siempre se tiene que definir con respecto a otro.
 
-Podemos también definir un árbol utilizando listas o matrices de adyacencia, o podemos utilizar estructuras, que de hecho es lo más clásico y recomendable. Para un árbol binario, por ejemplo, en el que cada nodo tiene máximo dos nodos hijos, podemos definir una estructura como sigue:
+Podemos también definir un árbol utilizando listas o matrices de adyacencia, o podemos utilizar estructuras, que de hecho es muy clásico. Para un árbol binario, por ejemplo, en el que cada nodo tiene máximo dos nodos hijos, podemos definir una estructura como sigue:
 
 <textarea class="cpp">
 struct nodo{
@@ -188,6 +188,16 @@ struct nodo{
 
 Según la naturaleza de nuestro problema será también la naturaleza específica de nuestro árbol, en el que sabremos si está permitido ir de un nodo hijo a uno padre o sólo de un nodo padre a un nodo hijo. También podemos ahorrarnos el definir la variable miembro `id` si lo relacionamos con la locación que ocupa en el arreglo `nodos`. Además, en algunos algoritmos resulta especialmente útil distinguir entre el `HijoIzq` y el `HijoDer`, pues según sea el lado del que está el hijo, la relación con respecto al padre, por ejemplo, que sepamos que el `HijoIzq` sea menor que el `HijoDer`.
 
+También podemos representar un árbol con un arreglo, en donde el identificador de cada vértice es su índice y el valor de cada locación representa al padre de cada nodo. Se da por hecho que la raíz del árbol se identifica rápidamente pues la raíz de un árbol es ese elemento del arreglo donde `arbol[x] == x;` para todos los demás nodos del árbol estaríamos considerando algo como `arbol[x] != x;`. Con este esquema podemos recorrer fácilmente cada camino de un árbol, partiendo desde las hojas. También es una forma útil de representar un árbol que no es necesariamente binario.
+
+<textarea class="cpp">
+int arbol[] = {5, 3, 6, 2, 3, 4, 6, 6, 0, 4, 5};
+// Nodos   ->  0 |1 |2 |3 |4 |5 |6 |7 |8 |9 |10</textarea>
+
+En el ejemplo anterior podemos ver que el nodo raíz es el `6`, pues su padre es él mismo. Los hijos directos de este nodo raíz son el nodo `2` y el `7`. El nodo `2` tiene un único hijo que es el nodo `3`, que a su vez tiene dos hijos, el nodo `1` y el `4`. Así podemos ir generando todos los caminos de nuestro árbol. También podemos guardar en el mismo arreglo diferentes árboles (que no compartan la misma raíz).
+
+Personalmente encuentro muy útil esta clase de representación, sobretodo cuando queremos buscar pertenencias o marcar uniones. Además, se gasta menos memoria y en algunos casos su uso es más intuitivo, pero desde luego que no siempre es la mejor opción y como ya se decía, la forma de representar determinado objeto, relación o **componente conexa** varía según el problema que se está resolviendo.
+
 ## Los grafos como herramientas
 
 De las grandes cualidades de estas estructuras, es que su implementación estimula la capacidad del programador para identificar y aprovechar las relaciones que existen entre las distintas variables que tenemos. Identificar correctamente estas relaciones, ha permitido representar eventos muy complejos como la ***sinapsis en las neuronas***. A medida que se practica la utilización de los grafos para resolver problemas, se podrán ir resolviendo de forma casi natural situaciones sumamente complejas.
@@ -195,5 +205,5 @@ De las grandes cualidades de estas estructuras, es que su implementación estimu
 Más adelante retomaremos estas estructuras para conocer distintas formas de *recorrer* cada nodo y aprovecharemos la naturaleza de las aristas para poder optimizar búsquedas y ordenamientos, entre muchas cosas más.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">Tema siguiente</a>
+    <a href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">Tema siguiente</a>
 </div>

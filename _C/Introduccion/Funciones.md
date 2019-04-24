@@ -76,7 +76,7 @@ En este ejemplo suponemos que la función no devuelve nada y necesita como pará
 
 Cuando compilamos un código fuente en C/C++, el compilador, una vez que haya comprobado que todo está bien escrito y que sabe como ejecutar cada parte del código, buscará la función principal, es por esta función por donde empezará a ejecutar el programa. Seguramente ya habrás notado que en este lenguaje de programación se utilizan muchas palabras del vocabulario inglés, por lo que no es de extrañarnos que la función principal se llame `main` pues su traducción inmediata al español es precisamente *principal*.
 
-Es importante saber que no se supone que se llame a ella en alguna parte del programa, sólo es por donde el compilador inicia su ejecución. La función `main` siempre devuelve un entero y no necesita valores externos para funcionar. Su declaración sería así. (<span>Una vez que compiles el siguiente código habrás creado oficialmente tu primer programa, y no puede ser un genial primer-programa si no es: </span>)
+Es importante saber que no se supone que se llame a ella en alguna parte del programa, sólo es por donde el compilador inicia su ejecución. La función `main` siempre devuelve un entero y no necesita valores externos para funcionar. Su declaración sería así. (<span>Una vez que compiles el siguiente código habrás creado oficialmente tu primer programa y no puede ser un genial primer-programa si no es: </span>)
 
 <textarea class="cpp">
 #include &lt;iostream&gt;
