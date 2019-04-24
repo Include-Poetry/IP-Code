@@ -15,6 +15,7 @@ La definición más simple de ***búsqueda***, es literalmente determinar si un 
 - Componentes de la búsqueda
 - Tipos de búsquedas
 - Realización de una búsqueda
+- Conclusión
 
 ## Preparando el terreno
 

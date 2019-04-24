@@ -8,7 +8,7 @@ olimpiada: [OMI]
 subject: [C++]
 ---
 
-Cuando queremos escribir un programa, lo hacemos en un determinado *lenguaje de programación*. A este escrito que hay que hacer le llamamos *código fuente* o simplemente *código*. Éste no es ejecutado por la computadora tal cual ha sido escrito, sino que debe de ser *traducido* a su lenguaje, *el lenguaje máquina*. Una de las maneras de hacer esta traducción es **compilando** el código, y esto, lo hace un **compilador**. Cada lenguaje de programación necesita un compilador particular.
+Cuando queremos escribir un programa, lo hacemos en un determinado *lenguaje de programación*. A este escrito que hay que hacer le llamamos *código fuente* o simplemente *código*. Éste no es ejecutado por la computadora tal cual ha sido escrito, sino que debe de ser *traducido* a su lenguaje, *el lenguaje máquina*. Una de las maneras de hacer esta traducción es **compilando** el código y esto lo hace un **compilador**. Cada lenguaje de programación necesita un compilador particular.
 
 {: #ListaContenido}
 - Compilación de un programa
@@ -24,7 +24,7 @@ Cuando escribimos un programa en C/C++, lo que hacemos es crear un archivo con e
 
 Cuando compilamos un código fuente, el compilador crea un archivo que podemos ejecutar, este archivo tiene la extensión `.exe` como la mayoría de los programas de Windows. Si quieres volver a ver la ejecución de tu programa sólo tienes que volver a abrir el archivo `.exe`. Sin embargo, tienes que volver a compilar cada que hagas cambios en tu código, para que esos nuevos cambios vuelvan a ser *traducidos* y puedan ser ejecutados.
 
-> Una vez creado el ejecutable, éste se hace independiente del código fuente que lo generó
+> Una vez creado el ejecutable, éste se hace independiente del código fuente que lo generó.
 
 ## Compiladores e IDE
 
