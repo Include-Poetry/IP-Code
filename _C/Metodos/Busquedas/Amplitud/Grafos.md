@@ -6,6 +6,7 @@ tags: [Búsqueda, Algoritmo, Grafos]
 Hide_Tags: true
 olimpiada: [OMI]
 subject: [C++]
+published: false
 ---
 
 ## Principio de la búsqueda

@@ -56,7 +56,7 @@ define MiFuncion(){
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
 </div>
 
-Donde `define-nueva-instruccion` y `define` son sentencias de control que dicne que se está declarando una nueva función. `MiFuncion` es el nombre de la función que estamos creando en este ejemplo. Puede ser cualquiera pero no puede llevar espacios pero sí puede llevar guiones y números. En el caso de Pascal sí puede llevar acentos, pero en Java no. No puede ser un comando o instrucción que ya exista en el compilador. Tampoco podemos repetir nombres de instrucciones.
+Donde `define-nueva-instruccion` y `define` son sentencias de control que dicen que se está declarando una nueva función. `MiFuncion` es el nombre de la función que estamos creando en este ejemplo. Puede ser cualquiera pero no puede llevar espacios pero sí puede llevar guiones y números. En el caso de Pascal sí puede llevar acentos, pero en Java no. No puede ser un comando o instrucción que ya exista en el compilador. Tampoco podemos repetir nombres de instrucciones.
 
 En el caso de Pascal, `como` es una palabra de control que le dice al compilador que está por definirse las instrucciones que conformarán esa función. Nota que para Java hay que poner un par de paréntesis que indican *argumento vacío*.
 
