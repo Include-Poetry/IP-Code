@@ -24,7 +24,7 @@ Al igual que todos Karel vive en un lugar particular, su mundo puede verse como 
 
 ## Ubicación en el mundo
 
-Podemos referirnos a las intersecciones del mundo como las coordenadas de un plano cartesiano donde no hay coordenadas negativas. En #iP verás las coordenadas indicadas en un recuadro gris, por ejemplo, la esquina inferior izquierda se representa como `0, 0` y a menudo le llamamos *origen*.
+Podemos referirnos a las intersecciones del mundo como las coordenadas de un plano cartesiano donde no hay coordenadas negativas. En #iP verás las coordenadas indicadas en un recuadro gris, por ejemplo, la esquina inferior izquierda se representa como `1, 1` y a menudo le llamamos *origen*.
 
 Karel también puede **orientarse** en el mundo pues existen puntos cardinales bien definidos, hacia arriba es el **norte**, análogamente hacia abajo es el **sur**. Del mismo modo y viendo la pantalla de frente a la imagen, la izquierda corresponde al **oeste** y la derecha al **este**. Karel puede orientarse hacia cualquiera de estos cuatro puntos cardinales. Decimos que Karel está orientado al norte cuando *la flecha* apunta al norte. Es **importante** saber que Karel **no puede orientarse a puntos intermedios** como el suroeste, noroeste, etc.
 

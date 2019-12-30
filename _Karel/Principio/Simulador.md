@@ -33,7 +33,7 @@ Una vez que el código ya está compilado correctamente pasamos a presionar el b
 
 ## Cinta de opciones
 
-En la parte más superior de la pantalla encontramos una cinta que lleva cuatro pequeñas pestañas diferentes, como `Mundo` ([de quien ya hablamos en otro lado]({{ site.baseurl }}/Karel/Principio/Mundo/ "Mundo de Karel &vert; #iP Code")), `Código` (de quien hablamos arriba), `Opciones` y `Ayuda`.
+En la parte más superior de la pantalla encontramos una cinta que lleva cuatro pequeñas pestañas diferentes, como `Mundo` ([del que ya hablamos en otro lado]({{ site.baseurl }}/Karel/Principio/Mundo/ "Mundo de Karel &vert; #iP Code")), `Código` (del que hablamos arriba), `Opciones` y `Ayuda`.
 
 En la pestaña de `Opciones` puedes encontrar una función para cambiar el *tema* del editor de código, personalmente sugiero un tema oscuro (alguno que diga *dark* en el nombre), pues resulta ser menos molesto para los ojos después de largas horas programando.
 

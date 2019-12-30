@@ -8,7 +8,7 @@ olimpiada: [OMIPS]
 subject: [Karel pascal]
 ---
 
-En ocasiones cuando queremos hacer algo ocurre un evento desafortunado por el cual ya no podemos realizarlo, como querer comprar un pastel tres leches y que ya no haya mas que pays <span>:c</span> Sin embargo, de no haber pasado eso, habríamos seguido nuestro plan sin problemas. Aunque, veamos el lado positivo, si no haya del sabor que queríamos podemos llevar otro. En otras palabras podríamos decir:
+En ocasiones cuando queremos hacer algo ocurre un evento desafortunado por el cual ya no podemos realizarlo, como querer comprar un pastel tres leches y que ya no haya mas que pays <span>:c</span> Sin embargo, de no haber pasado eso, habríamos seguido nuestro plan sin problemas. Aunque, veamos el lado positivo, si no hay del sabor que queríamos podemos llevar otro. En otras palabras podríamos decir:
 
 > Si hay pastel de tres leches entonces compro ese, sino compro un pay.
 

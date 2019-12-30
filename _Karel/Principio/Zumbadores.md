@@ -28,7 +28,7 @@ Aunque puede haber una cantidad infinita de zumbadores y la capacidad de la moch
 	<img class="Imagen" src="{{ site.iP-Sources }}/Multimedia/Karel/ZumbadoresC.jpg" alt="Mundo">
 </picture>]({{ site.iP-Sources }}/Multimedia/Karel/ZumbadoresC.jpg){: data-lightbox="image-1"}
 
-En la imagen anterior puedes ver un mundo con zumbadores, por ejemplo en la posición `3,6` hay una cantidad infinita de zumbadores, en la `9, 3` hay 5 y en la posición `5, 5` Karel está junto a un zumbador.
+En la imagen anterior puedes ver un mundo con zumbadores, por ejemplo en la posición `3,6` hay una cantidad infinita de zumbadores, en la `9, 3` hay 5 y en la posición `8, 5` Karel está junto a un zumbador.
 
 ## Ubicando zumbadores
 
