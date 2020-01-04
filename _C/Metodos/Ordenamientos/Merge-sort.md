@@ -135,5 +135,12 @@ Definir la complejidad del algoritmo *Merge sort* no es tan sencillo como defini
 Hay varias acciones que podemos tomar para optimizar el algoritmo, por ejemplo, si estamos por mezclar dos subconjuntos, el subconjunto `A` y el subconjunto `B` y el elemento más grande del subconjunto `A` es menor o igual que el elemento más chico de `B`, entonces podemos ahorrarnos el paso de mezclar y simplemente decir que `A` va antes de `B` y *unirlos* de esa forma.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Bubble-sort/" title="Bubble sort &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/" title="Busquedas &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Bubble-sort/" title="Bubble sort &vert; #iP Code">
+        Tema anterior
+        <span>Bubble sort</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Busquedas/" title="Busquedas &vert; #iP Code">
+        Tema siguiente
+        <span>Búsquedas</span>
+    </a>
 </div>

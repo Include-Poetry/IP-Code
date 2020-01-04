@@ -219,5 +219,12 @@ int main(){
 El código anterior produce como salida `20 2` y como puedes ver, cada fila tiene sus datos individuales.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Pila/" title="Pila &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Pila/" title="Pila &vert; #iP Code">
+        Tema anterior
+        <span>Pila</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">
+        Tema siguiente
+        <span>STL</span>
+    </a>
 </div>

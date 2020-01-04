@@ -67,5 +67,12 @@ Dado que estamos realizando $$N$$ recorridos por cada dato y son $$N$$ datos, en
 Es sencillo notar que se pueden hacer algunas mejoras al algoritmo, se puede ***optimizar*** de varias maneras, de cualquier forma, para un caso muy grande, como $$100000$$ de datos, obtendremos un desempeño muy cercano al $$O(n^2)$$. Debido a esto, el algoritmo puede ser útil como explicación general de un algoritmo de ordenamiento, dado que es sencillo de entender y sencillo de codificar, pero resulta ser poco práctico para resolver problemas en los que se manejen grandes conjuntos de datos.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/" title="Ordenamientos &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Merge-sort/" title="Merge sort &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/" title="Ordenamientos &vert; #iP Code">
+        Tema anterior
+        <span>Ordenamientos</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Merge-sort/" title="Merge sort &vert; #iP Code">
+        Tema siguiente
+        <span>Merge sort</span>
+    </a>
 </div>

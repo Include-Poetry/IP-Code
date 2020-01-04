@@ -110,5 +110,12 @@ La estructura no esta vacia
 3 2</textarea>
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/Stack/" title="Stack STL &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String en STL &vert; #iP Code">
+        Tema anterior
+        <span>String en STL</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/Stack/" title="Stack en STL &vert; #iP Code">
+        Tema siguiente
+        <span>Stack en STL</span>
+    </a>
 </div>

@@ -200,5 +200,12 @@ int main(){
 El uso de operadores que manipulen bit a bit una variable resulta muy útil pues ahorra no sólo tiempo de ejecución sino también memoria. Las operaciones bit a bit pueden resultar un poco confusas al inicio, pero en realidad son bastante intuitivas y pueden ayudarnos a resolver problemas complejos cumpliendo en tiempo y memoria.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/" title="Struct &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">
+        Tema anterior
+        <span>Arreglos multidimensionales</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/" title="Struct &vert; #iP Code">
+        Tema siguiente
+        <span>Struct</span>
+    </a>
 </div>

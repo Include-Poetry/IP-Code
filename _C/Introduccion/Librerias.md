@@ -81,5 +81,12 @@ Debido a esto y aunque su uso es muy práctico, sugiero no utilizarla al hacer n
 #include &lt;bits/stdc++.h&gt;</textarea>
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Variables/" title="Variables &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador &vert; #iP Code">
+        Tema anterior
+        <span>Compilador</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Variables/" title="Variables &vert; #iP Code">
+        Tema siguiente
+        <span>Variables</span>
+    </a>
 </div>

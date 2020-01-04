@@ -68,5 +68,12 @@ Es **importante** saber que en un mundo los elementos como la posición y orient
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Mundo/ "Karel Azul &vert; #iP Code").
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Karel/" title="Karel el robot &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Karel/" title="Karel el robot &vert; #iP Code">
+        Tema anterior
+        <span>Karel el robot</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">
+        Tema siguiente
+        <span>Zumbadores</span>
+    </a>
 </div>

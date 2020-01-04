@@ -107,5 +107,12 @@ Dentro de Code::Blokcs dirígete a *Settings > Editor > Syntax highlighting*, en
 > Nota que en ningún momento se ha hablado de lo que se escribirá como código fuente, solamente el cómo instalar, configurar y personalizar los IDE, así como algunas de sus funciones más básicas
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción a C++ &vert; #iP Code">
+        Tema anterior
+        <span>Introducción a C++</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías en C++ &vert; #iP Code">
+        Tema siguiente
+        <span>Librerías en C++</span>
+    </a>
 </div>

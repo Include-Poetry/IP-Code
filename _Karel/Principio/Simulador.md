@@ -90,5 +90,12 @@ La otra pestaña que se encuentra en la esquina inferior izquierda de la pantall
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Simulador/ "Karel Azul &vert; #iP Code").
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">
+        Tema anterior
+        <span>Zumbadores</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Principio/Primeros-pasos/" title="Primeros pasos con Karel &vert; #iP Code">
+        Tema siguiente
+        <span>Primeros pasos con Karel</span>
+    </a>
 </div>

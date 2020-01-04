@@ -42,5 +42,12 @@ Si continúas creciendo y participando en competencias de programación competit
 > Si aún te quedan dudas de porqué aprender a programar, es porque aún te falta ir [acá]({{ site.url }}/Code/Motivacion/){: target="_blank"}
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Lenguaje/" title="Lenguaje C++ &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador C++ &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Lenguaje/" title="Lenguaje C++ &vert; #iP Code">
+        Tema anterior
+        <span>Lenguaje C++</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador C++ &vert; #iP Code">
+        Tema siguiente
+        <span>Compilador C++</span>
+    </a>
 </div>

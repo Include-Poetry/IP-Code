@@ -20,6 +20,7 @@ Esto lo conocemos como una **condición** y en el caso de la programación es **
 - Bloques de instrucciones
 - Condiciones agrupadas
 - Ejemplos
+- Problemas sugeridos
 
 ## Estructura
 
@@ -293,6 +294,23 @@ if (nextToABeeper && frontIsClear){
 
 > Nota lo útil que es *identar* nuestros códigos para poder distinguir mejor entre un bloque de acciones y otro.
 
+## Problemas sugeridos
+
+<div id="omegaDiv">
+	<ul id="omegaList">
+		<li><i class="fas fa-shapes"></i><span>El celular de Karel</span><a href="https://omegaup.com/arena/problem/iP-Karel-El-celular-de-Karel/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+		<li><i class="fas fa-shapes"></i><span>Karel y la pared</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-y-la-pared/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+		<li><i class="fas fa-shapes"></i><span>Karel Silvestre</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Silvestre/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+	</ul>
+</div>
+
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">
+        Tema anterior
+        <span>Instrucciones lineales</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">
+        Tema siguiente
+        <span>Instrucciones cíclicas</span>
+    </a>
 </div>

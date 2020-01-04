@@ -86,5 +86,12 @@ Toma en cuenta que lo anterior **no es un código real**, sólo es una manera ge
 > No lo olvides, la idea básica de la recursión es **aplicar un proceso a una cosa y después, al resultado de eso volver a aplicar ese proceso otra vez** y seguir haciéndolo hasta lograr lo que buscamos.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones en Karel &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones en Karel &vert; #iP Code">
+        Tema anterior
+        <span>Funciones en Karel</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">
+        Tema siguiente
+        <span>Recursión simple</span>
+    </a>
 </div>

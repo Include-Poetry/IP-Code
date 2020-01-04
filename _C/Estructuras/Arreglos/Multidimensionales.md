@@ -59,5 +59,12 @@ No sólo hay que considerar que máximo podemos declarar un arreglo de ocho dime
 Es importante también que tengas en cuenta que es muy raro (demasiado improbable) que un problema requiera que declares un arreglo de muchas dimensiones con muchas variables en cada una. Si tu solución requiere una matriz de $$10000 \times 10000$$ entonces es muy probable que esa no sea una respuesta correcta.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/Arreglos/" title="Arreglos lineales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Operaciones-con-bits/" title="Operaciones con bits &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/" title="Arreglos lineales &vert; #iP Code">
+        Tema anterior
+        <span>Arreglos lineales</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Operaciones-con-bits/" title="Operaciones con bits &vert; #iP Code">
+        Tema siguiente
+        <span>Operaciones con bits</span>
+    </a>
 </div>

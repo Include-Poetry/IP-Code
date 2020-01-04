@@ -71,5 +71,12 @@ Insertar o remover un elemento | constante | $$ O(l) $$
 | Operadores `==`, `!=`, `<`, `<=`, `>`, `>=` | Compara lexicográficamente los valores del contenedor |
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/Stack/" title="Stack STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair STL &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/Stack/" title="Stack en STL &vert; #iP Code">
+        Tema anterior
+        <span>Stack en STL</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair en STL &vert; #iP Code">
+        Tema siguiente
+        <span>Pair en STL</span>
+    </a>
 </div>

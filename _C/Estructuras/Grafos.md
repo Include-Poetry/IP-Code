@@ -205,5 +205,12 @@ De las grandes cualidades de estas estructuras, es que su implementación estimu
 Más adelante retomaremos estas estructuras para conocer distintas formas de *recorrer* cada nodo y aprovecharemos la naturaleza de las aristas para poder optimizar búsquedas y ordenamientos, entre muchas cosas más.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair en STL &vert; #iP Code">
+        Tema anterior
+        <span>Pair en STL</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">
+        Tema siguiente
+        <span>Unión y pertenencia</span>
+    </a>
 </div>

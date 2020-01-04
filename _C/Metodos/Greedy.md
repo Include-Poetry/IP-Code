@@ -65,5 +65,12 @@ Es de suma importancia identificar las subestructuras óptimas y el principio de
 Algunos competidores inexpertos evalúan los problemas que requieren de *greedy* como *muy fáciles*. Esto no es necesariamente cierto, como ya se decía la cosa se complica cuando queremos demostrar que este método es adecuado porque el problema cumple con todas las características. A menudo se confunde con *greedy* un algoritmo que en realidad se resuelve con [DP]({{ site.baseurl }}/C++/Metodos/DP/ "DP - #iP Code"){:target="_blank"}. Cuando esto es así lo que se obtiene del evaluador es un **WA**, no un **TLE**, pues normalmente las soluciones greedy son muy rápidas.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Profundidad/Matrices/" title="Busqueda en amplitud &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/DP/" title="DP &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Profundidad/Matrices/" title="Busqueda en amplitud &vert; #iP Code">
+        Tema anterior
+        <span>Busqueda en amplitud</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/DP/" title="Dynamic Programming &vert; #iP Code">
+        Tema siguiente
+        <span>Dynamic Programming</span>
+    </a>
 </div>
