@@ -493,5 +493,12 @@ int main(){
 La salida al final será `Otro mensaje 0 1 2 3 4 5 6 7 8 9 L`.
 
 <div class="Nav">
-   <a href="{{ site.baseurl }}/C++/Introduccion/Punteros/" title="Punteros &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Arreglos/" title="Arreglos &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Punteros/" title="Punteros &vert; #iP Code">
+        Tema anterior
+        <span>Punteros</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/" title="Arreglos &vert; #iP Code">
+        Tema siguiente
+        <span>Arreglos</span>
+    </a>
 </div>

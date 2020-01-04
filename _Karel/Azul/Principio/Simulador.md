@@ -109,5 +109,12 @@ Tal vez ya hayas notado que aquí tampoco podemos cambiar el número de zumbador
 Por último, la pestaña de ayuda contiene una guía de la sintaxis con la que estemos trabajando o tengamos seleccionada en la pestaña de "Programa". Te dice cuales son exactamente las palabras que tienes que utilizar para realizar una acción. Es muy útil cuando recién empezamos a utilizar Karel, te ayuda a recordar cuáles son los comandos que puedes utilizar y cómo debes de escribirlos.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">
+        Tema anterior
+        <span>Zumbadores</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">
+        Tema siguiente
+        <span>Instrucciones lineales</span>
+    </a>
 </div>

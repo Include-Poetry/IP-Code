@@ -233,5 +233,12 @@ Debido a esto, no podemos declarar arreglos excesivamente grandes, de hecho los 
 Recordemos además el hecho de que tenemos que ser considerados con la memoria, si declaramos un arreglo tipo `int` de $$ 1000000 $$ de locaciones, y cada variable `int` mide $$ 32 $$ bits, y además $$ 1000 $$ bits equivalen a un *kilobit* y a su vez, $$ 1000 $$ kilobits equivalen a un *megabit*, el arreglo mencionado nos constaría ¡$$ 32 $$ *mb* de memoria!
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Introduccion/Sentencias/" title="Sentencias &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Sentencias/" title="Sentencias &vert; #iP Code">
+        Tema anterior
+        <span>Sentencias</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">
+        Tema siguiente
+        <span>Arreglos multidimensionales</span>
+    </a>
 </div>

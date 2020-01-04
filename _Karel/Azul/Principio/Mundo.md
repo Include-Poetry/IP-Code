@@ -68,5 +68,12 @@ Estas opciones las puedes encontrar en la barra de herramientas ubicada en la pa
 Es **importante** saber que en un mundo todos sus elementos (<span>como la posición y orientación de Karel</span>) **pueden cambiar** durante la ejecución de un programa, **excepto** por las paredes, que siempre estarán igual que la primera vez que se creó el mundo. De hecho, durante la ejecución de un programa **sólo karel** puede modificar el mundo. Después de terminar la ejecución de un programa, el mundo volverá a su estado original.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Karel/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Karel/" title="Karel el Robot &vert; #iP Code">
+        Tema anterior
+        <span>Karel el Robot</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">
+        Tema siguiente
+        <span>Zumbadores</span>
+    </a>
 </div>

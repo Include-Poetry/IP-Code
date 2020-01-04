@@ -174,5 +174,8 @@ En este ejemplo recursivo no es tan obvia ese proceso de guardar un camino ya ge
 *Memoization* es un término en inglés que no resulta sencillo de traducir al español. Se refiere a esta técnica de optimización en la que realizamos ese proceso de guardar el resultado de un proceso de cómputo para recordarlo después si es que nos lo volvemos a encontrar. En la literatura este término es muy común, es por ello que considero importante que lo conozcas y sepas a qué se está haciendo referencia.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Greedy/" title="Greedy &vert; #iP Code">Tema anterior</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Greedy/" title="Greedy &vert; #iP Code">
+        Tema anterior
+        <span>Greedy</span>
+    </a>
 </div>

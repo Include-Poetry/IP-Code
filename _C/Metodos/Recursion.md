@@ -325,5 +325,12 @@ En la mayoría de las funciones recursivas de C++, las dos partes que juegan los
 Sin nunca dejar de lado, ni restarle importancia a la condición de quiebre de la recursión, pues de esto dependerá el resultado final, y también muchas veces, de que el programa no se cicle. Para esto también hay que estar cambiando los parámetros de la función, o la condición de quiebre, o ambas, y asegurarnos de que en algún momento la recursión terminará.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/" title="Ordenamientos &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">
+        Tema anterior
+        <span>Unión y pertenencia</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/" title="Ordenamientos &vert; #iP Code">
+        Tema siguiente
+        <span>Ordenamientos</span>
+    </a>
 </div>

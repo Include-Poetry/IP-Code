@@ -113,5 +113,12 @@ También se puede ver en algunas redes de venta por catálogo, donde diferentes 
 Las operaciones como las hemos definido tienen una complejidad bastante eficiente y soportan ser llamadas muchas veces en un mismo programa cumpliendo en tiempo y en memoria.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/Grafos/" title="Grafos &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Grafos/" title="Grafos &vert; #iP Code">
+        Tema anterior
+        <span>Grafos</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">
+        Tema siguiente
+        <span>Recursión</span>
+    </a>
 </div>

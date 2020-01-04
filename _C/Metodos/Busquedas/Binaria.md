@@ -149,5 +149,12 @@ Toma en cuenta que la búsqueda binaria es un ejemplo de algoritmo **Divide y Ve
 <span>¿Notas lo genial y parecidas que son las implementaciones recursivas e iterativas en estos ejemplos? Si aún no comprendes del todo la forma en la que la recursión funciona, compara estos métodos recursivos e iterativos, sus semejanzas y diferencias.</span>
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Lineales/" title="Búsqueda lineal &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Metodos/Busquedas/Amplitud/Matrices/" title="Búsqueda en amplitud &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Lineales/" title="Búsqueda lineal &vert; #iP Code">
+        Tema anterior
+        <span>Búsqueda lineal</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Amplitud/Matrices/" title="Búsqueda en amplitud &vert; #iP Code">
+        Tema siguiente
+        <span>Búsqueda en amplitud</span>
+    </a>
 </div>

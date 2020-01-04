@@ -333,5 +333,8 @@ Como puedes ver, Karel deja 3 zumbadores mientras realiza llamadas recursivas, e
 > Ya estas listo para comenzar con la sección de *Recursión con parámetros* de Karelotitlán.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">Tema anterior</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">
+        Tema anterior
+        <span>Recursión simple</span>
+    </a>
 </div>

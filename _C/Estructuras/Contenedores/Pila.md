@@ -286,5 +286,12 @@ El código anterior da una salida como sigue:
 Nota que de la misma forma el ejemplo anterior está limitado a la cantidad máxima de elementos que pueden ser almacenados en un arreglo, además, la clase `pila` del ejemplo sólo funciona con enteros, sin embargo esto puede ser modificado fácilmente como ya imaginarás.
 
 <div class="Nav">
-    <a href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Class/" title="Class &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Cola/" title="Cola &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Class/" title="Class &vert; #iP Code">
+        Tema anterior
+        <span>Class</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Cola/" title="Cola &vert; #iP Code">
+        Tema siguiente
+        <span>Cola</span>
+    </a>
 </div>

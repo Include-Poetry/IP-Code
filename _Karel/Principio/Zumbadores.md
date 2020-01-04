@@ -48,5 +48,12 @@ Karel no puede tener una cantidad negativa de zumbadores en la mochila y si ést
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/ "Karel Azul &vert; #iP Code").
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Mundo/" title="Mundo &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Mundo/" title="Mundo de Karel &vert; #iP Code">
+        Tema anterior
+        <span>Mundo de Karel</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">
+        Tema siguiente
+        <span>Simulador Karel.js</span>
+    </a>
 </div>

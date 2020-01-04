@@ -249,5 +249,12 @@ Salida del anterior programa.
 No olvides examinar cuidadosamente el programa anterior y su comportamiento en tu *IDE* favorito.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String STL &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">
+        Tema anterior
+        <span>STL</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String en STL &vert; #iP Code">
+        Tema siguiente
+        <span>String en STL</span>
+    </a>
 </div>

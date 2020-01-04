@@ -32,5 +32,12 @@ Los zumbadores se ven de la siguiente manera en el mundo:
 </picture>]({{ site.iP-Sources }}/Multimedia/Karel/Azul/ZumbadoresC.jpg){: data-lightbox="image-1"}
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Azul/Principio/Mundo/">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Azul/Principio/Simulador/">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Azul/Principio/Mundo/" title="Mundo de Karel &vert; #iP Code">
+        Tema anterior
+        <span>Mundo de Karel</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Azul/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">
+        Tema siguiente
+        <span>Simulador Karel.js</span>
+    </a>
 </div>

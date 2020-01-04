@@ -43,5 +43,8 @@ Y para que no te quedes sin conocerlo, aquí un artístico retrato de él utiliz
 > La imagen fue obtenida de la página oficial de la **OMI** en facebook, [aquí el post original](https://www.facebook.com/olimpiadadeinformatica/posts/10152787483717478){: target="_blank"}
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Mundo/" title="Mundo de Karel &vert; #iP Code">Tema siguiente</a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Principio/Mundo/" title="Alternative &vert; #iP Code">
+        Tema siguiente
+        <span>Mundo de Karel</span>
+    </a>
 </div>

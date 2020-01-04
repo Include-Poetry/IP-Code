@@ -38,5 +38,8 @@ Grandes proyectos se han producido en C y C++ desde que fueron creados, tanto ha
 Toma en cuenta, que en la actualidad es muy raro que un determinado software esté hecho enteramente por un único lenguaje de programación, es muy común hoy en día que se hagan usando las virtudes de varios lenguajes. Por ello debes tener en cuenta que el lenguaje de programación en el que está escrito un programa no determina la calidad del programa mismo.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción &vert; #iP Code">Tema siguiente</a>
+    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción a C++ &vert; #iP Code">
+        Tema siguiente
+        <span>Introducción a C++</span>
+    </a>
 </div>

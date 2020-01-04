@@ -17,6 +17,7 @@ El funcionamiento de todo programa puede verse tan simple como **tomar una serie
 - Coger un zumbador
 - Dejar un zumbador
 - Apagarse
+- Problemas sugeridos
 
 ## Comandos básicos
 
@@ -128,6 +129,23 @@ turnoff();</textarea>
 
 > No importa si hay comandos después de `apagate | turnoff()`, al llegar a éste, la ejecución terminará.
 
+## Problemas sugeridos
+
+<div id="omegaDiv">
+    <ul id="omegaList">
+        <li><i class="fas fa-shapes"></i><span>Tomar un zumbador</span><a href="https://omegaup.com/arena/problem/iP-Karel-Tomar-un-zumbador" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="fas fa-shapes"></i><span>Primer paso</span><a href="https://omegaup.com/arena/problem/iP-Karel-Primer-paso" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="fas fa-shapes"></i><span>Girar a la derecha</span><a href="https://omegaup.com/arena/problem/iP-Karel-Girar-a-la-derecha" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+    </ul>
+</div>
+
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Primeros-pasos/" title="Primeros pasos con Karel &vert; #iP Code">
+        Tema anterior
+        <span>Primeros pasos con Karel</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">
+        Tema siguiente
+        <span>Instrucciones condicionales</span>
+    </a>
 </div>

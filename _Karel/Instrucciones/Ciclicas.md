@@ -14,6 +14,7 @@ Seguramente ya te has imaginado lo [tedioso](http://dle.rae.es/?id=ZJf6SDH){: ta
 - Sentencia mientras
 - Sentencia repetir
 - Ejemplos
+- Problemas sugeridos
 
 ## Sentencia mientras
 
@@ -141,6 +142,24 @@ iterate (8){
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
 </div>
 
+## Problemas sugeridos
+
+<div id="omegaDiv">
+    <ul id="omegaList">
+        <li><i class="fas fa-shapes"></i><span>Camino adelante</span><a href="https://omegaup.com/arena/problem/iP-Karel-Camino-adelante/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="fas fa-shapes"></i><span>El hechizo de escape</span><a href="https://omegaup.com/arena/problem/iP-Karel-El-hechizo-de-escape/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="fas fa-shapes"></i><span>Karel Pesh</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Pesh" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="fas fa-shapes"></i><span>Vaciando la mochila</span><a href="https://omegaup.com/arena/problem/iP-Karel-Vaciando-la-mochila/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+    </ul>
+</div>
+
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Condicionales &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">
+        Tema anterior
+        <span>Instrucciones condicionales</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones en Karel &vert; #iP Code">
+        Tema siguiente
+        <span>Funciones en Karel</span>
+    </a>
 </div>

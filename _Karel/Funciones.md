@@ -233,5 +233,12 @@ Y aquí una de las primeras implementaciones de las funciones secundarias y faci
 > ¡Felicidades! Ya sabes como empezar a hacer tus propios programas para Karel.
 
 <div class="Nav">
-	<a href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">Tema anterior</a> | <a href="{{ site.baseurl }}/Karel/Recursion/" title="Recursión &vert; #iP Code">Tema siguiente</a>
+    <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">
+        Tema anterior
+        <span>Instrucciones cíclicas</span>
+    </a>
+    <a id="navRight" href="{{ site.baseurl }}/Karel/Recursion/" title="Recursión &vert; #iP Code">
+        Tema siguiente
+        <span>Idea de recursión</span>
+    </a>
 </div>
