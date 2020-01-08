@@ -133,9 +133,9 @@ turnoff();</textarea>
 
 <div id="omegaDiv">
     <ul id="omegaList">
-        <li><i class="fas fa-shapes"></i><span>Tomar un zumbador</span><a href="https://omegaup.com/arena/problem/iP-Karel-Tomar-un-zumbador" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-        <li><i class="fas fa-shapes"></i><span>Primer paso</span><a href="https://omegaup.com/arena/problem/iP-Karel-Primer-paso" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-        <li><i class="fas fa-shapes"></i><span>Girar a la derecha</span><a href="https://omegaup.com/arena/problem/iP-Karel-Girar-a-la-derecha" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>Tomar un zumbador</span><a href="https://omegaup.com/arena/problem/iP-Karel-Tomar-un-zumbador" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>Primer paso</span><a href="https://omegaup.com/arena/problem/iP-Karel-Primer-paso" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>Girar a la derecha</span><a href="https://omegaup.com/arena/problem/iP-Karel-Girar-a-la-derecha" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
     </ul>
 </div>
 

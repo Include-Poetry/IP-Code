@@ -298,9 +298,9 @@ if (nextToABeeper && frontIsClear){
 
 <div id="omegaDiv">
 	<ul id="omegaList">
-		<li><i class="fas fa-shapes"></i><span>El celular de Karel</span><a href="https://omegaup.com/arena/problem/iP-Karel-El-celular-de-Karel/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-		<li><i class="fas fa-shapes"></i><span>Karel y la pared</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-y-la-pared/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-		<li><i class="fas fa-shapes"></i><span>Karel Silvestre</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Silvestre/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+		<li><i class="far fa-lightbulb"></i><span>El celular de Karel</span><a href="https://omegaup.com/arena/problem/iP-Karel-El-celular-de-Karel/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+		<li><i class="far fa-lightbulb"></i><span>Karel y la pared</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-y-la-pared/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+		<li><i class="far fa-lightbulb"></i><span>Karel Silvestre</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Silvestre/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
 	</ul>
 </div>
 

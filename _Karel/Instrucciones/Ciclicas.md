@@ -146,10 +146,10 @@ iterate (8){
 
 <div id="omegaDiv">
     <ul id="omegaList">
-        <li><i class="fas fa-shapes"></i><span>Camino adelante</span><a href="https://omegaup.com/arena/problem/iP-Karel-Camino-adelante/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-        <li><i class="fas fa-shapes"></i><span>El hechizo de escape</span><a href="https://omegaup.com/arena/problem/iP-Karel-El-hechizo-de-escape/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-        <li><i class="fas fa-shapes"></i><span>Karel Pesh</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Pesh" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
-        <li><i class="fas fa-shapes"></i><span>Vaciando la mochila</span><a href="https://omegaup.com/arena/problem/iP-Karel-Vaciando-la-mochila/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>Camino adelante</span><a href="https://omegaup.com/arena/problem/iP-Karel-Camino-adelante/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>El hechizo de escape</span><a href="https://omegaup.com/arena/problem/iP-Karel-El-hechizo-de-escape/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>Karel Pesh</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Pesh" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
+        <li><i class="far fa-lightbulb"></i><span>Vaciando la mochila</span><a href="https://omegaup.com/arena/problem/iP-Karel-Vaciando-la-mochila/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
     </ul>
 </div>
 
