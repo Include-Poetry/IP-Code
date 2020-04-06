@@ -111,8 +111,8 @@ Dentro de Code::Blokcs dirígete a *Settings > Editor > Syntax highlighting*, en
         Tema anterior
         <span>Introducción a C++</span>
     </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías en C++ &vert; #iP Code">
+    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Para-empezar-a-probar/" title="Para empezar &vert; #iP Code">
         Tema siguiente
-        <span>Librerías en C++</span>
+        <span>Para empezar a probar</span>
     </a>
 </div>
