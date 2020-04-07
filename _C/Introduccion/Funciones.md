@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Funciones en C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones]
 Hide_Tags: true
@@ -135,6 +136,10 @@ int FuncionSec(void){
 Nota que de todas formas declaramos la función completa más adelante, pero declaramos el prototipo antes de donde se hace la llamada.
 
 <span>¡Hey! ¡Oficialmente ya estás programando!</span>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Variables/" title="Variables &vert; #iP Code">

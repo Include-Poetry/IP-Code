@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Introducción a la programación competitiva
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -40,6 +41,10 @@ Saber estructurar todas las partes que conforman un problema es uno de los princ
 Si continúas creciendo y participando en competencias de programación competitiva entonces notarás rápidamente que tu forma de enfrentar toda clase de problemas cambia, buscarás las soluciones óptimas (que requieren menos tiempo y esfuerzo) y podrás evaluar la efectividad de diversas soluciones de forma eficiente. 
 
 > Si aún te quedan dudas de porqué aprender a programar, es porque aún te falta ir [acá]({{ site.url }}/Code/Motivacion/){: target="_blank"}
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Lenguaje/" title="Lenguaje C++ &vert; #iP Code">

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Contenedor queue
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [STL, Cola]
 Hide_Tags: true
@@ -108,6 +109,10 @@ int main(){
 3
 La estructura no esta vacia
 3 2</textarea>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String en STL &vert; #iP Code">

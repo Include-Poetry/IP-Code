@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Plantilla string
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [STL, Cadena, Variables, Variables compuestas]
 Hide_Tags: true
@@ -577,6 +578,10 @@ las cadenas son diferentes
 2131233.141592</textarea>
 
 No olvides probar los programas anteriores en tu IDE favorito, experimenta con ellos.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/Vector/" title="Vector en STL &vert; #iP Code">

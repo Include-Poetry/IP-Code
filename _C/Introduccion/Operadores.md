@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Operadores y entrada/salida de datos
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Operadores]
 Hide_Tags: true
@@ -144,6 +145,10 @@ Para mostrar un salto de línea podemos usar el carácter especial `\n`, que es 
 > Fin."
 
 Es más confiable usar `\n` además genera ejecuciones más rápidas.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Funciones/" title="Funciones &vert; #iP Code">

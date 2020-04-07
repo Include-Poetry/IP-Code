@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Arreglos lineales en C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Variables compuestas, Arreglos]
 Hide_Tags: true
@@ -231,6 +232,10 @@ Debido a esto, no podemos declarar arreglos excesivamente grandes, de hecho los 
 
 
 Recordemos además el hecho de que tenemos que ser considerados con la memoria, si declaramos un arreglo tipo `int` de $$ 1000000 $$ de locaciones, y cada variable `int` mide $$ 32 $$ bits, y además $$ 1000 $$ bits equivalen a un *kilobit* y a su vez, $$ 1000 $$ kilobits equivalen a un *megabit*, el arreglo mencionado nos constaría ¡$$ 32 $$ *mb* de memoria!
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Sentencias/" title="Sentencias &vert; #iP Code">

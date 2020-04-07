@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Mundo de Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -66,6 +67,10 @@ Estas opciones las puedes encontrar en la barra de herramientas ubicada en la pa
 ## Modificación del mundo
 
 Es **importante** saber que en un mundo todos sus elementos (<span>como la posición y orientación de Karel</span>) **pueden cambiar** durante la ejecución de un programa, **excepto** por las paredes, que siempre estarán igual que la primera vez que se creó el mundo. De hecho, durante la ejecución de un programa **sólo karel** puede modificar el mundo. Después de terminar la ejecución de un programa, el mundo volverá a su estado original.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Karel/" title="Karel el Robot &vert; #iP Code">

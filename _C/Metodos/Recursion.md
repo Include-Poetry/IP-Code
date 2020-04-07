@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión en C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión]
 Hide_Tags: true
@@ -323,6 +324,10 @@ int main(){
 En la mayoría de las funciones recursivas de C++, las dos partes que juegan los papeles más importantes son el valor que devuelve la función y los parámetros con los que trabaja. Es el trabajo en conjunto, de estas dos partes las que hacen la magia.
 
 Sin nunca dejar de lado, ni restarle importancia a la condición de quiebre de la recursión, pues de esto dependerá el resultado final, y también muchas veces, de que el programa no se cicle. Para esto también hay que estar cambiando los parámetros de la función, o la condición de quiebre, o ambas, y asegurarnos de que en algún momento la recursión terminará.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">

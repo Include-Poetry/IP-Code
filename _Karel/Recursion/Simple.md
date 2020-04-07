@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión simple en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones, Recursión]
 Hide_Tags: true
@@ -197,6 +198,10 @@ Como puedes notar, Karel gira la misma cantidad de veces que la cantidad de zumb
 > Recuerda que lo más aconsejable es que vayas realizando en tu simulador las practicas de ejemplo de aquí a la vez que analizas las explicaciones.
 
 > Pon a prueba lo que has aprendido haciendo los problemas de la sección de recursión de Karelotitlán.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Recursion/" title="Idea de recursión &vert; #iP Code">

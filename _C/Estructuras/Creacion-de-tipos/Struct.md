@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Estructuras de datos en C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Variables compuestas, Estructuras]
 Hide_Tags: true
@@ -172,6 +173,10 @@ int main(){
 }</textarea>
 
 Sí, es más *show* hacer algo así, además de poco práctico, sin embargo más adelante veremos maneras más sencillas de hacer una asignación como la que estábamos tratando de hacer. Con el ejemplo anterior, también pudimos ver una manera de mostrar las instancias de un objeto, usando el operador `.`. El programa anterior daría la salida `G chocolate 200 2.5`.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Operaciones-con-bits/" title="Operaciones con bits &vert; #iP Code">

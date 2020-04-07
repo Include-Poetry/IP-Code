@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Operaciones con bits
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Máscara de bits, Algoritmo, Variables]
 Hide_Tags: true
@@ -198,6 +199,10 @@ int main(){
 ## Conclusión
 
 El uso de operadores que manipulen bit a bit una variable resulta muy útil pues ahorra no sólo tiempo de ejecución sino también memoria. Las operaciones bit a bit pueden resultar un poco confusas al inicio, pero en realidad son bastante intuitivas y pueden ayudarnos a resolver problemas complejos cumpliendo en tiempo y memoria.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">

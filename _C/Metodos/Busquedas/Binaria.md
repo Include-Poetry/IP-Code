@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Búsqueda binaria o dicotómica
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Búsqueda, Recursión, Iteración]
 Hide_Tags: true
@@ -147,6 +148,10 @@ Identifica los mismos aspectos que se señalan en todas las búsquedas, existen 
 Toma en cuenta que la búsqueda binaria es un ejemplo de algoritmo **Divide y Vencerás**, pues fragmentamos el problema en problemas más pequeños, cuya solución de cada parte nos ayuda a construir la solución final. Más adelante se aborda específicamente este tema. Lo más importante de este algoritmo es el simple y eficiente razonamiento que utiliza, ese principio es muy muy útil y por lo tanto debes tenerlo muy en cuenta al resolver un problema.
 
 <span>¿Notas lo genial y parecidas que son las implementaciones recursivas e iterativas en estos ejemplos? Si aún no comprendes del todo la forma en la que la recursión funciona, compara estos métodos recursivos e iterativos, sus semejanzas y diferencias.</span>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Lineales/" title="Búsqueda lineal &vert; #iP Code">

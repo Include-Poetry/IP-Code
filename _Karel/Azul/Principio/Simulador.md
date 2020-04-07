@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Instalación y uso de Karel el robot
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -107,6 +108,10 @@ Tal vez ya hayas notado que aquí tampoco podemos cambiar el número de zumbador
 ## Ayuda
 
 Por último, la pestaña de ayuda contiene una guía de la sintaxis con la que estemos trabajando o tengamos seleccionada en la pestaña de "Programa". Te dice cuales son exactamente las palabras que tienes que utilizar para realizar una acción. Es muy útil cuando recién empezamos a utilizar Karel, te ayuda a recordar cuáles son los comandos que puedes utilizar y cómo debes de escribirlos.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">

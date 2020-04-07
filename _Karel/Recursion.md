@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión en programación
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Introducción]
 Hide_Tags: true
@@ -84,6 +85,10 @@ Toma en cuenta que lo anterior **no es un código real**, sólo es una manera ge
 > ¿Te gustó el gif de las matrioskas interminables? Las [animaciones recursivas](http://giphy.com/search/recursive){: target="_blank"} siempre son geniales.
 
 > No lo olvides, la idea básica de la recursión es **aplicar un proceso a una cosa y después, al resultado de eso volver a aplicar ese proceso otra vez** y seguir haciéndolo hasta lograr lo que buscamos.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones en Karel &vert; #iP Code">

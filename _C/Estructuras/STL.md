@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: STL en C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Librerías, STL]
 Hide_Tags: true
@@ -30,6 +31,10 @@ Es por esto, que lo más aconsejable es utilizarlas sólo en los casos en los qu
 ## Inclusión de la librería
 
 Cuando queremos incluir los contenedores de la *STL*, debemos incluir cada contenedor individualmente, de esta manera podemos incluir sólo lo que necesitamos, y no tener que extendernos tanto con herramientas que no usaremos y que sólo harán que nuestro código sea menos ágil.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Cola/" title="Cola &vert; #iP Code">

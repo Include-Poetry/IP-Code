@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Para empezar a probar
+date: 2020-04-05 23:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -85,6 +86,10 @@ Cuando quieras probar tu código deberás compilarlo y ejecutarlo adecuadamente,
 > **Nota 1**: A los pequeños fragmentos de código que por sí solos no son un programa o código fuente completo le llamamos *snippet*.
 
 > **Nota 2**: Es común referirnos a la acción de mostrar algo en la pantalla como *imprimir*. Por lo que *mostrar un mensaje* e *imprimir un mensaje* denotan la misma acción.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador C++ &vert; #iP Code">

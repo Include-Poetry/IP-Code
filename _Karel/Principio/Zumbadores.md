@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Zumbadores en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -46,6 +47,10 @@ Karel guarda los zumbadores que recoge en su mochila, ésta puede estar vacía o
 Karel no puede tener una cantidad negativa de zumbadores en la mochila y si ésta tiene una cantidad infinita dentro Karel no puede vaciarla nunca, pues nunca terminaría de retirar tantos zumbadores. Cuando guardas un mundo, los zumbadores se guardan con él.
 
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/ "Karel Azul &vert; #iP Code").
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Mundo/" title="Mundo de Karel &vert; #iP Code">

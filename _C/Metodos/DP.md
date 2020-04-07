@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Dynamic Programming
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [DP, Método, Optimización]
 Hide_Tags: true
@@ -172,6 +173,10 @@ En este ejemplo recursivo no es tan obvia ese proceso de guardar un camino ya ge
 ## Memoization
 
 *Memoization* es un término en inglés que no resulta sencillo de traducir al español. Se refiere a esta técnica de optimización en la que realizamos ese proceso de guardar el resultado de un proceso de cómputo para recordarlo después si es que nos lo volvemos a encontrar. En la literatura este término es muy común, es por ello que considero importante que lo conozcas y sepas a qué se está haciendo referencia.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Greedy/" title="Greedy &vert; #iP Code">

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Introducción a búsquedas
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Búsquedas, Introducción, Algoritmo]
 Hide_Tags: true
@@ -109,6 +110,10 @@ Estas dos partes son comúnmente expresadas como simples condiciones, en donde s
 ## Conclusión
 
 Las ***búsquedas*** nos permiten determinar si un elemento ***se encuentra*** en un determinado conjunto, como también si un determinado procedimiento ***es posible***, todo se realiza gracias a la ***relación entre los estados*** que definen a una búsqueda, y estos estados se ***relacionan*** en base a las ***reglas*** de cada problema. Podemos acelerar una búsqueda utilizando ***podas*** que es el descarte de estados en base de las reglas. Para poder considerar un estado como parte de una solución, ese estado deberá cumplir con ciertas ***reglas de validez***. Finalizamos nuestra búsqueda cuando llegamos al ***estado final***, que puede estar o no, inmediatamente relacionado al ***estado inicial***, en donde todo comienza.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Merge-sort/" title="Merge sort &vert; #iP Code">

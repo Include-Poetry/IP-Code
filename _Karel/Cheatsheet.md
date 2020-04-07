@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Karel pascal cheatsheet
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Cheatsheet]
 Hide_Tags: true
@@ -315,3 +316,6 @@ define miFuncion(x){
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
 </div>
 
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

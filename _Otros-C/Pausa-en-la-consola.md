@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Pausar la ejecución en la consola
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [tip]
 olimpiada: [OMI]
@@ -24,3 +25,7 @@ En donde sea que lo pongamos, la ejecución entera se detendrá en ese punto, y 
 Utilizar pausas como la anterior, es especialmente útil cuando estamos revisando la ejecución de algún código nuestro y queremos encontrar un punto en donde falla. Es decir, imagina un programa en el que tratas de resolver determinado problema, y aunque todo pareciera apuntar a que debe funcionar, el resultado no es el esperado, es ahí donde ubicar pausas en puntos estratégicos del código nos ayuda bastante, pues podemos ver en qué momento todo iba bien y cuándo empezó a arrojar resultados incorrectos, para de esta manera poder solucionar mejor las deficiencias de nuestros programas.
 
 Puede que en un principio no lo utilices demasiado, pero *créeme*, hay más probabilidades de que te caiga un rayo mientras lees esto, a que no lo uses nunca, ya sea por facilidad, comodidad, o simplemente, mejor rendimiento al resolver problemas usando programas.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

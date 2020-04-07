@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Instrucciones cíclicas en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Instrucciones, Ciclos]
 Hide_Tags: true
@@ -152,6 +153,10 @@ iterate (8){
         <li><i class="far fa-lightbulb"></i><span>Vaciando la mochila</span><a href="https://omegaup.com/arena/problem/iP-Karel-Vaciando-la-mochila/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
     </ul>
 </div>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">

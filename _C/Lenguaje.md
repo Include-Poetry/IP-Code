@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Lenguaje C/C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -36,6 +37,10 @@ Ser la derivación de *C*, permite poder utilizar los recursos que éste tenía,
 Grandes proyectos se han producido en C y C++ desde que fueron creados, tanto ha sido así que de hecho se ha mantenido hasta nuestros días como uno de los lenguajes más utilizados. Sus desarrollos son muy famosos, de hecho muy seguramente tú los conoces, pues la mayoría de los programas para Windows han sido desarrollados con C++, de hecho, también es así para la mayoría de las versiones de Windows y versiones de Mac Os, además de juegos, herramientas como Office, entre muchísimos otros más.
 
 Toma en cuenta, que en la actualidad es muy raro que un determinado software esté hecho enteramente por un único lenguaje de programación, es muy común hoy en día que se hagan usando las virtudes de varios lenguajes. Por ello debes tener en cuenta que el lenguaje de programación en el que está escrito un programa no determina la calidad del programa mismo.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción a C++ &vert; #iP Code">
