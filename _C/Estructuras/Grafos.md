@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Grafos
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Estructuras, Grafos]
 Hide_Tags: true
@@ -203,6 +204,10 @@ Personalmente encuentro muy útil esta clase de representación, sobretodo cuand
 De las grandes cualidades de estas estructuras, es que su implementación estimula la capacidad del programador para identificar y aprovechar las relaciones que existen entre las distintas variables que tenemos. Identificar correctamente estas relaciones, ha permitido representar eventos muy complejos como la ***sinapsis en las neuronas***. A medida que se practica la utilización de los grafos para resolver problemas, se podrán ir resolviendo de forma casi natural situaciones sumamente complejas.
 
 Más adelante retomaremos estas estructuras para conocer distintas formas de *recorrer* cada nodo y aprovecharemos la naturaleza de las aristas para poder optimizar búsquedas y ordenamientos, entre muchas cosas más.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/Pair/" title="Pair en STL &vert; #iP Code">

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Cola
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Estructuras, Cola, Arreglos, Clases, Funciones]
 Hide_Tags: true
@@ -217,6 +218,10 @@ int main(){
 }</textarea>
 
 El código anterior produce como salida `20 2` y como puedes ver, cada fila tiene sus datos individuales.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Pila/" title="Pila &vert; #iP Code">

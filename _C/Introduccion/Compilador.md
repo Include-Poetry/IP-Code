@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Compilador de C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -105,6 +106,10 @@ Dentro de Code::Blokcs dirígete a *Settings > Editor > Syntax highlighting*, en
 > No es necesario que instales los dos IDE aunque tampoco hay problema si instalas ambos
 
 > Nota que en ningún momento se ha hablado de lo que se escribirá como código fuente, solamente el cómo instalar, configurar y personalizar los IDE, así como algunas de sus funciones más básicas
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción a C++ &vert; #iP Code">

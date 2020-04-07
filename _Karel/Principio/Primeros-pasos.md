@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Primeros pasos con Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Karel]
 Hide_Tags: true
@@ -123,6 +124,10 @@ Para poner a prueba tus conocimientos adquiridos, puedes resolver *mini problema
 Para poder aprender como utilizar la plataforma de omegaUp, deberás leer [el artículo]({{ site.baseurl }}/Problemas/omegaUp/ "Cómo usar omegaUp &vert; IP Code"){: target="_blank"} que hemos escrito sobre ello o revisarlo directamente [desde omegaUp](https://blog.omegaup.com/category/omegaup/omegaup-101/ "Cómo usar omegaUp &vert; omegaUp"){: target="_blank"}. 
 
 Una vez cubierto todo esto podrás comenzar a resolver problemas y a prepararte para tus siguientes competencias.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">

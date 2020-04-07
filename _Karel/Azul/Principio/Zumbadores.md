@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Zumbadores en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -30,6 +31,10 @@ Los zumbadores se ven de la siguiente manera en el mundo:
 	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Karel/Azul/Zumbadores.jpg">
 	<img class="Imagen" src="{{ site.iP-Sources }}/Multimedia/Karel/Azul/ZumbadoresC.jpg" alt="Mundo">
 </picture>]({{ site.iP-Sources }}/Multimedia/Karel/Azul/ZumbadoresC.jpg){: data-lightbox="image-1"}
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Azul/Principio/Mundo/" title="Mundo de Karel &vert; #iP Code">

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Simulador Karel.js
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -88,6 +89,10 @@ En la esquina inferior izquierda de la pantalla encontramos un recuadro donde ha
 La otra pestaña que se encuentra en la esquina inferior izquierda de la pantalla lleva por título `Pila` y hace referencia a la pila de llamadas de Karel. Esta pila de llamadas será vital cuando estés resolviendo problemas con recursión. Aquí es donde Karel va *"anotando"* cada función que realiza para que no se le olvide ninguna. 
 
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Simulador/ "Karel Azul &vert; #iP Code").
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">

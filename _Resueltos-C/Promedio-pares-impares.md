@@ -83,3 +83,7 @@ Inicio del programa
     mostrar salto_de_linea
     mostrar promI
 Fin del programa</textarea>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

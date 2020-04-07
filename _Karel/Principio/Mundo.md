@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Mundo de Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
 Hide_Tags: true
@@ -66,6 +67,10 @@ Para agilizar el uso de mundos, *Karel.js* permite **guardar** y **cargar** mund
 Es **importante** saber que en un mundo los elementos como la posición y orientación de Karel y el número y ubicación de zumbadores **pueden cambiar** durante la ejecución de un programa, **excepto** por las paredes y cantidad de filas y columnas, que siempre estarán igual que la primera vez que se creó el mundo. De hecho, durante la ejecución de un programa **sólo Karel** puede modificar el mundo. Después de terminar la ejecución de un programa puedes presionar el botón de <i class="fas fa-redo-alt"></i> y el mundo volverá a su estado original y podrás editarlo otra vez.
 
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Mundo/ "Karel Azul &vert; #iP Code").
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Karel/" title="Karel el robot &vert; #iP Code">

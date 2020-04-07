@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Funciones en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones]
 Hide_Tags: true
@@ -231,6 +232,10 @@ class program {
 Y aquí una de las primeras implementaciones de las funciones secundarias y facilitadora del desarrollo de muchos programas, la función de `gira-derecha`. <span>¿Ya notaste por qué funciona?</span>
 
 > ¡Felicidades! Ya sabes como empezar a hacer tus propios programas para Karel.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">

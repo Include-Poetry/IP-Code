@@ -1,8 +1,9 @@
 ---
 layout: G-Article
 title: Class
-tags: [Variables compuestas, Funciones, Clases]
+date: 2020-01-04 12:00:00
 author: rivel_co
+tags: [Variables compuestas, Funciones, Clases]
 Hide_Tags: true
 olimpiada: [OMI]
 subject: [C++]
@@ -243,6 +244,10 @@ int main(){
 }</textarea>
 
 Como puedes notar, podría parecer que no hemos inicializado el pastel `Croccante`, y de hecho, no lo hemos hecho nosotros, sino el constructor por defecto que hemos agregado (*línea 15*), el cual sabe que si el constructor no recibe ningún parámetro (si no es citado), él debe actual, dando por hecho que el precio será `10` y que su sabor será `vainilla`. Este constructor hará esto para cualquier objeto de la clase `Pastel` a la cual no hayamos *construido* de forma explícita en su declaración. Nota que no es necesario poner paréntesis vacíos en la declaración de `Croccante`, ponerlos nos marcaría un error de compilación. El programa anterior nos daría como salida `24 30 20`.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/" title="Struct &vert; #iP Code">

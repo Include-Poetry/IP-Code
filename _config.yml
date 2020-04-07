@@ -4,6 +4,9 @@ name: Include Poetry
 # Título
 title: Include Poetry
 
+# Sección del sitio
+ipSecc: Code
+
 # Descripcón del sitio
 description: Curso de preparación para las Olimpiadas de Informática, como la OMI y OMIPS
 

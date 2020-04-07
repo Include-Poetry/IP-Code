@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Búsqueda en amplitud BFS en matrices
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Búsqueda, Algoritmo, Cola]
 Hide_Tags: true
@@ -305,6 +306,10 @@ Así es como nuestra búsqueda va relacionando las distancias de todos los estad
 La búsqueda en amplitud o BFS cumple con el principio de cualquier otro tipo de búsqueda, debemos de considerar distintos ***estados*** existentes, las formas en las que se ***relacionan*** los diferentes estados, y cómo evaluar cuando un estado es válido y cuando no lo es, es decir las ***podas*** que podemos realizar. Además la BFS nos devuelve el mínimo de las distintas soluciones a una búsqueda, gracias al orden en el que se deja pendiente la evaluación de cada estado. Es importante no perder de vista lo que se está buscando y terminar nuestra función en ese momento para no perder más tiempo.
 
 > La BFS es la búsqueda veloz y nos sirve para encontrar la solución más inmediata a un problema.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Binaria/" title="Búsqueda binaria &vert; #iP Code">

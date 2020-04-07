@@ -72,3 +72,7 @@ Inicio del programa
 
     mostrar contador
 Fin del programa</textarea>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

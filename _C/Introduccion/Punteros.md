@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Punteros
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Operadores, Punteros, Funciones]
 Hide_Tags: true
@@ -274,6 +275,10 @@ int main(){
 El código anterior mostrará algo como `0x22fe9c 0x22fe9c 0x22fe98 0x22fe98 0x22fe94`, es decir, dos direcciones de memoria iguales, seguidas de otras dos direcciones de memoria iguales y al final, una diferente a todas. Analiza el código anterior hasta que tengas bien claro el porqué de la salida.
 
 > En punteros que apuntan a punteros, se pone un asterisco por cada *nivel*. Por lo que un apuntador a un apuntador será `int **p` y un apuntador a ese apuntador será `int ***p`
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Operadores/" title="Operadores &vert; #iP Code">

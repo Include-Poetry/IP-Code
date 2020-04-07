@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Comparando con cero
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Variables, Parámetros]
 Hide_Tags: false
@@ -119,3 +120,7 @@ En *[Karel Azul](http://www.cmirg.com/karelotitlan/Pantallas/descargas.aspx "Kar
 ## Reto adicional
 
 Con la solución aquí propuesta es necesario quitar todos los zumbadores del sitio para entonces comparar el parámetro pero, imagina un nuevo problema donde el montón a evaluar puede tener una cantidad infinita de zumbadores <span>¿cómo resolverías el problema?</span> Recuerda que Karel nunca terminaría de quitar una cantidad infinita.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

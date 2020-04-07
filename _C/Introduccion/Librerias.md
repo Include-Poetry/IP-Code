@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Librerías para C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción, Librerías]
 Hide_Tags: true
@@ -79,6 +80,10 @@ Debido a esto y aunque su uso es muy práctico, sugiero no utilizarla al hacer n
 #include &lt;cmath&gt;
 #include &lt;cstring&gt;
 #include &lt;bits/stdc++.h&gt;</textarea>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Para-empezar-a-probar/" title="Para empezar &vert; #iP Code">

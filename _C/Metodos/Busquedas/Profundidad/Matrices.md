@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Búsqueda en profundidad DFS en matrices
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Búsqueda, Recursión, Algoritmo]
 Hide_Tags: true
@@ -251,6 +252,10 @@ I......
 ......F</textarea>
 
 Y decir el camino más corto. La búsqueda en amplitud resolverá el problema en menos de un segundo, sin embargo la búsqueda en profundidad necesitará al rededor de $$ 15 $$ minutos para responder, esto porque buscará todos los posibles caminos y no sólo el menor, es decir explorará los $$575780564$$ diferentes caminos que puedes recorrer para llegar de un punto a otro. Puedes realizar el experimento en tu computadora y ver cuánto tarda uno y otro y ver por cuenta propia el porqué se realiza la BFS para los caminos cortos. Es posible disminuir el tiempo de ejecución de esta búsqueda en este ejemplo de camino más corto realizando ***podas***, por ejemplo no es necesario seguir explorando un camino si en algún momento requiere más pasos que la solución actual. Aún con una poda como esta, el tiempo de ejecución es mucho más elevado.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Amplitud/Matrices/" title="Busqueda en amplitud &vert; #iP Code">

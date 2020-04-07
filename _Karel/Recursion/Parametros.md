@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursión con parámetros en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones, Recursión]
 Hide_Tags: true
@@ -331,6 +332,10 @@ Como puedes ver, Karel deja 3 zumbadores mientras realiza llamadas recursivas, e
 > También puedes hacer comparaciones como `si-es-cero( sucede(x) )` `iszero( succ(x) )`
 
 > Ya estas listo para comenzar con la sección de *Recursión con parámetros* de Karelotitlán.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">

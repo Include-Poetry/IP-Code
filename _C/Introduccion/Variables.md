@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Tipos de variables en C++
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Variables, ASCII, Memoria]
 Hide_Tags: true
@@ -144,6 +145,10 @@ Podríamos utilizar siempre variables tipo `long long` y así no preocuparnos mu
 Si sabemos cuanto mide cada variable, y sabemos cuántas variables declaramos, podemos calcular cuál sería el requerimiento de espacio que necesite un programa que escribamos. Ten en cuenta que ese espacio no es el que medirá tu código fuente, o el archivo ejecutable, sino el que requerirá *la ejecución del programa*.
 
 Si declaramos $$ 100 $$ variables tipo `int`, $$ 50 $$ tipo `char` y $$ 20 $$ tipo `double` estaremos ocupando en total $$ 100 \cdot 32 + 50 \cdot 8 + 20 \cdot 64 = 4880 $$ bits, es decir $$ 610 $$ bytes.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías &vert; #iP Code">

@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Búsquedas lineales
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Búsquedas, Arreglos, Algoritmo]
 Hide_Tags: true
@@ -173,6 +174,10 @@ Existen diferentes métodos de búsqueda de datos, cada método tiene ventajas y
 Nota como en cada ejemplo estamos evaluando distintos ***estados*** o condiciones de nuestra búsqueda, sólo tomamos aquellos estados que nos guíen a la solución, descartamos o ***podamos*** los estados que no encajan o que no son útiles para la respuesta, y nos desplazamos entre un estado y otro por determinadas ***condiciones de validez***. Recuerda y comprende muy bien estos conceptos de *estado*, *poda* y *condiciones de validez* pues son las bases de todas las búsquedas.
 
 <span>¿Notas lo genial y parecidas que son las implementaciones recursivas e iterativas en estos ejemplos? Si aún no comprendes del todo la forma en la que la recursión funciona, compara estos métodos recursivos e iterativos, sus semejanzas y diferencias.</span>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/" title="Búsquedas &vert; #iP Code">

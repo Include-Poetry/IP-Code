@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Instrucciones condicionales en Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Instrucciones, Condicionales]
 Hide_Tags: true
@@ -303,6 +304,10 @@ if (nextToABeeper && frontIsClear){
 		<li><i class="far fa-lightbulb"></i><span>Karel Silvestre</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Silvestre/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
 	</ul>
 </div>
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">

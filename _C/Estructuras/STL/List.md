@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Contenedor list
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [STL, Listas]
 Hide_Tags: true
@@ -69,6 +70,10 @@ Insertar o remover un elemento | constante | $$ O(l) $$
 | Función           | Definición                                                            |
 |:------------------|:----------------------------------------------------------------------|
 | Operadores `==`, `!=`, `<`, `<=`, `>`, `>=` | Compara lexicográficamente los valores del contenedor |
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/Stack/" title="Stack en STL &vert; #iP Code">

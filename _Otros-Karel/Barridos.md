@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Barridos con Karel
+date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Algoritmo]
 olimpiada: [OMIPS]
@@ -130,3 +131,7 @@ class program{
 </div>
 
 No olvides probar y asegurarte de entender el código anterior, así como implementar los otros dos barridos mencionados, puedes sacarles provecho en algunos casos, así que es también muy útil entenderlos y manejarlos.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
