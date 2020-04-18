@@ -99,3 +99,7 @@ void cribaErat(ll limite){
 Nota que se hace uso de variables `long long` para poder almacenar números muy grandes. Además se aprovecha el hecho de que las variables globales comienzan con un valor de $$0$$ para declarar el arreglo `compuestos`. El "eliminar" de este código consiste en marcar como `true` los números como en el arreglo compuestos. También nota como en el ciclo de la línea 9 se empieza con el cuadrado del número actualmente evaluado y se van eliminando los múltiplos al avanzar con `j+=i`. En este código se podría evaluar el rango $$[0 ... 10^7]$$ que suele ser suficiente para la mayoría de los problemas de programación.
 
 Con la criba de primos también podemos decir si un número más grande que el rango de la criba es primo, esto lo haríamos como se dijo antes, revisando si el número a evaluar puede ser dividido por los números de la criba. Si el número primo más grande generado por la criba es $$P$$ entonces este método descrito solamente alcanzaría para evaluar un número $$N$$ donde $$N \leq P^2$$.
+
+### Cita esta página
+
+{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
