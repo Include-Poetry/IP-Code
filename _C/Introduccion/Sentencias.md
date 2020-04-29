@@ -4,9 +4,11 @@ title: Sentencias en C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Ciclos, Condicionales]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Punteros, /C++/Introduccion/Punteros/"
+nextTopic: "Arreglos, /C++/Estructuras/Arreglos/"
 ---
 
 Las sentencias nos permiten modificar la manera en que el código se ejecuta, además de que nos facilitan la resolución de muchos problemas, haciéndolos más sencillos de resolver al tener herramientas más eficaces para prever más situaciones y casos de problemas. Su uso es muy sencillo y además muy variado.
@@ -492,18 +494,3 @@ int main(){
 }</textarea>
 
 La salida al final será `Otro mensaje 0 1 2 3 4 5 6 7 8 9 L`.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Punteros/" title="Punteros &vert; #iP Code">
-        Tema anterior
-        <span>Punteros</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/" title="Arreglos &vert; #iP Code">
-        Tema siguiente
-        <span>Arreglos</span>
-    </a>
-</div>

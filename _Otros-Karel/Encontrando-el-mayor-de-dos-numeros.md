@@ -4,7 +4,6 @@ title: Encontrando el mayor de dos números
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Variables, Parámetros]
-Hide_Tags: false
 olimpiada: [OMIPS]
 subject: [Karel pascal]
 ---
@@ -117,7 +116,3 @@ Cuando los dos números son iguales lo que hay que hacer es meter otra comparaci
 ## Reto adicional
 
 Imagina ahora que lo que quieres hacer es encontrar el mayor de todos los números de un mundo de medidas determinadas ¿cuál sería la mejor manera de encontrarlo? Además, ¿se te ocurre una forma de encontrar el mayor de dos números sin utilizar los parámetros? ¿cuál es el método óptimo?
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

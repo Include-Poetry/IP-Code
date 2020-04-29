@@ -4,9 +4,11 @@ title: Greedy
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Greedy, Método]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Busqueda en amplitud, /C++/Metodos/Busquedas/Profundidad/Matrices/"
+nextTopic: "Dynamic Programming, /C++/Metodos/DP/"
 ---
 
 Esta es una técnica que resulta útil y sospechosamente sencilla de implementar al momento de resolver un problema. Probar que un problema tiene las características necesarias para realizar una *greedy* no es nada trivial. La traducción de *greedy* es codicioso y justamente se usa este término por el razonamiento que utiliza.
@@ -64,18 +66,3 @@ Como puedes notar, el algoritmo greedy no aplica aquí, aunque con algunos ejemp
 Es de suma importancia identificar las subestructuras óptimas y el principio de "mejor decisión a cada paso forma la mejor decisión global". En ocasiones algunos problemas pueden parecer resueltos con *greedy* cuando en realidad no es así, es importante realizar diversos casos y razonar el funcionamiento y las condiciones de cada problema en particular.
 
 Algunos competidores inexpertos evalúan los problemas que requieren de *greedy* como *muy fáciles*. Esto no es necesariamente cierto, como ya se decía la cosa se complica cuando queremos demostrar que este método es adecuado porque el problema cumple con todas las características. A menudo se confunde con *greedy* un algoritmo que en realidad se resuelve con [DP]({{ site.baseurl }}/C++/Metodos/DP/ "DP - #iP Code"){:target="_blank"}. Cuando esto es así lo que se obtiene del evaluador es un **WA**, no un **TLE**, pues normalmente las soluciones greedy son muy rápidas.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Profundidad/Matrices/" title="Busqueda en amplitud &vert; #iP Code">
-        Tema anterior
-        <span>Busqueda en amplitud</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/DP/" title="Dynamic Programming &vert; #iP Code">
-        Tema siguiente
-        <span>Dynamic Programming</span>
-    </a>
-</div>

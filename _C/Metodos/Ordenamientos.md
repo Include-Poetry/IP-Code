@@ -4,9 +4,11 @@ title: Introducción a ordenamientos
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Algoritmo, Ordenamientos, Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Recursión, /C++/Metodos/Recursion/"
+nextTopic: "Bubble sort, /C++/Metodos/Ordenamientos/Bubble-sort/"
 ---
 
 Una gran cantidad de problemas, de muchos tipos, requieren para su solución que los datos se encuentren en orden. La utilidad de trabajar con información ordenada es inmensa, en ocasiones no sólo facilita la solución de un problema, sino que además puede llegar a ser la única solución.
@@ -40,18 +42,3 @@ Otra gran utilidad es que en un conjunto de datos ordenados, cada dato guarda un
 En el caso planteado en el párrafo anterior, es importante recordar que los números son todos diferentes, es decir, es como ordenar el conjunto `3, 6, 8, 1, 32, 0` a la forma `0, 1, 3, 6, 8, 32`. Sin embargo, muy a menudo nos encontraremos con datos que pueden no ser del todo diferentes, por ejemplo, el conjunto `8, 3, 6, 0 ,9 ,2, 3, 9` quedaría ordenado de forma creciente así `0, 2, 3, 3, 6, 8, 9, 9`. Podemos notar que hay datos repetidos, y que por lo tanto, en nuestro criterio de ordenamiento son iguales.
 
 En este caso, podemos escoger un nuevo criterio de ordenamiento o no. Si el criterio que aplicamos es ***eficiente***, entonces no importará que los datos tengan valores iguales en el ordenamiento, pues no se alterará nuestro procedimiento ni resultado final de la tarea.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">
-        Tema anterior
-        <span>Recursión</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Bubble-sort/" title="Bubble sort &vert; #iP Code">
-        Tema siguiente
-        <span>Bubble sort</span>
-    </a>
-</div>

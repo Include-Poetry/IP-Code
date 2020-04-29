@@ -4,9 +4,11 @@ title: Arreglos lineales en C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Variables compuestas, Arreglos]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Sentencias, /C++/Introduccion/Sentencias/"
+nextTopic: "Arreglos multidimensionales, /C++/Estructuras/Arreglos/Multidimensionales/"
 ---
 
 Así como una variable tipo `int` almacena números enteros, `char` caracteres, `bool` valores booleanos, etc. Se podría decir que existen variables que almacenan, nada más y nada menos que *otras variables*. Esta es una manera de concebir a los *arreglos*.
@@ -232,18 +234,3 @@ Debido a esto, no podemos declarar arreglos excesivamente grandes, de hecho los 
 
 
 Recordemos además el hecho de que tenemos que ser considerados con la memoria, si declaramos un arreglo tipo `int` de $$ 1000000 $$ de locaciones, y cada variable `int` mide $$ 32 $$ bits, y además $$ 1000 $$ bits equivalen a un *kilobit* y a su vez, $$ 1000 $$ kilobits equivalen a un *megabit*, el arreglo mencionado nos constaría ¡$$ 32 $$ *mb* de memoria!
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Sentencias/" title="Sentencias &vert; #iP Code">
-        Tema anterior
-        <span>Sentencias</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">
-        Tema siguiente
-        <span>Arreglos multidimensionales</span>
-    </a>
-</div>

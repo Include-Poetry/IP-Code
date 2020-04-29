@@ -4,9 +4,11 @@ title: Funciones en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Instrucciones cíclicas, /Karel/Instrucciones/Ciclicas/"
+nextTopic: "Idea de recursión, /Karel/Recursion/"
 ---
 
 <span>¡Por fin ha llegado la hora de programar!</span> Sólo nos falta saber cómo empezar, y para ello tenemos que conocer lo que es una función. Lo primero que hay que saber, es que existen varios tipos de funciones:
@@ -232,18 +234,3 @@ class program {
 Y aquí una de las primeras implementaciones de las funciones secundarias y facilitadora del desarrollo de muchos programas, la función de `gira-derecha`. <span>¿Ya notaste por qué funciona?</span>
 
 > ¡Felicidades! Ya sabes como empezar a hacer tus propios programas para Karel.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">
-        Tema anterior
-        <span>Instrucciones cíclicas</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Recursion/" title="Recursión &vert; #iP Code">
-        Tema siguiente
-        <span>Idea de recursión</span>
-    </a>
-</div>

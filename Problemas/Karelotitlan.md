@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Problemas en Karelotitlán
+date: 2020-01-04 12:00:00
 permalink: /Problemas/Karelotitlan/
 olimpiada: [OMI, OMIPS]
 subject: [C++, Karel pascal]

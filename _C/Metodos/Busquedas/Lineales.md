@@ -4,9 +4,11 @@ title: Búsquedas lineales
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Búsquedas, Arreglos, Algoritmo]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Búsquedas, /C++/Metodos/Busquedas/"
+nextTopic: "Búsqueda binaria, /C++/Metodos/Busquedas/Binaria/"
 ---
 
 Muy a menudo, resolviendo problemas, te ves en la situación de buscar un determinado valor en un conjunto de datos. Existen diferentes formas de hacer esto.
@@ -175,9 +177,6 @@ Nota como en cada ejemplo estamos evaluando distintos ***estados*** o condicione
 
 <span>¿Notas lo genial y parecidas que son las implementaciones recursivas e iterativas en estos ejemplos? Si aún no comprendes del todo la forma en la que la recursión funciona, compara estos métodos recursivos e iterativos, sus semejanzas y diferencias.</span>
 
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
 
 <div class="Nav">
     <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/" title="Búsquedas &vert; #iP Code">

@@ -4,9 +4,11 @@ title: Estructura pair
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [STL, Listas]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Lists en STL, /C++/Estructuras/STL/List/"
+nextTopic: "Grafos, /C++/Estructuras/Grafos/"
 ---
 
 La estructura `pair` es una plantilla que permite almacenar dos variables en un sólo objeto.
@@ -71,18 +73,3 @@ int main(){
 /* Salida */
 10 4
 89 T</textarea>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/List/" title="Lists en STL &vert; #iP Code">
-        Tema anterior
-        <span>Lists en STL</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Grafos/" title="Grafos &vert; #iP Code">
-        Tema siguiente
-        <span>Grafos</span>
-    </a>
-</div>

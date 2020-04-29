@@ -4,9 +4,10 @@ title: Karel el robot
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+nextTopic: "Mundo de Karel, /Karel/Principio/Mundo/"
 ---
 
 En este sitio encontrarás el más completo manual y tutorial para aprender a programar a *Karel el robot*, donde además de encontrar de forma detallada todas las funciones del lenguaje, lo aprenderás con un enfoque especialmente diseñado para la [Olimpiada Mexicana de Informática](http://www.olimpiadadeinformatica.org.mx/){: target="_blank"} para [Primaria](http://www.olimpiadadeinformatica.org.mx/OMI/OMI_Primaria/Inicio.aspx){: target="_blank"} y [Secundaria](http://www.olimpiadadeinformatica.org.mx/OMI/OMI_Secundaria/Inicio.aspx){: target="_blank"}.
@@ -42,14 +43,3 @@ Y para que no te quedes sin conocerlo, aquí un artístico retrato de él utiliz
 </picture>]({{ site.iP-Sources }}/Multimedia/Karel/KarelC.png){: data-lightbox="image-1"}
 
 > La imagen fue obtenida de la página oficial de la **OMI** en facebook, [aquí el post original](https://www.facebook.com/olimpiadadeinformatica/posts/10152787483717478){: target="_blank"}
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Principio/Mundo/" title="Alternative &vert; #iP Code">
-        Tema siguiente
-        <span>Mundo de Karel</span>
-    </a>
-</div>

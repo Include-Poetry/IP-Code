@@ -60,7 +60,3 @@ También podemos marcar la opción de "Have g++ follow the coming C++0x ISO C++ 
 Aunque al usarlo, muchas veces facilitamos algunas declaraciones, y usos de diversas funciones, *su uso no es forzoso*, es decir, podemos prescindir de usar esta versión del compilador para los problemas del tipo de la *OMI*, sin embargo, resulta útil conocer las herramientas, sin hacer un uso indiscriminado de ellas, claro. 
 
 Es preferible que se dominen primero las herramientas disponibles con C++98 (el que usamos tradicionalmente) que caer en la pereza de usar siempre C++11, sin embargo, el uso correcto e inteligente de ambas herramientas, pueden ayudarnos muchísimo.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

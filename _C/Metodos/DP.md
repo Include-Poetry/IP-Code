@@ -4,9 +4,10 @@ title: Dynamic Programming
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [DP, Método, Optimización]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Greedy, /C++/Metodos/Greedy/"
 ---
 
 Cuando buscamos una solución que requiere del cálculo de muchas posibles soluciones, solemos intentar utilizando una estructura recursiva, una [*búsqueda completa* o *exhaustiva*](http://localhost:4000/Code/C++/Metodos/Busquedas/Profundidad/Matrices/ "Búsqueda a profundidad - #iP Code"){:target="_blank"}. Sin embargo, en ocasiones, nuestro árbol recursivo genera la respuesta a un mismo problema muchas veces, lo que incrementa el tiempo de ejecución, para evitar este problema podemos recurrir a la técnica de Programación Dinámica o **DP**.
@@ -173,14 +174,3 @@ En este ejemplo recursivo no es tan obvia ese proceso de guardar un camino ya ge
 ## Memoization
 
 *Memoization* es un término en inglés que no resulta sencillo de traducir al español. Se refiere a esta técnica de optimización en la que realizamos ese proceso de guardar el resultado de un proceso de cómputo para recordarlo después si es que nos lo volvemos a encontrar. En la literatura este término es muy común, es por ello que considero importante que lo conozcas y sepas a qué se está haciendo referencia.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Greedy/" title="Greedy &vert; #iP Code">
-        Tema anterior
-        <span>Greedy</span>
-    </a>
-</div>

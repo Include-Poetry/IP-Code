@@ -67,7 +67,3 @@ cont = y/x;
 cout << cont;</textarea>
 
 Como es evidente, ni siquiera sería necesario inicializar la variable `cont`, puede que ni siquiera sea necesario llamarla así o en dado caso ni siquiera es necesario declararla. De cualquier forma, está expresando la misma función en ambos casos, dice cuántas veces algo se cumplió y es es justamente el principio de un contador.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

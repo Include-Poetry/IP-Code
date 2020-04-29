@@ -4,9 +4,11 @@ title: Mundo de Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Karel el Robot, /Karel/Principio/Karel/"
+nextTopic: "Zumbadores, /Karel/Azul/Principio/Zumbadores/"
 ---
 
 Al igual que todos Karel vive en un lugar particular, su mundo puede verse como una gran cuadricula, donde cada linea horizontal es una *calle* y cada linea vertical es una *avenida*. En otras palabras las calles corren de *este a oeste* y las avenidas de *norte a sur*. Karel puede desplazarse por las calles y avenidas siempre y cuando **estén despejadas**. También puede quedarse ubicado en cualquier intersección (<span>o esquina</span>) de ellas. Es **importante** notar que en la pantalla obtenemos una **vista superior** (<span>como aérea</span>) del mundo. Un mundo puede tener como máximo **cien avenidas**  y **cien calles**, todas están numeradas e indexadas (<span>numeradas iniciando</span>) en **1**.
@@ -67,18 +69,3 @@ Estas opciones las puedes encontrar en la barra de herramientas ubicada en la pa
 ## Modificación del mundo
 
 Es **importante** saber que en un mundo todos sus elementos (<span>como la posición y orientación de Karel</span>) **pueden cambiar** durante la ejecución de un programa, **excepto** por las paredes, que siempre estarán igual que la primera vez que se creó el mundo. De hecho, durante la ejecución de un programa **sólo karel** puede modificar el mundo. Después de terminar la ejecución de un programa, el mundo volverá a su estado original.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Karel/" title="Karel el Robot &vert; #iP Code">
-        Tema anterior
-        <span>Karel el Robot</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Azul/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">
-        Tema siguiente
-        <span>Zumbadores</span>
-    </a>
-</div>

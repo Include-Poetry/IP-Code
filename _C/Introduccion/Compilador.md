@@ -4,9 +4,11 @@ title: Compilador de C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Introducción a C++, /C++/Introduccion/"
+nextTopic: "Para empezar a probar, /C++/Introduccion/Para-empezar-a-probar/"
 ---
 
 Cuando queremos escribir un programa, lo hacemos en un determinado *lenguaje de programación*. A este escrito que hay que hacer le llamamos *código fuente* o simplemente *código*. Éste no es ejecutado por la computadora tal cual ha sido escrito, sino que debe de ser *traducido* a su lenguaje, *el lenguaje máquina*. Una de las maneras de hacer esta traducción es **compilando** el código y esto lo hace un **compilador**. Cada lenguaje de programación necesita un compilador particular.
@@ -106,18 +108,3 @@ Dentro de Code::Blokcs dirígete a *Settings > Editor > Syntax highlighting*, en
 > No es necesario que instales los dos IDE aunque tampoco hay problema si instalas ambos
 
 > Nota que en ningún momento se ha hablado de lo que se escribirá como código fuente, solamente el cómo instalar, configurar y personalizar los IDE, así como algunas de sus funciones más básicas
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/" title="Introducción a C++ &vert; #iP Code">
-        Tema anterior
-        <span>Introducción a C++</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Para-empezar-a-probar/" title="Para empezar &vert; #iP Code">
-        Tema siguiente
-        <span>Para empezar a probar</span>
-    </a>
-</div>

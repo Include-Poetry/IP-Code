@@ -4,9 +4,11 @@ title: Cola
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Estructuras, Cola, Arreglos, Clases, Funciones]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Pila, /C++/Estructuras/Contenedores/Pila/"
+nextTopic: "STL, /C++/Estructuras/STL/"
 ---
 
 Otra estructura muy útil para resolver problemas es la que es del tipo *FIFO*, en este caso, ***la cola***.
@@ -218,18 +220,3 @@ int main(){
 }</textarea>
 
 El código anterior produce como salida `20 2` y como puedes ver, cada fila tiene sus datos individuales.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Pila/" title="Pila &vert; #iP Code">
-        Tema anterior
-        <span>Pila</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">
-        Tema siguiente
-        <span>STL</span>
-    </a>
-</div>

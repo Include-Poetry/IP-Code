@@ -4,7 +4,7 @@ title: Divisibilidad
 date: 2020-04-09 15:30:00
 author: rivel_co
 tags: [MCM, MCD, GCD, LCM, Matemáticas]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
 ---
@@ -111,7 +111,3 @@ Nota la importancia de los paréntesis para marcar un orden en las operaciones. 
 El mínimo común múltiplo es muy útil cuando se quieren calcular puntos en los que coinciden dos ecuaciones o razones diferentes, por ejemplo cuando se desea saber cada cuándo coinciden dos eventos que se realizan con una periodicidad diferente.
 
 Por último, es importante saber que tanto el **mínimo común múltiplo** como el **mayor común divisor** se calculan con una complejidad $$O(\log_{10} n)$$.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

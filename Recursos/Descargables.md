@@ -1,6 +1,7 @@
 ---
 layout: G-Article
 title: Recursos descargables
+date: 2020-01-04 12:00:00
 description: Porque por material no paramos, descarga todos los recursos necesarios para que empieces a programar
 permalink: /Recursos/Descargables/
 ---

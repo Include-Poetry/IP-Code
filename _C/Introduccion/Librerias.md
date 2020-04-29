@@ -4,9 +4,11 @@ title: Librerías para C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción, Librerías]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Para empezar a probar, /C++/Introduccion/Para-empezar-a-probar/"
+nextTopic: "Variables, /C++/Introduccion/Variables/"
 ---
 
 En ocasiones encontramos palabras cuyo significado no sabemos, pues para hablar un determinado idioma no necesitamos conocer todas las palabras existentes. Se podría decir que conocemos la mayoría y cuando encontramos una que no conocemos recurrimos a un *diccionario*, una vez que conocemos su significado podemos usarla. Lo mismo sucede con los compiladores, por eso cuando queremos usar una *función* o *método* que él desconoce, debemos primero decirle dónde aprender qué es.
@@ -80,18 +82,3 @@ Debido a esto y aunque su uso es muy práctico, sugiero no utilizarla al hacer n
 #include &lt;cmath&gt;
 #include &lt;cstring&gt;
 #include &lt;bits/stdc++.h&gt;</textarea>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Para-empezar-a-probar/" title="Para empezar &vert; #iP Code">
-        Tema anterior
-        <span>Para empezar a probar</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Variables/" title="Variables &vert; #iP Code">
-        Tema siguiente
-        <span>Variables</span>
-    </a>
-</div>

@@ -4,7 +4,6 @@ title: Contando con parámetros
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Variables, Parámetros]
-Hide_Tags: false
 olimpiada: [OMIPS]
 subject: [Karel pascal]
 ---
@@ -234,7 +233,3 @@ Hay que remarcar que `deja()` ni siquiera es una función recursiva, solamente e
 ## Reto adicional
 
 Arriba mencioné que podíamos resolver el último problema utilizando recursión simple, sin embargo habría que contar varias veces los zumbadores. En realidad se puede resolver el problema con recursión sencilla y contando sólo una vez <span>¿se te ocurre como?</span> Pero no basta con resolver el problema con recursión sencilla, también hay que tomar en cuenta el algoritmo que tarde menos y ahí sí resulta ser que utilizando parámetros resolvemos el problema más rápidamente y de una *forma más elegante*. Otros retos adicionales son *dejar el doble de los zumbadores recolectados* tanto con recursión sencilla como con parámetros.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
