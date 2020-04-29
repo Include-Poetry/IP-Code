@@ -4,7 +4,7 @@ title: Búsqueda en amplitud BFS
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Búsqueda, Algoritmo, Grafos]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
 published: false

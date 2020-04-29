@@ -4,9 +4,11 @@ title: Tipos de variables en C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Variables, ASCII, Memoria]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Librerías, /C++/Introduccion/Librerias/"
+nextTopic: "Funciones, /C++/Introduccion/Funciones/"
 ---
 
 En la vida diaria construimos y hacemos todo tipo de cosas, desde comida hasta computadoras, sin embargo, no utilizamos los mismos componentes para todas nuestras creaciones, si queremos hacer un pastel usamos harina, leche, mantequilla... que no son los mismos componentes que usaríamos si quisiéramos construir una casa (<s>a menos de que vivamos en el universo de Hansel y Gretel</s>) pues cada componente tiene características que son enfocadas a un cierto uso. En la programación pasa exactamente lo mismo.
@@ -145,18 +147,3 @@ Podríamos utilizar siempre variables tipo `long long` y así no preocuparnos mu
 Si sabemos cuanto mide cada variable, y sabemos cuántas variables declaramos, podemos calcular cuál sería el requerimiento de espacio que necesite un programa que escribamos. Ten en cuenta que ese espacio no es el que medirá tu código fuente, o el archivo ejecutable, sino el que requerirá *la ejecución del programa*.
 
 Si declaramos $$ 100 $$ variables tipo `int`, $$ 50 $$ tipo `char` y $$ 20 $$ tipo `double` estaremos ocupando en total $$ 100 \cdot 32 + 50 \cdot 8 + 20 \cdot 64 = 4880 $$ bits, es decir $$ 610 $$ bytes.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías &vert; #iP Code">
-        Tema anterior
-        <span>Librerías</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Funciones/" title="Funciones &vert; #iP Code">
-        Tema siguiente
-        <span>Funciones</span>
-    </a>
-</div>

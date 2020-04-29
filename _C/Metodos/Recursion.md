@@ -4,9 +4,11 @@ title: Recursión en C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Unión y pertenencia, /C++/Estructuras/Grafos/Union-y-pertenencia/"
+nextTopic: "Ordenamientos, /C++/Metodos/Ordenamientos/"
 ---
 
 En la actualidad, se podría decir que ningún gran programa está hecho sin algo de *recursión*. Y esto es porque la recursión como técnica de resolver problemas es tan útil que la utilizamos en la vida cotidiana sin siquiera darnos cuenta, comprender el funcionamiento de la recursión es un arma *invaluable* e *imprescindible* en la informática.
@@ -324,18 +326,3 @@ int main(){
 En la mayoría de las funciones recursivas de C++, las dos partes que juegan los papeles más importantes son el valor que devuelve la función y los parámetros con los que trabaja. Es el trabajo en conjunto, de estas dos partes las que hacen la magia.
 
 Sin nunca dejar de lado, ni restarle importancia a la condición de quiebre de la recursión, pues de esto dependerá el resultado final, y también muchas veces, de que el programa no se cicle. Para esto también hay que estar cambiando los parámetros de la función, o la condición de quiebre, o ambas, y asegurarnos de que en algún momento la recursión terminará.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Grafos/Union-y-pertenencia/" title="Unión y pertenencia &vert; #iP Code">
-        Tema anterior
-        <span>Unión y pertenencia</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/" title="Ordenamientos &vert; #iP Code">
-        Tema siguiente
-        <span>Ordenamientos</span>
-    </a>
-</div>

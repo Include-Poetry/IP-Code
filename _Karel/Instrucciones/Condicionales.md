@@ -4,9 +4,11 @@ title: Instrucciones condicionales en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Instrucciones, Condicionales]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Instrucciones lineales, /Karel/Instrucciones/Lineales/"
+nextTopic: "Instrucciones cíclicas, /Karel/Instrucciones/Ciclicas/"
 ---
 
 En ocasiones cuando queremos hacer algo ocurre un evento desafortunado por el cual ya no podemos realizarlo, como querer comprar un pastel tres leches y que ya no haya mas que pays <span>:c</span> Sin embargo, de no haber pasado eso, habríamos seguido nuestro plan sin problemas. Aunque, veamos el lado positivo, si no hay del sabor que queríamos podemos llevar otro. En otras palabras podríamos decir:
@@ -303,19 +305,4 @@ if (nextToABeeper && frontIsClear){
 		<li><i class="far fa-lightbulb"></i><span>Karel y la pared</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-y-la-pared/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
 		<li><i class="far fa-lightbulb"></i><span>Karel Silvestre</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Silvestre/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
 	</ul>
-</div>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">
-        Tema anterior
-        <span>Instrucciones lineales</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Instrucciones/Ciclicas/" title="Instrucciones cíclicas &vert; #iP Code">
-        Tema siguiente
-        <span>Instrucciones cíclicas</span>
-    </a>
 </div>

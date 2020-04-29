@@ -4,9 +4,11 @@ title: Unión y pertenencia
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Grafos, Árboles, Unión, Pertenencia, Algoritmo]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Grafos, /C++/Estructuras/Grafos/"
+nextTopic: "Recursión, /C++/Metodos/Recursion/"
 ---
 
 Cuando se platicaba de árboles se decía que un árbol tiene un nodo al cuál llamamos raíz, que es el único que no tiene padres y origina al resto de la *componente conexa*. Para saber si dos nodos son partes de una misma componente conexa (o tienen el mismo origen) se pueden realizar operaciones de **pertenencia** y para unir dos componentes conexas distintas podemos utilizar **uniones**.
@@ -112,18 +114,3 @@ Las operaciones de unión y pertenencia son bastante útiles cuando estamos actu
 También se puede ver en algunas redes de venta por catálogo, donde diferentes redes de vendedores trabajan para diferentes personas, cuando alguien se hace empleado de otra persona entonces él y toda su red se hacen trabajadores de esa nueva persona, aquí es cuando hacemos uniones sin actualizar cada nodo directamente a la raíz.
 
 Las operaciones como las hemos definido tienen una complejidad bastante eficiente y soportan ser llamadas muchas veces en un mismo programa cumpliendo en tiempo y en memoria.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Grafos/" title="Grafos &vert; #iP Code">
-        Tema anterior
-        <span>Grafos</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Recursion/" title="Recursión &vert; #iP Code">
-        Tema siguiente
-        <span>Recursión</span>
-    </a>
-</div>

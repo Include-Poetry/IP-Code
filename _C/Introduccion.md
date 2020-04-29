@@ -4,9 +4,11 @@ title: Introducción a la programación competitiva
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Lenguaje C++, /C++/Lenguaje/"
+nextTopic: "Compilador C++, /C++/Introduccion/Compilador/"
 ---
 
 Ahora que ya conoces qué es un lenguaje de programación y qué es el lenguaje *C++* con el que estaremos trabajando, tal vez pasó por tu cabeza la idea de <span>¿por qué programar?</span>
@@ -41,18 +43,3 @@ Saber estructurar todas las partes que conforman un problema es uno de los princ
 Si continúas creciendo y participando en competencias de programación competitiva entonces notarás rápidamente que tu forma de enfrentar toda clase de problemas cambia, buscarás las soluciones óptimas (que requieren menos tiempo y esfuerzo) y podrás evaluar la efectividad de diversas soluciones de forma eficiente. 
 
 > Si aún te quedan dudas de porqué aprender a programar, es porque aún te falta ir [acá]({{ site.url }}/Code/Motivacion/){: target="_blank"}
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Lenguaje/" title="Lenguaje C++ &vert; #iP Code">
-        Tema anterior
-        <span>Lenguaje C++</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador C++ &vert; #iP Code">
-        Tema siguiente
-        <span>Compilador C++</span>
-    </a>
-</div>

@@ -4,9 +4,11 @@ title: Simulador Karel.js
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Zumbadores, /Karel/Principio/Zumbadores/"
+nextTopic: "Primeros pasos con Karel, /Karel/Principio/Primeros-pasos/"
 ---
 
 En las competencias oficiales utilizamos [Karel.js](https://omegaup.com/karel.js/ "Karel.js"){: target="_blank"} para resolver los problemas. Antes se utilizaba [Karel Azul](http://www.cmirg.com/karelotitlan/Pantallas/descargas.aspx){: target="_blank"} pero la versión oficial hasta la fecha es Karel.js que tiene muchas mejoras respecto a su antecesor. En otros artículos se profundiza sobre el [mundo y sus opciones]({{ site.baseurl }}/Karel/Principio/Mundo/ "Mundo de Karel &vert; #iP Code") además de los [zumbadores]({{ site.baseurl }}/Karel/Principio/Zumbadores/ "Zumbadores de Karel &vert; #iP Code").
@@ -89,18 +91,3 @@ En la esquina inferior izquierda de la pantalla encontramos un recuadro donde ha
 La otra pestaña que se encuentra en la esquina inferior izquierda de la pantalla lleva por título `Pila` y hace referencia a la pila de llamadas de Karel. Esta pila de llamadas será vital cuando estés resolviendo problemas con recursión. Aquí es donde Karel va *"anotando"* cada función que realiza para que no se le olvide ninguna. 
 
 > Si buscas la versión sobre *Karel Azul* que se instalaba en la computadora, aún puedes encontrarlo [acá]({{ site.baseurl }}/Karel/Azul/Principio/Simulador/ "Karel Azul &vert; #iP Code").
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Zumbadores/" title="Zumbadores &vert; #iP Code">
-        Tema anterior
-        <span>Zumbadores</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Principio/Primeros-pasos/" title="Primeros pasos con Karel &vert; #iP Code">
-        Tema siguiente
-        <span>Primeros pasos con Karel</span>
-    </a>
-</div>

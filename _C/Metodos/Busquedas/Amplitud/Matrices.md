@@ -4,9 +4,11 @@ title: Búsqueda en amplitud BFS en matrices
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Búsqueda, Algoritmo, Cola]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Búsqueda binaria, /C++/Metodos/Busquedas/Binaria/"
+nextTopic: "Búsquedas en profundidad, /C++/Metodos/Busquedas/Profundidad/Matrices/"
 ---
 
 Un caso particular de una búsqueda, es la que se realiza en una matriz a manera de plano cartesiano y en donde buscamos la solución más inmediata a un problema. Este tipo de problemas son típicos y su método de abordaje es en particular útil para comprender otros tipos de búsqueda. Para ellos utilizamos las llamadas ***Búsquedas en amplitud o anchura*** o ***BFS*** por sus siglas en inglés *Breadth First Search*.
@@ -306,18 +308,3 @@ Así es como nuestra búsqueda va relacionando las distancias de todos los estad
 La búsqueda en amplitud o BFS cumple con el principio de cualquier otro tipo de búsqueda, debemos de considerar distintos ***estados*** existentes, las formas en las que se ***relacionan*** los diferentes estados, y cómo evaluar cuando un estado es válido y cuando no lo es, es decir las ***podas*** que podemos realizar. Además la BFS nos devuelve el mínimo de las distintas soluciones a una búsqueda, gracias al orden en el que se deja pendiente la evaluación de cada estado. Es importante no perder de vista lo que se está buscando y terminar nuestra función en ese momento para no perder más tiempo.
 
 > La BFS es la búsqueda veloz y nos sirve para encontrar la solución más inmediata a un problema.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Binaria/" title="Búsqueda binaria &vert; #iP Code">
-        Tema anterior
-        <span>Búsqueda binaria</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Busquedas/Profundidad/Matrices/" title="Búsquedas en profundidad &vert; #iP Code">
-        Tema siguiente
-        <span>Búsquedas en profundidad</span>
-    </a>
-</div>

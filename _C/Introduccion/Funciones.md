@@ -4,9 +4,11 @@ title: Funciones en C++
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Variables, /C++/Introduccion/Variables/"
+nextTopic: "Operadores, /C++/Introduccion/Operadores/"
 ---
 
 Es hora de abrir nuestro *IDE* favorito porque estamos a sólo un paso de comenzar a escribir nuestros propios programas. Sólo nos falta saber cómo comenzar. Una función es una parte del código que puede ser llamado desde cualquier parte del mismo, esta parte lleva un nombre específico y al invocarse se ejecuta la parte del código que abarca.
@@ -136,18 +138,3 @@ int FuncionSec(void){
 Nota que de todas formas declaramos la función completa más adelante, pero declaramos el prototipo antes de donde se hace la llamada.
 
 <span>¡Hey! ¡Oficialmente ya estás programando!</span>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Variables/" title="Variables &vert; #iP Code">
-        Tema anterior
-        <span>Variables</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Operadores/" title="Operadores &vert; #iP Code">
-        Tema siguiente
-        <span>Operadores</span>
-    </a>
-</div>

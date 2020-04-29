@@ -4,9 +4,11 @@ title: Estructura pila
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Estructuras, Pila, Arreglos, Clases, Funciones]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Class, /C++/Estructuras/Creacion-de-tipos/Class/"
+nextTopic: "Cola, /C++/Estructuras/Contenedores/Cola/"
 ---
 
 Una estructura de gran utilidad al momento de resolver problemas, ***es la pila***, que es una estructura de tipo FILO.
@@ -285,18 +287,3 @@ El código anterior da una salida como sigue:
 </textarea>
 
 Nota que de la misma forma el ejemplo anterior está limitado a la cantidad máxima de elementos que pueden ser almacenados en un arreglo, además, la clase `pila` del ejemplo sólo funciona con enteros, sin embargo esto puede ser modificado fácilmente como ya imaginarás.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Class/" title="Class &vert; #iP Code">
-        Tema anterior
-        <span>Class</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Contenedores/Cola/" title="Cola &vert; #iP Code">
-        Tema siguiente
-        <span>Cola</span>
-    </a>
-</div>

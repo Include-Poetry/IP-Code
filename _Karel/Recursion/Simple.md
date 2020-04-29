@@ -4,9 +4,11 @@ title: Recursión simple en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones, Recursión]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Idea de recursión, /Karel/Recursion/"
+nextTopic: "Recursión con parámetros, /Karel/Recursion/Parametros/"
 ---
 Ya que sabemos lo que es la [recursión]({{ site.baseurl }}/Karel/Recursion/){: target="_blank"} es momento de aprender cómo aprovecharla en Karel, conocer su correcta declaración y uso principal.
 
@@ -198,18 +200,3 @@ Como puedes notar, Karel gira la misma cantidad de veces que la cantidad de zumb
 > Recuerda que lo más aconsejable es que vayas realizando en tu simulador las practicas de ejemplo de aquí a la vez que analizas las explicaciones.
 
 > Pon a prueba lo que has aprendido haciendo los problemas de la sección de recursión de Karelotitlán.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Recursion/" title="Idea de recursión &vert; #iP Code">
-        Tema anterior
-        <span>Idea de recursión</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Recursion/Parametros/" title="Recursión con parámetros &vert; #iP Code">
-        Tema siguiente
-        <span>Recursión con parámetros</span>
-    </a>
-</div>

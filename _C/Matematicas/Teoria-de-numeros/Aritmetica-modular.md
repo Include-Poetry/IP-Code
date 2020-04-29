@@ -4,7 +4,7 @@ title: Aritmética modular
 date: 2020-04-07 16:17:00
 author: rivel_co
 tags: [Matemáticas, Módulo]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
 ---
@@ -167,7 +167,3 @@ Este algoritmo de encriptación es el más utilizado de los algoritmos de clave 
 Como podrás notar, es vital la relación que mantienen $$d$$ y $$e$$ y que en el algoritmo de encriptación corresponden respectivamente a la clave privada y la clave pública. De forma más precisa, $$d$$ tiene que ser el multiplicador modular inverso de $$e \bmod \varphi(n)$$ donde $$\varphi(n)$$ es la función de Euler para $$n = p * q$$ y a su vez, $$p$$ y $$q$$ son dos números primos muy grandes que se mantienen en secreto.
 
 Como notarás, la seguridad de este tipo de encriptación recae en esos números primos que son tan grandes como difíciles y tardados de encontrar, además de la aritmética modular que permite cifrar y descifrar los mensajes.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

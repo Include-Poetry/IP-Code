@@ -4,9 +4,11 @@ title: Contenedor stack
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [STL, Pila]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Queue en STL, /C++/Estructuras/STL/Queue/"
+nextTopic: "List en STL, /C++/Estructuras/STL/List/"
 ---
 
 La clase `stack` es un contenedor que brinda la usabilidad de una estructura FILO.
@@ -104,18 +106,3 @@ int main(){
 3
 La estructura no esta vacia
 3 2</textarea>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/Queue/" title="Queue en STL &vert; #iP Code">
-        Tema anterior
-        <span>Queue en STL</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/List/" title="List en STL &vert; #iP Code">
-        Tema siguiente
-        <span>List en STL</span>
-    </a>
-</div>

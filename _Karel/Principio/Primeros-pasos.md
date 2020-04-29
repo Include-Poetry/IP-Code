@@ -4,9 +4,11 @@ title: Primeros pasos con Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Karel]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Simulador Karel.js, /Karel/Principio/Simulador/"
+nextTopic: "Instrucciones lineales, /Karel/Instrucciones/Lineales/"
 ---
 
 Para empezar a aprender a utilizar el simulador de [Karel el Robot]({{ site.baseurl }}/Karel/Principio/Karel/ "Karel el Robot &vert; IP Code"){: target="_blank"}, es importante que conozcas la estructura base de un programa de Karel, de esta forma irás aprendiendo mejor cada concepto y poniendo a prueba cada cosa mientras aprendes.
@@ -124,18 +126,3 @@ Para poner a prueba tus conocimientos adquiridos, puedes resolver *mini problema
 Para poder aprender como utilizar la plataforma de omegaUp, deberás leer [el artículo]({{ site.baseurl }}/Problemas/omegaUp/ "Cómo usar omegaUp &vert; IP Code"){: target="_blank"} que hemos escrito sobre ello o revisarlo directamente [desde omegaUp](https://blog.omegaup.com/category/omegaup/omegaup-101/ "Cómo usar omegaUp &vert; omegaUp"){: target="_blank"}. 
 
 Una vez cubierto todo esto podrás comenzar a resolver problemas y a prepararte para tus siguientes competencias.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">
-        Tema anterior
-        <span>Simulador Karel.js</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Instrucciones/Lineales/" title="Instrucciones lineales &vert; #iP Code">
-        Tema siguiente
-        <span>Instrucciones lineales</span>
-    </a>
-</div>

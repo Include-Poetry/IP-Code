@@ -4,9 +4,11 @@ title: Zumbadores en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Mundo de Karel, /Karel/Azul/Principio/Mundo/"
+nextTopic: "Simulador Karel.js, /Karel/Azul/Principio/Simulador/"
 ---
 
 Seguramente habrás notado en el menú contextual del mundo que podemos ubicar unas cosas llamadas **zumbadores**. Un zumbador [etimológicamente](http://definicion.de/etimologia/){: target="_blank"} hablando, es un aparato que emite un zumbido. En el mundo de Karel un zumbador no es algo muy diferente, además, es algo que Karel puede **tomar** y **dejar**. Al tomarlos, los guarda en una **mochila** de capacidad (<s>extrañamente</s>) **infinita**.
@@ -31,18 +33,3 @@ Los zumbadores se ven de la siguiente manera en el mundo:
 	<source media="(min-width: 700px)" srcset="{{ site.iP-Sources }}/Multimedia/Karel/Azul/Zumbadores.jpg">
 	<img class="Imagen" src="{{ site.iP-Sources }}/Multimedia/Karel/Azul/ZumbadoresC.jpg" alt="Mundo">
 </picture>]({{ site.iP-Sources }}/Multimedia/Karel/Azul/ZumbadoresC.jpg){: data-lightbox="image-1"}
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Azul/Principio/Mundo/" title="Mundo de Karel &vert; #iP Code">
-        Tema anterior
-        <span>Mundo de Karel</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Azul/Principio/Simulador/" title="Simulador Karel.js &vert; #iP Code">
-        Tema siguiente
-        <span>Simulador Karel.js</span>
-    </a>
-</div>

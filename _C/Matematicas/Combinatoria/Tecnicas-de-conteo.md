@@ -4,7 +4,7 @@ title: Técnicas de conteo
 date: 2020-01-15 12:00:00
 author: rivel_co
 tags: [Matemáticas, Conteo]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
 ---
@@ -88,7 +88,3 @@ Entiéndase en este caso una cadena como una sucesión de $$n$$ elementos escogi
 <p>
     $$ m^n $$
 </p>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

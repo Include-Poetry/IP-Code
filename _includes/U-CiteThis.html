@@ -1,14 +1,10 @@
 {% comment %}
 Este include genera en un párrafo cómo debe citarse un artículo
-y recibe como parámetros:
-'titulo' -> El título del artículo del que genera la cita
-'fecha'  -> La fecha del artículo que se cita, sin formato alguno
-'link'   -> URL del artículo que cita
 {% endcomment %}
 
-{% assign mes = include.fecha | date: "%-m" %}
-{% assign dia = include.fecha | date: "%-d" %}
-{% assign anio = include.fecha | date: "%Y" %}
+{% assign mes = page.date | date: "%-m" %}
+{% assign dia = page.date | date: "%-d" %}
+{% assign anio = page.date | date: "%Y" %}
 {% case mes %}
   {% when '1'%}{%assign mes = "enero" %}
   {% when '2'%}{%assign mes = "febrero" %}
@@ -25,5 +21,5 @@ y recibe como parámetros:
 {% endcase %}
 
 <p id="citeThis">
-	{{ site.name }} - {{ site.ipSecc}}. ({{anio}}, {{ dia }} de {{ mes }}). <i>{{ include.titulo }}</i>.  Obtenido de {{ site.url }}{{ site.baseurl }}{{ include.link }}
+	{{ site.name }} - {{ site.ipSecc}}. ({{anio}}, {{ dia }} de {{ mes }}). <i>{{ page.title }}</i>.  Obtenido de {{ site.url }}{{ site.baseurl }}{{ page.url }}
 </p>

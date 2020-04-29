@@ -4,9 +4,11 @@ title: Instrucciones cíclicas en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Instrucciones, Ciclos]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Instrucciones condicionales, /Karel/Instrucciones/Condicionales/"
+nextTopic: "Funciones en Karel, /Karel/Funciones/"
 ---
 
 Seguramente ya te has imaginado lo [tedioso](http://dle.rae.es/?id=ZJf6SDH){: target="_blank"} que resultaría hacer caminar 100 veces a Karel con lo que hasta ahora sabemos, pues habría que escribir 100 veces el comando `avanza; | move();`, cosa que resulta además poco práctico. Para hacer una o varias acciones una determinada cantidad de veces, utilizamos instrucciones repetitivas o cíclicas.
@@ -152,19 +154,4 @@ iterate (8){
         <li><i class="far fa-lightbulb"></i><span>Karel Pesh</span><a href="https://omegaup.com/arena/problem/iP-Karel-Karel-Pesh" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
         <li><i class="far fa-lightbulb"></i><span>Vaciando la mochila</span><a href="https://omegaup.com/arena/problem/iP-Karel-Vaciando-la-mochila/" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
     </ul>
-</div>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">
-        Tema anterior
-        <span>Instrucciones condicionales</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones en Karel &vert; #iP Code">
-        Tema siguiente
-        <span>Funciones en Karel</span>
-    </a>
 </div>

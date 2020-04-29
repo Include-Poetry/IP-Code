@@ -4,9 +4,11 @@ title: Operadores y entrada/salida de datos
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Operadores]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Funciones, /C++/Introduccion/Funciones/"
+nextTopic: "Punteros, /C++/Introduccion/Punteros/"
 ---
 
 Para manipular variables y conocer algunas de sus características utilizamos *operadores*, también tenemos la entrada y salida de datos, para mostrar y recibir información en la pantalla y del teclado respectivamente.
@@ -145,18 +147,3 @@ Para mostrar un salto de línea podemos usar el carácter especial `\n`, que es 
 > Fin."
 
 Es más confiable usar `\n` además genera ejecuciones más rápidas.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Funciones/" title="Funciones &vert; #iP Code">
-        Tema anterior
-        <span>Funciones</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Punteros/" title="Punteros &vert; #iP Code">
-        Tema siguiente
-        <span>Punteros</span>
-    </a>
-</div>

@@ -4,9 +4,11 @@ title: Para empezar a probar
 date: 2020-04-05 23:00:00
 author: rivel_co
 tags: [Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Compilador C++, /C++/Introduccion/Compilador/"
+nextTopic: "Librerías en C++, /C++/Introduccion/Librerias/"
 ---
 
 Para que puedas comenzar a poner a prueba los temas que se describen aquí, he decidido crear este artículo donde puedas encontrar la *plantilla* de un programa clásico. A medida que avances en los temas sabrás qué hace y significa a mayor profundidad cada parte de la plantilla. Mientras tanto te servirá para hacer tus primeras pruebas.
@@ -86,18 +88,3 @@ Cuando quieras probar tu código deberás compilarlo y ejecutarlo adecuadamente,
 > **Nota 1**: A los pequeños fragmentos de código que por sí solos no son un programa o código fuente completo le llamamos *snippet*.
 
 > **Nota 2**: Es común referirnos a la acción de mostrar algo en la pantalla como *imprimir*. Por lo que *mostrar un mensaje* e *imprimir un mensaje* denotan la misma acción.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Introduccion/Compilador/" title="Compilador C++ &vert; #iP Code">
-        Tema anterior
-        <span>Compilador C++</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Introduccion/Librerias/" title="Librerías en C++ &vert; #iP Code">
-        Tema siguiente
-        <span>Librerías en C++</span>
-    </a>
-</div>

@@ -131,7 +131,3 @@ class program{
 </div>
 
 No olvides probar y asegurarte de entender el código anterior, así como implementar los otros dos barridos mencionados, puedes sacarles provecho en algunos casos, así que es también muy útil entenderlos y manejarlos.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

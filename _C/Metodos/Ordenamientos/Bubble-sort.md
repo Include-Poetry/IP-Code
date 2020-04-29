@@ -4,9 +4,11 @@ title: Bubble sort
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Ordenamiento, Algoritmo, Arreglos]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Ordenamientos, /C++/Metodos/Ordenamientos/"
+nextTopic: "Merge sort, /C++/Metodos/Ordenamientos/Merge-sort/"
 ---
 
 Bubble sort (*ordenamiento burbuja*) es un método bastante sencillo e intuitivo de ordenar datos. Es muy útil para comenzar a comprender las formas en las que podemos ordenar la información, aunque dada su complejidad no es muy útil en casos muy demandantes.
@@ -66,18 +68,3 @@ Nota que estamos haciendo el recorrido de todos los pares una vez por cada dato 
 Dado que estamos realizando $$N$$ recorridos por cada dato y son $$N$$ datos, entonces podemos decir que la complejidad del algoritmo de ordenamiento *bubble sort* es $$O(n^2)$$. Recuerda que cuando hablamos de complejidad tomamos el peor de los casos posibles, y se "redondea" al factor que tiene la tasa de crecimiento mayor.
 
 Es sencillo notar que se pueden hacer algunas mejoras al algoritmo, se puede ***optimizar*** de varias maneras, de cualquier forma, para un caso muy grande, como $$100000$$ de datos, obtendremos un desempeño muy cercano al $$O(n^2)$$. Debido a esto, el algoritmo puede ser útil como explicación general de un algoritmo de ordenamiento, dado que es sencillo de entender y sencillo de codificar, pero resulta ser poco práctico para resolver problemas en los que se manejen grandes conjuntos de datos.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/" title="Ordenamientos &vert; #iP Code">
-        Tema anterior
-        <span>Ordenamientos</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Merge-sort/" title="Merge sort &vert; #iP Code">
-        Tema siguiente
-        <span>Merge sort</span>
-    </a>
-</div>

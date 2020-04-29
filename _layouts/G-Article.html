@@ -43,13 +43,22 @@
 
 			{{ content }}
 
-			{% unless page.Hide_Tags %}
+			{% unless page.hide_ref %}
+				<h3>Cita esta página</h3>
+				{% include U-CiteThis.html %}
+			{% endunless %}
+
+			{% unless page.hide_nav %}
+				{% include U-Nav.html %}
+			{% endunless %}
+
+			{% unless page.hide_tags %}
 				{% for tag in page.tags %}
 		            <a class="TagPost" href="{{ site.url }}/{{ pagina }}/Tags/#{{ tag | slugify }}"><i class="fas fa-tag"></i> {{ tag }}</a>
 		        {% endfor %}
 	        {% endunless %}
 
-	        {% unless page.no_comments %}
+	        {% unless page.hide_comments %}
 	        	{% include U-Disqus.html %}
 	        {% endunless %}
 		</section>

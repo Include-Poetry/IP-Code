@@ -150,7 +150,3 @@ int main(){
 ## Todas las funciones
 
 Como siempre, lo ideal en estos artículos meramente técnicos es que consultes la documentación oficial que es también la fuente de esta clase de contenidos. La documentación de esta librería la puedes encontrar [en la página de cplusplus.com](http://www.cplusplus.com/reference/algorithm/ "C++ Reference").
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}

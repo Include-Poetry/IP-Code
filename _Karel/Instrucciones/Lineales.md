@@ -4,9 +4,11 @@ title: Instrucciones lineales en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Instrucciones]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Primeros pasos con Karel, /Karel/Principio/Primeros-pasos/"
+nextTopic: "Instrucciones condicionales, /Karel/Instrucciones/Condicionales/"
 ---
 
 El funcionamiento de todo programa puede verse tan simple como **tomar una serie de instrucciones e ir haciendo lo que cada una indica**. Imaginemos ahora, que nos dan instrucciones a nosotros para realizar una tarea y detallan esas instrucciones en una hoja de papel, podríamos tomar a esa hoja como el **código** de un programa y a nosotros como el robot que seguirá ese código. Las instrucciones que se realizan en exactamente el mismo orden en el que están escritas, **que no requieren regresar ni adelantarnos** en los pasos, son **instrucciones lineales**.
@@ -138,19 +140,4 @@ turnoff();</textarea>
         <li><i class="far fa-lightbulb"></i><span>Primer paso</span><a href="https://omegaup.com/arena/problem/iP-Karel-Primer-paso" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
         <li><i class="far fa-lightbulb"></i><span>Girar a la derecha</span><a href="https://omegaup.com/arena/problem/iP-Karel-Girar-a-la-derecha" target="_blank" class="omegaBtn">Ver en omegaUp</a></li>
     </ul>
-</div>
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Principio/Primeros-pasos/" title="Primeros pasos con Karel &vert; #iP Code">
-        Tema anterior
-        <span>Primeros pasos con Karel</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Instrucciones/Condicionales/" title="Instrucciones condicionales &vert; #iP Code">
-        Tema siguiente
-        <span>Instrucciones condicionales</span>
-    </a>
 </div>

@@ -4,9 +4,10 @@ title: Recursión con parámetros en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones, Recursión]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Recursión simple, /Karel/Recursion/Simple/"
 ---
 
 ¿Has notado que con Karel no usamos números? Es decir, sí, los usamos pero sólo para la estructura `repetir`, con otra cosa no. Pero siendo más claros, no podemos contar contar alguna cosa y tener presente ese número (de lo que ya contamos) para usarlo de diversas formas ¿o sí? Ya aprendimos que con recursión podemos contar, más bien dicho podemos repetir un conjunto de acciones la misma cantidad de veces que hicimos la llamada recursiva, pero nunca vemos de manera más práctica y concisa las repeticiones de la recursión. Para poder lograr esto la recursión simple ya no nos alcanza. Sin embargo, Karel tiene otra habilidad que nos salva en estos casos: la recursión con parámetros.
@@ -332,14 +333,3 @@ Como puedes ver, Karel deja 3 zumbadores mientras realiza llamadas recursivas, e
 > También puedes hacer comparaciones como `si-es-cero( sucede(x) )` `iszero( succ(x) )`
 
 > Ya estas listo para comenzar con la sección de *Recursión con parámetros* de Karelotitlán.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">
-        Tema anterior
-        <span>Recursión simple</span>
-    </a>
-</div>

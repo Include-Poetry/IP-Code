@@ -4,9 +4,11 @@ title: Contenedor Vector
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [STL, Vector]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "STL, /C++/Estructuras/STL/"
+nextTopic: "String en STL, /C++/Estructuras/STL/String/"
 ---
 
 El elemento `vector` es un contenedor que funciona como un arreglo de tamaño dinámico.
@@ -248,18 +250,3 @@ Salida del anterior programa.
 200 200 200 25 14 12 5 3 14 98 56 23 45 -12 -32 </textarea>
 
 No olvides examinar cuidadosamente el programa anterior y su comportamiento en tu *IDE* favorito.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/STL/" title="STL &vert; #iP Code">
-        Tema anterior
-        <span>STL</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/STL/String/" title="String en STL &vert; #iP Code">
-        Tema siguiente
-        <span>String en STL</span>
-    </a>
-</div>

@@ -4,9 +4,11 @@ title: Recursión en programación
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Recursión, Introducción]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
+prevTopic: "Funciones en Karel, /Karel/Funciones/"
+nextTopic: "Recursión simple, /Karel/Recursion/Simple/"
 ---
 
 La idea y uso de la recursión, entre otras cosas, ha permitido a la informática ser la potencia que es actualmente, por lo tanto, se podría decir que **es una de las ideas centrales de la computación**. La recursión como técnica de resolver problemas es tan útil que la utilizamos en la vida cotidiana sin siquiera darnos cuenta, comprender el funcionamiento de la recursión es una herramienta **[invaluable](http://dle.rae.es/?id=M27S7Oj){: target="_blank"} e [imprescindible](http://dle.rae.es/?id=L6eq745){: target="_blank"}** en la informática.
@@ -85,18 +87,3 @@ Toma en cuenta que lo anterior **no es un código real**, sólo es una manera ge
 > ¿Te gustó el gif de las matrioskas interminables? Las [animaciones recursivas](http://giphy.com/search/recursive){: target="_blank"} siempre son geniales.
 
 > No lo olvides, la idea básica de la recursión es **aplicar un proceso a una cosa y después, al resultado de eso volver a aplicar ese proceso otra vez** y seguir haciéndolo hasta lograr lo que buscamos.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/Karel/Funciones/" title="Funciones en Karel &vert; #iP Code">
-        Tema anterior
-        <span>Funciones en Karel</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/Karel/Recursion/Simple/" title="Recursión simple &vert; #iP Code">
-        Tema siguiente
-        <span>Recursión simple</span>
-    </a>
-</div>

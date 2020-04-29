@@ -4,9 +4,11 @@ title: Arreglos multidimensionales
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Variables compuestas, Arreglos, Matrices]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Arreglos lineales, /C++/Estructuras/Arreglos/"
+nextTopic: "Operaciones con bits, /C++/Estructuras/Operaciones-con-bits/"
 ---
 
 En C++ podemos concebir un arreglo como una variable que almacena a otras variables. Podemos hacer arreglos de cualquier tipo de variable, incluso de otros arreglos. Cuando hacemos que cada locación de un arreglo *contenga* otro arreglo, estamos hablando de arreglos de dos dimensiones que son más comúnmente llamados **matrices**.
@@ -58,18 +60,3 @@ Nota que puedes seguir la misma forma de pensamiento que te propongo sobre verlo
 No sólo hay que considerar que máximo podemos declarar un arreglo de ocho dimensiones. Tienes que recordar siempre la cantidad de memoria que estás utilizando. Ya se mencionaba antes que un arreglo de $$10^6$$ enteros de $$32$$ bits necesita alrededor de $$32$$ **mb** de memoria. Si declaras una matriz de $$1000 \times 1000$$ entonces estarías declarando $$10^6$$ variables también. Nota que no importa como manejes el tamaño de cada dimensión, lo que importa es el tamaño total del arreglo en cuestión. De la misma forma un arreglo de tres dimensiones de $$ 100 \times 100 \times 100$$ está declarando un millón de variables.
 
 Es importante también que tengas en cuenta que es muy raro (demasiado improbable) que un problema requiera que declares un arreglo de muchas dimensiones con muchas variables en cada una. Si tu solución requiere una matriz de $$10000 \times 10000$$ entonces es muy probable que esa no sea una respuesta correcta.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/" title="Arreglos lineales &vert; #iP Code">
-        Tema anterior
-        <span>Arreglos lineales</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Operaciones-con-bits/" title="Operaciones con bits &vert; #iP Code">
-        Tema siguiente
-        <span>Operaciones con bits</span>
-    </a>
-</div>

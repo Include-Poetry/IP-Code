@@ -4,9 +4,11 @@ title: Merge sort
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Algoritmo, Ordenamiento, Arreglos]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Bubble sort, /C++/Metodos/Ordenamientos/Bubble-sort/"
+nextTopic: "Búsquedas, /C++/Metodos/Busquedas/"
 ---
 
 Como habrás notado, la eficiencia es un factor muy importante al momento de escoger cualquier algoritmo. En el caso del ordenamiento, un algoritmo eficientes es ***Merge sort*** también llamado *ordenamiento por mezclas*
@@ -134,18 +136,3 @@ Puedes probar a mostrar el arreglo completo cada que terminas una mezcla, es dec
 Definir la complejidad del algoritmo *Merge sort* no es tan sencillo como definir la de *Bubble sort*, por ejemplo, dado que es un poco más complicado visualizar la forma en la que recorremos los elementos a ordenar, sin embargo, dividimos nuestro conjunto en mitades hasta llegar a conjuntos unitarios. Cada llamada recursiva tiene una complejidad $$O(n)$$  y se requiere un total de $$O(log n)$$ llamadas recursivas para dividir totalmente el conjunto, por esto, podemos decir que el algoritmo *Merge sort* es de complejidad $$O(n log n)$$, en el peor de los casos.
 
 Hay varias acciones que podemos tomar para optimizar el algoritmo, por ejemplo, si estamos por mezclar dos subconjuntos, el subconjunto `A` y el subconjunto `B` y el elemento más grande del subconjunto `A` es menor o igual que el elemento más chico de `B`, entonces podemos ahorrarnos el paso de mezclar y simplemente decir que `A` va antes de `B` y *unirlos* de esa forma.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Metodos/Ordenamientos/Bubble-sort/" title="Bubble sort &vert; #iP Code">
-        Tema anterior
-        <span>Bubble sort</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Metodos/Busquedas/" title="Busquedas &vert; #iP Code">
-        Tema siguiente
-        <span>Búsquedas</span>
-    </a>
-</div>

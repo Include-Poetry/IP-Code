@@ -4,9 +4,11 @@ title: Operaciones con bits
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Máscara de bits, Algoritmo, Variables]
-Hide_Tags: true
+hide_tags: true
 olimpiada: [OMI]
 subject: [C++]
+prevTopic: "Arreglos multidimensionales, /C++/Estructuras/Arreglos/Multidimensionales/"
+nextTopic: "Struct, /C++/Estructuras/Creacion-de-tipos/Struct/"
 ---
 
 Podemos aprovechar las características binarias de las variables que declaramos en C++, cada variable es almacenada en la computadora en su forma binaria, no decimal. Si cada valor es almacenado en esta forma entonces podemos aprovechar diversas propiedades que hacen todo mucho más sencillo.
@@ -199,18 +201,3 @@ int main(){
 ## Conclusión
 
 El uso de operadores que manipulen bit a bit una variable resulta muy útil pues ahorra no sólo tiempo de ejecución sino también memoria. Las operaciones bit a bit pueden resultar un poco confusas al inicio, pero en realidad son bastante intuitivas y pueden ayudarnos a resolver problemas complejos cumpliendo en tiempo y memoria.
-
-### Cita esta página
-
-{% include citeThis.html titulo=page.title fecha=page.date link=page.url %}
-
-<div class="Nav">
-    <a id="navLeft" href="{{ site.baseurl }}/C++/Estructuras/Arreglos/Multidimensionales/" title="Arreglos multidimensionales &vert; #iP Code">
-        Tema anterior
-        <span>Arreglos multidimensionales</span>
-    </a>
-    <a id="navRight" href="{{ site.baseurl }}/C++/Estructuras/Creacion-de-tipos/Struct/" title="Struct &vert; #iP Code">
-        Tema siguiente
-        <span>Struct</span>
-    </a>
-</div>

@@ -1,0 +1,17 @@
+{% assign previous = page.prevTopic | split: ", " %}
+{% assign next = page.nextTopic | split: ", " %}
+
+<div class="Nav">
+    {% if page.prevTopic %}
+    <a id="navLeft" href="{{ site.baseurl }}{{ previous[1] }}" title="{{ previous[0] }} &vert; #iP Code">
+        Tema anterior
+        <span>{{ previous[0] }}</span>
+    </a>
+    {% endif %}
+    {% if page.nextTopic %}
+    <a id="navRight" href="{{ site.baseurl }}{{ next[1] }}" title="{{ next[0] }} &vert; #iP Code">
+        Tema siguiente
+        <span>{{ next[0] }}</span>
+    </a>
+    {% endif %}
+</div>
