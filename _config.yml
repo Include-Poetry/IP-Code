@@ -13,10 +13,6 @@ description: Curso de preparación para las Olimpiadas de Informática, como la 
 # Email
 email: contacto@include-poetry.com
 
-# Facebook
-facebook:
-  app_id: 201218926955149
-
 # Autor
 author: rivel_co
 
@@ -35,7 +31,7 @@ exclude:
   - vendor
 
 # Gemas
-plugins: 
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
@@ -70,9 +66,9 @@ logo-chico-b: "/Multimedia/Logo/IPB.png"
 logo-pluma: "/Multimedia/Logo/RPlumaN.png"
 iP-Sources: "https://www.include-poetry.com/IP-Sources"
 
-# Colecciones 
+# Colecciones
 collections:
-  C: 
+  C:
     output: true
     permalink: /C++/:path/
   Karel:
