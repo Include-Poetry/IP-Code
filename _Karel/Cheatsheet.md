@@ -19,8 +19,9 @@ subject: [Karel pascal]
 - Cláusula no
 - Expresiones repetitivas
 - Declarar una nueva función
+- Función prototipo
 - Estructura básica de recursión
-- Recursión con parámetros 
+- Recursión con parámetros
 
 ## Comentarios
 
@@ -230,6 +231,17 @@ define miFuncion(){
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
 </div>
 
+## Función prototipo
+
+<div class="karelBlock">
+<textarea class="karelp">
+define-prototipo-instruccion miFuncion;
+</textarea>
+<textarea class="karelj">
+/*En Karel Java no son necesarias las funciones prototipo*/</textarea>
+<span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
+</div>
+
 ## Estructura básica de recursión
 
 <div class="karelBlock">
@@ -252,7 +264,7 @@ define miFuncion(){
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
 </div>
 
-## Recursión con parámetros 
+## Recursión con parámetros
 
 ### Sumar 1 por llamada al parámetro
 
