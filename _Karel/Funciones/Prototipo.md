@@ -73,7 +73,7 @@ finalizar-programa</textarea>
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span>
 </div>
 
-Ahora imaginemos que es necesario que Karel *corrija su rumbo*, para esto tendríamos que hacer una modificación en la función `AvanzayZumbador` ya que es la función que estamos llamando desde la función principal. Por ejemplo, si en lugar de que Karel gire dos veces hacia la izquierda después de que deje el primer zumbador queremos que gire a la derecha, entonces podríamos sustituir la instrucción de la línea **5** `repetir 2 veces gira-izquierda` por `gira-derecha`. En este caso estaríamos llamando a una **función secundaria** desde de otra **función secundaria**, es decir, estaríamos llamando a la función `gira-derecha` desde la función `AvanzayZumbador`. Esto se vería así:
+Ahora imaginemos que es necesario que Karel *corrija su rumbo*, para esto tendríamos que hacer una modificación en la función `AvanzayZumbador` ya que es la función que estamos llamando desde la función principal. Por ejemplo, si en lugar de que Karel gire dos veces hacia la izquierda después de que deje el primer zumbador queremos que gire a la derecha, entonces podríamos sustituir la instrucción de la línea **5** `repetir 2 veces gira-izquierda` por `gira-derecha`. En este caso estaríamos llamando a una **función secundaria** desde otra **función secundaria**, es decir, estaríamos llamando a la función `gira-derecha` desde la función `AvanzayZumbador`. Esto se vería así:
 
 <div class="karelBlock">
 <textarea class="karelp">
