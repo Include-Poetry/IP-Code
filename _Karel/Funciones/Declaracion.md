@@ -1,6 +1,6 @@
 ---
 layout: G-Article
-title: Funciones en Karel
+title: Declaración de funciones en Karel
 date: 2020-01-04 12:00:00
 author: rivel_co
 tags: [Funciones]
@@ -8,7 +8,7 @@ hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
 prevTopic: "Instrucciones cíclicas, /Karel/Instrucciones/Ciclicas/"
-nextTopic: "Idea de recursión, /Karel/Recursion/"
+nextTopic: "Funciones prototipo, /Karel/Funciones/Prototipo/"
 ---
 
 <span>¡Por fin ha llegado la hora de programar!</span> Sólo nos falta saber cómo empezar, y para ello tenemos que conocer lo que es una función. Lo primero que hay que saber, es que existen varios tipos de funciones:
@@ -63,7 +63,7 @@ Donde `define-nueva-instruccion` y `define` son sentencias de control que dicen 
 
 En el caso de Pascal, `como` es una palabra de control que le dice al compilador que está por definirse las instrucciones que conformarán esa función. Nota que para Java hay que poner un par de paréntesis que indican *argumento vacío*.
 
-Al igual que con las sentencias condicionales y cíclicas, usamos bloques cuando hablaremos de más de una instrucción o podemos omitirlas si sólo usaremos una. En nuestro ejemplo a nuestra función de nombre "MiFuncion" la conforman dos instrucciones, `avanza | move()` y `gira-izquierda | turnleft()`, es por ello que se usan bloques de `inicio` y `fin` o llaves en Java `{}`. 
+Al igual que con las sentencias condicionales y cíclicas, usamos bloques cuando hablaremos de más de una instrucción o podemos omitirlas si sólo usaremos una. En nuestro ejemplo a nuestra función de nombre "MiFuncion" la conforman dos instrucciones, `avanza | move()` y `gira-izquierda | turnleft()`, es por ello que se usan bloques de `inicio` y `fin` o llaves en Java `{}`.
 
 > Ninguna función que declaremos puede estar antes de `iniciar-programa | class program{` o después de `finalizar-programa`, tampoco podemos declarar una función dentro de otra función, sea la principal o una secundaria. Tampoco debemos declararla después de la función de donde es llamada, es decir, si llamamos a la función en la línea 10, es porque ya la declaramos líneas arriba.
 

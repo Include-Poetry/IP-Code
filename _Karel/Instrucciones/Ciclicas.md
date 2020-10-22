@@ -8,11 +8,11 @@ hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
 prevTopic: "Instrucciones condicionales, /Karel/Instrucciones/Condicionales/"
-nextTopic: "Funciones en Karel, /Karel/Funciones/"
+nextTopic: "Declaración de funciones en Karel, /Karel/Funciones/Declaracion/"
 ---
 
 Seguramente ya te has imaginado lo [tedioso](http://dle.rae.es/?id=ZJf6SDH){: target="_blank"} que resultaría hacer caminar 100 veces a Karel con lo que hasta ahora sabemos, pues habría que escribir 100 veces el comando `avanza; | move();`, cosa que resulta además poco práctico. Para hacer una o varias acciones una determinada cantidad de veces, utilizamos instrucciones repetitivas o cíclicas.
-	
+
 {: #ListaContenido}
 - Sentencia mientras
 - Sentencia repetir
@@ -32,7 +32,7 @@ mientras {*condición*} hacer {*acción-a-realizar;*}</textarea>
 while (/*condición*/) /* acción-a-realizar; */</textarea>
 <span class="karelLabel KLPascal karelLabelSelected" labFor="karelp">Pascal</span><span class="karelLabel KLJava" labFor="karelj">Java</span>
 </div>
-	
+
 Comienza con la palabra de control `mientras | while` que le dice al compilador que sigue una sentencia repetitiva, seguido de una **condición**, luego en Pascal la palabra de control `hacer` y finalmente **las acciones a realizar**. ¿Recuerdas las [condiciones]({{ site.baseurl }}/Karel/Instrucciones/Condicionales/#condiciones-disponibles){: target="_blank"} que Karel puede evaluar? Pues aquí las volvemos a usar, para decirnos que **mientras** esa condición se cumpla, Karel realizará las acciones dichas. Por ejemplo:
 
 <div class="karelBlock">
