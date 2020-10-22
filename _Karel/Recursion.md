@@ -7,7 +7,7 @@ tags: [Recursión, Introducción]
 hide_tags: true
 olimpiada: [OMIPS]
 subject: [Karel pascal]
-prevTopic: "Funciones en Karel, /Karel/Funciones/"
+prevTopic: "Funciones prototipo, /Karel/Funciones/Prototipo/"
 nextTopic: "Recursión simple, /Karel/Recursion/Simple/"
 ---
 
@@ -69,7 +69,7 @@ Sin embargo una llamada recursiva nunca, **nunca** debe declararse si no es cont
 
 La condición en toda recursión debe tener siempre en cuenta **qué es lo que está buscando**. Es decir, el porqué se realiza la recursión. Volviendo a nuestro ejemplo de las muñecas rusas, queríamos llegar a la más pequeña ¿y cómo íbamos a saber que era la más pequeña? pues porque dentro de ella **ya no iba a haber otra matrioska**.
 
-Por lo tanto, ejecutamos el procedimiento "matrioska" siempre y cuando se pueda o sea necesario seguir ejecutándolo, una vez que hayamos cumplido nuestro cometido podemos dejar de hacer eso. Viéndolo así, seguro ya te imaginas dónde y qué condición hay que ubicar. 
+Por lo tanto, ejecutamos el procedimiento "matrioska" siempre y cuando se pueda o sea necesario seguir ejecutándolo, una vez que hayamos cumplido nuestro cometido podemos dejar de hacer eso. Viéndolo así, seguro ya te imaginas dónde y qué condición hay que ubicar.
 
 <textarea class="output">
 definir-nuevo-procedimiento "matrioskas" como inicio
